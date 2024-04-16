@@ -1,0 +1,4691 @@
+{
+ "score": {
+  "Hard macro F1": 0.5664707265173533,
+  "Relaxed macro F1": 0.9881094910862185
+ },
+ "results": {
+  "telugu--2245295572008910947-0": {
+   "question": "మహా సముద్రాలు ఎన్ని ఉన్నాయి?",
+   "answer": "ఐదు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many great oceans are there?"
+  },
+  "telugu--1627267228987440661-0": {
+   "question": "నల్లారి కిరణ్ కుమార్ రెడ్డి ఆంధ్రప్రదేశ్ రాష్ట్ర ఎన్నోవ ముఖ్యమంత్రి?",
+   "answer": "16",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "Nallari Kiran Kumar Reddy is the 9th Chief Minister of Andhra Pradesh State?"
+  },
+  "telugu--3734307306167305418-0": {
+   "question": "పిన్నమరెడ్డిపల్లి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "521211",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Pinnamareddypally village pin code?"
+  },
+  "telugu--3138327776438206185-23": {
+   "question": "పునీత్ రాజ్‌కుమార్ కు ఫిలిం ఫేర్ బెస్ట్ యాక్టర్ అవార్డ్ ను ఏ చిత్రానికి వచ్చింది?",
+   "answer": "అరసు",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "Puneeth Rajkumar won the Filmfare Best Actor Award for which film?"
+  },
+  "telugu-5183560750022844411-2": {
+   "question": "కెందుఝర్ జిల్లా ఎప్పుడు ఏర్పడింది?",
+   "answer": "1948 జనవరి 1",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Kendujhar district formed?"
+  },
+  "telugu-5479220207010640669-2": {
+   "question": "వెల్మజాల గ్రామం యొక్క విస్తీర్ణం ఎంత ?",
+   "answer": "1349 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Velmajala village?"
+  },
+  "telugu--4111208545071789922-0": {
+   "question": "పాలిచెర్లరాజుపాలెం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "524101",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Palicherlarajupalem village?"
+  },
+  "telugu--720426702969103910-1": {
+   "question": "డాక్టర్ అరిపిరాల నారాయణరావు జన్మస్థలం ఏది ?",
+   "answer": "ఉండేశ్వరపురం",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which is the birth place of Dr. Aripirala Narayana Rao?"
+  },
+  "telugu--8466673845455476507-0": {
+   "question": "చిలకల మామిడి గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "585088",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Chilakala Mamidi village?"
+  },
+  "telugu-7368666209630256376-9": {
+   "question": "అర్జునుడు బావ పేరు ఏంటి?",
+   "answer": "శ్రీకృష్ణుడి",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Arjuna's brother-in-law?"
+  },
+  "telugu--5347969429403013814-1": {
+   "question": "లీచ్టెన్‌స్టీన్ దేశ విస్తీర్ణం ఎంత?",
+   "answer": "2 చదరపు మైళ్ళు)",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the country size of Liechtenstein?"
+  },
+  "telugu--421308761107036755-0": {
+   "question": "నండవ గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "264 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Nandava village?"
+  },
+  "telugu--7272759412422882009-0": {
+   "question": "పద్మనాభపురం గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "532284",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Padmanabhapuram village?"
+  },
+  "telugu--3327119545908233600-19": {
+   "question": "పాకిస్థాన్‌ మొదటి ప్రధానమంత్రి ఎవరు?",
+   "answer": "లైక్వత్ ఆలీ ఖాన్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first Prime Minister of Pakistan?"
+  },
+  "telugu--5095925973327036392-5": {
+   "question": "మలేరియా ఏ దోమ వలన వస్తుంది?",
+   "answer": "అనోఫిలస్ (anopheles)  అనే జాతిలోని ఆడ దోమ",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "Malaria is caused by which mosquito?"
+  },
+  "telugu--100914618722029977-6": {
+   "question": "ముప్పర్తిపాడు గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "237 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Mupparthipad village?"
+  },
+  "telugu--852933797069342374-1": {
+   "question": "గాడ్గే బాబా ఎక్కడ జన్మించాడు?",
+   "answer": "మహారాష్ట్రలోని అమరావతి జిల్లాకు చెందిన అంజన్గావ్ తాలూకాకు చెందిన షేన్గావ్",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Gadge Baba born?"
+  },
+  "telugu-8794494534366702929-2": {
+   "question": "పెద్ద అడిశర్లపల్లి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "508524",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Pedda Adisarlapalli village?"
+  },
+  "telugu--6079884912897136579-0": {
+   "question": "కొడవటిపూడి అగ్రహారం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "131 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kodavatipudi Agraharam village?"
+  },
+  "telugu-8085027238668122150-1": {
+   "question": "దంసరాయి గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "535145",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the Pin Code of Dansarai Village?"
+  },
+  "telugu-8968799222430542030-0": {
+   "question": "గార్లదిన్నె గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "2250 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Garladinne village?"
+  },
+  "telugu-4294117026303826416-0": {
+   "question": "కలర్స్ స్వాతి నటించిన మొదటి చిత్రం ఏది?",
+   "answer": "డేంజర్",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which was the first film of Colors Swati?"
+  },
+  "telugu-1139439346337795717-0": {
+   "question": "కలగండ గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "524421",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Kalaganda village?"
+  },
+  "telugu--6348604958414020617-2": {
+   "question": "సింధు లోయ నాగరికత ఎప్పుడు బయటపడింది ?",
+   "answer": "క్రీ.శ. 20వ శతాబ్దం",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Indus Valley Civilization emerge?"
+  },
+  "telugu-2988192724631801534-2": {
+   "question": "త్రిపురారం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "703 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Tripuraram village?"
+  },
+  "telugu--2073283125164763733-0": {
+   "question": "సమరెడ్డిపాలెం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "39 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Samareddypalem village?"
+  },
+  "telugu--8702591207848371593-2": {
+   "question": "పైడిపాక గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "318 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Paidipaka village?"
+  },
+  "telugu--6025644938570605261-16": {
+   "question": "మిరియంపల్లి గ్రామంలో అధికంగా పండే పంట ఏది?",
+   "answer": "కంది, ప్రత్తి, ఆముదం",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which is the most abundant crop in Miriampally village?"
+  },
+  "telugu-3886100167236682787-0": {
+   "question": "కృష్ణా జిల్లాలో ఇంద్రకీలాద్రి కొండ ఎక్కడ ఉంది?",
+   "answer": "విజయవాడ",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Indrakiladri Hill in Krishna District?"
+  },
+  "telugu-8500612853223109106-1": {
+   "question": "చింతలపాటి సీతా రామచంద్ర వరప్రసాద మూర్తిరాజు తల్లిదండ్రులు ఎవరు ?",
+   "answer": "చింతలపాటి బాపిరాజు, సూరాయమ్మ",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who are the parents of Chintalapati Sita Ramachandra Varaprasada Murthiraja?"
+  },
+  "telugu-8688281831868490111-0": {
+   "question": "ఆంధ్ర ప్రదేశ్ అధికార భాషా సంఘం ఎప్పుడు ఏర్పాటయింది?",
+   "answer": "1974",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Andhra Pradesh Official Language Committee formed?"
+  },
+  "telugu--5878475956770806116-0": {
+   "question": "పాటెంపాడు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "521183",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Patempadu village pin code?"
+  },
+  "telugu--6797827999462373473-2": {
+   "question": "మైలారం గ్రామ పిన్ కోడ్ ఏమిటి ?",
+   "answer": "509702",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is pin code of Mylaram village?"
+  },
+  "telugu-8067296353770604329-2": {
+   "question": "పోలంపల్లి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "504273",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Polampally village?"
+  },
+  "telugu--809916272972469004-2": {
+   "question": "హెచ్.నరసింహయ్య సైన్స్ ఫోరాన్ని ఎక్కడ స్థాపించాడు?",
+   "answer": "బెంగళూరు",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where did H. Narasimhaiah establish Science Forum?"
+  },
+  "telugu--1055069540817999736-18": {
+   "question": "చెందుర్తి గ్రామంలో ప్రధాన పంట ఏంటి?",
+   "answer": "వరి, మామిడి, చెరకు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main crop in Chendurthi village?"
+  },
+  "telugu--654602654002441512-0": {
+   "question": "2011 నాటికి కే.జీ.మడుగుల గ్రామ జనాభా ఎంత?",
+   "answer": "1991",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What is the population of KG Madugu village as of 2011?"
+  },
+  "telugu-2185725627271248142-1": {
+   "question": "2011 నాటికి అదవరం గ్రామ జనాభా ఎంత?",
+   "answer": "2, 082",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Adavaram village as of 2011?"
+  },
+  "telugu-6208706176499096751-1": {
+   "question": "డాక్టరు ఘంటసాల సీతారామ శర్మ ఎక్కడ జన్మించాడు?",
+   "answer": "కృష్ణాజిల్లాలోని ఘంటసాల",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Dr. Ghantasala Sitarama Sharma born?"
+  },
+  "telugu--2702883123634690265-0": {
+   "question": "బెంబి గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "584352",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Bambi village?"
+  },
+  "telugu-4595014413083399614-2": {
+   "question": "మీరాబాయి యొక్క తండ్రి పేరేమిటి ?",
+   "answer": "రతన్ సింగ్ రాథోడ్",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is Mirabai's father's name?"
+  },
+  "telugu--5899868109961234649-1": {
+   "question": "అంతారం బుజుర్గ్ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "830 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Antaram Bujurg village?"
+  },
+  "telugu--7211034341454150780-1": {
+   "question": "రశ్మి గౌతమ్ ఎక్కడ జన్మించింది?",
+   "answer": "విశాఖపట్నంలో",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Rashmi Gautam born?"
+  },
+  "telugu--8151634033822255077-0": {
+   "question": "సిరగంపుట్టు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531040",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Siragamputtu village?"
+  },
+  "telugu-4613243374641802813-1": {
+   "question": "మద్దుకూరి చంద్రశేఖరరావు ఎప్పుడు జన్మించారు",
+   "answer": "1907",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Maddukuri Chandrasekhara Rao born?"
+  },
+  "telugu-2946194543747349559-1": {
+   "question": "లోకనాథం నందికేశ్వరరావు తల్లిదండ్రులు ఎవరు?",
+   "answer": "లోకనాథం రామలింగేశ్వర స్వామి, అన్నపూర్ణ",
+   "gold": "who",
+   "pred": "which",
+   "english_question": "Who are the parents of Lokanatham Nandikeswara Rao?"
+  },
+  "telugu-7506146540373746208-1": {
+   "question": "కకరపల్లి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "412 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of village Kakarapally?"
+  },
+  "telugu--893995778549533118-3": {
+   "question": "విలియం సోమెర్‌సెట్ మామ్‌ రచించిన మొదటి నవల పేరు ఏంటి?",
+   "answer": "లిజ్ ఆఫ్ లాంబెత్",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of William Somerset Mom's first novel?"
+  },
+  "telugu--655512374761631388-0": {
+   "question": "బొన్నువాడ గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "155 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Bonnuvada village?"
+  },
+  "telugu-8358038571474482254-18": {
+   "question": "రఘునాయకుల దిన్నె గ్రామ ప్రజల ప్రధాన వృత్తి ఏమిటి?",
+   "answer": "వ్యవసాయము దాని అనుబంధ పనులు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main occupation of the people of Raghunayakula Dinne village?"
+  },
+  "telugu-8055711004777094262-0": {
+   "question": "దొర బిడ్డ చిత్ర దర్శకుడు ఎవరు?",
+   "answer": "దవళ సత్యం",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the director of Dora Bidd?"
+  },
+  "telugu-5255007963766623676-0": {
+   "question": "కిల్లంకోట గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "531029",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Killamkota village?"
+  },
+  "telugu-282232404560001835-0": {
+   "question": "2011 జనగణన ప్రకారం అన్నంపేట గ్రామములో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "230",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census how many houses are there in Annampet village?"
+  },
+  "telugu-3306928442370873201-0": {
+   "question": "2011 నాటికి లవిటిపుట్టు గ్రామ జనాభా ఎంత?",
+   "answer": "151",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Lavitiputtu village as of 2011?"
+  },
+  "telugu-6534555547803958009-1": {
+   "question": "కాల్వపల్లె గ్రామ వైశాల్యం ఎంత?",
+   "answer": "2594 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kalvapalle village?"
+  },
+  "telugu--1404240440782562794-1": {
+   "question": "పోలి గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "2603 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Poli village?"
+  },
+  "telugu--5004400969238813453-0": {
+   "question": "కొత్‌ ఘుర్‌బక్ష్ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "190 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kot Ghurbaksh village?"
+  },
+  "telugu-5457773759727946591-0": {
+   "question": "ముఫ్తీ మహమ్మద్ సయ్యద్ ఎప్పుడు మొదటిసారిగా ముఖ్యమంత్రి అయ్యారు ?",
+   "answer": "2002",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Mufti Mohammad Syed become the Chief Minister for the first time?"
+  },
+  "telugu-3551489382057172147-0": {
+   "question": "గదగమ్మ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "532460",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Gadagamma village?"
+  },
+  "telugu--6161169887543890412-0": {
+   "question": "నడింపాలెం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "2273 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Nadimpalem village?"
+  },
+  "telugu-3688566526702809709-0": {
+   "question": "పుపుల్ జయకర్ ఎప్పుడు మరణించింది?",
+   "answer": "1997 మార్చి 29",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Pupul Jayakar die?"
+  },
+  "telugu-238282999936934295-2": {
+   "question": "అన్నా సెర్జెయేన్నా కోర్నికోవా ఎక్కడ పుట్టింది ?",
+   "answer": "సోవియట్ యూనియన్, మాస్కో",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Anna Sergeina Kournikova born?"
+  },
+  "telugu--7723175411309196952-3": {
+   "question": "బెంజీన్ ద్రవీభవన ఉష్ణోగ్రత ఎంత?",
+   "answer": "5.53°C",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the melting temperature of benzene?"
+  },
+  "telugu-8560701076497330651-0": {
+   "question": "2011 నాటికి పారుమంచాల గ్రామ జనాభా ఎంత?",
+   "answer": "5171",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Parumanchal village as of 2011?"
+  },
+  "telugu-105223972565060254-0": {
+   "question": "బంగరువలస గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "157",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Bangaruvalasa village?"
+  },
+  "telugu-512134417162412789-15": {
+   "question": "బ్రూనై దేశ కరెన్సీ ఏంటి?",
+   "answer": "బ్రునై డాలర్లు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the currency of Brunei?"
+  },
+  "telugu--2690397545746928288-1": {
+   "question": "బవురువాక గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "619 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Bavuruwaka village?"
+  },
+  "telugu--6738122224065233270-0": {
+   "question": "వేగవరం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "494 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Vegavaram village?"
+  },
+  "telugu-227033373636002222-1": {
+   "question": "సోమయాజులపల్లె గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "168 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Somayajulapalle village?"
+  },
+  "telugu--5029486751066758223-13": {
+   "question": "బాపురం గ్రామంలో ప్రధాన పంట ఏంటి?",
+   "answer": "వరి, వేరుశనగ, జొన్నలు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main crop in Bapuram village?"
+  },
+  "telugu--7150452250756477828-2": {
+   "question": "పెద్దకాల్వ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "490 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Pedakalva village?"
+  },
+  "telugu--6734258703645932647-0": {
+   "question": "చెన్నై ఏ రాష్ట్రానికి రాజధాని?",
+   "answer": "తమిళనాడు",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "Chennai is the capital of which state?"
+  },
+  "telugu-2985740141813886065-2": {
+   "question": "పైడిపాక గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "534315",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Paidipaka village?"
+  },
+  "telugu--6140267610656239828-1": {
+   "question": "గాచపణుకు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "15 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Gachapanuku village?"
+  },
+  "telugu-8677592177522684015-1": {
+   "question": "కే. ఈ. చిన్నయ్యపాలెం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1251 హెక్టార్ల",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "K. This. What is the area of Chinnaiyapalem village?"
+  },
+  "telugu-9212163585978938996-1": {
+   "question": "తాటిపర్తి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "533445",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Tatiparthi village pin code?"
+  },
+  "telugu-519625997740951202-11": {
+   "question": "గుత్తి రామకృష్ణ ఎప్పుడు మరణించాడు?",
+   "answer": "2009, మే 12",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Gutti Ramakrishna die?"
+  },
+  "telugu-8113739678413999419-1": {
+   "question": "నెపోలియన్ బోనపార్టీ జన్మస్థలం ఎక్కడ?",
+   "answer": "కొర్సికా దీవిలో అజోసియా",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was the birthplace of Napoleon Bonaparte?"
+  },
+  "telugu-32885819921748529-1": {
+   "question": "ఖురేషి అల్లా రఖా ఖాన్ ఎక్కడ జన్మించాడు?",
+   "answer": "జమ్ము మరియు కాశ్మీర్ లోని ఫగ్వాల్‌",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Qureshi Allah Rakha Khan born?"
+  },
+  "telugu-8411639217878832983-0": {
+   "question": "కొరడ గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "532459",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Korada village?"
+  },
+  "telugu--6012899681869081578-0": {
+   "question": "వలిడిపనస గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531149",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Validipanasa village pin code?"
+  },
+  "telugu-5929912870050124255-0": {
+   "question": "లుబ్బగుంట గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531133",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Lubbagunta village pin code?"
+  },
+  "telugu--4711454353654163941-1": {
+   "question": "శ్రీకాంత కృష్ణామాచార్యుడు ఎక్కడ జన్మించాడు ?",
+   "answer": "సంతూరు",
+   "gold": "where",
+   "pred": "what",
+   "english_question": "Where was Srikanta Krishnamacharya born?"
+  },
+  "telugu-2557809016345736155-0": {
+   "question": "అల్లివీడు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "240 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Alliveedu village?"
+  },
+  "telugu--3848287571143934421-3": {
+   "question": "మీరా నాయర్ నిర్మించిన మొదటి చిత్రం ఏది?",
+   "answer": "జామా మస్జీద్ స్ట్రీట్ జర్నల్",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which was the first film produced by Meera Nair?"
+  },
+  "telugu-3192777808209398807-1": {
+   "question": "మేల్పత్తూరు నారాయణ భట్టతిరి ఎక్కడ జన్మించాడు?",
+   "answer": "క్రీస్తు శకం 1580 ప్రాంతంలో తిరునావాయ దేవస్థానం సమీపంలో",
+   "gold": "where",
+   "pred": "when",
+   "english_question": "Where was Melpatthur Narayana Bhattathiri born?"
+  },
+  "telugu-8549397890213857200-0": {
+   "question": "మానెగుంటపాడు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "219 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Maneguntapadu village?"
+  },
+  "telugu--700677000801673984-0": {
+   "question": "గదగమ్మ గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "168 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Gadagamma village?"
+  },
+  "telugu--1281567055279738996-0": {
+   "question": "చొర్లంగి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "123 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Shuchlangi village?"
+  },
+  "telugu-8419414583131587883-0": {
+   "question": "తెల్లపురి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1011 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Tellapuri village?"
+  },
+  "telugu-4888401057908258987-0": {
+   "question": "కేట్ గారీ హడ్సన్ ఎప్పుడు జన్మించింది?",
+   "answer": "1979 ఏప్రిల్ 19",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Kate Garry Hudson born?"
+  },
+  "telugu--1101527328041345871-1": {
+   "question": "ఇంద్రధనుస్సులో ఎన్ని రంగులు ఉంటాయి?",
+   "answer": "ఏడు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many colors are there in the rainbow?"
+  },
+  "telugu--4403197317416916212-8": {
+   "question": "సిద్ది జిల్లాలో వాడుకలో ఉన్న భాష ఏది?",
+   "answer": "బఘేలి",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the language used in Siddi district?"
+  },
+  "telugu-2792582657819384681-6": {
+   "question": "యద్దనపూడి సులోచనారాణి ఎప్పుడు మరణించింది?",
+   "answer": "2018, మే 21",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Yaddanapudi Sulochanarani die?"
+  },
+  "telugu--6766046479441552356-4": {
+   "question": "కొండకిందపల్లె గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "320 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kondakindapalle village?"
+  },
+  "telugu--7027302470399265972-0": {
+   "question": "హైదరాబాద్ లో జవహర్ లాల్ నెహ్రూ సాంకేతిక విశ్వవిద్యాలయాన్ని ఎప్పుడు స్థాపించారు?",
+   "answer": "1972 అక్టోబర్ నెల 2",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Jawaharlal Nehru University of Technology established in Hyderabad?"
+  },
+  "telugu-2193231859752723023-2": {
+   "question": "కల్లం అంజిరెడ్డి కి ఎంతమంది సంతానం?",
+   "answer": "ఇద్దరు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many children did Kallam Anjireddy have?"
+  },
+  "telugu-6183132007005312735-0": {
+   "question": "మధిరపాడు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "521311",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Madhirapadu village pin code?"
+  },
+  "telugu-2646596559273633367-3": {
+   "question": "స్టిర్లింగ్ ఇంజిన్ ను ఎవరు కనుగొన్నారు?",
+   "answer": "రాబర్ట్ స్టిర్లింగ్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who invented Stirling engine?"
+  },
+  "telugu-3230303308952705771-1": {
+   "question": "గోకివాఢ గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "296 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Gokivadha village?"
+  },
+  "telugu--6692405525159798946-2": {
+   "question": "కేశవపట్నం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "505407",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Kesavapatnam village pin code?"
+  },
+  "telugu--5586731183858192498-10": {
+   "question": "డాక్టర్ ఎన్.ఎం.జయసూర్య ఎప్పుడు మరణించాడు?",
+   "answer": "జూన్ 28, 1964",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Dr. N.M. Jayasurya die?"
+  },
+  "telugu-8386864067407991076-2": {
+   "question": "బొర్గాన్ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "503003",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Borgan village pin code?"
+  },
+  "telugu--1771579382040997705-0": {
+   "question": "కళ్లచెరువు గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "1078 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kallacheruvu village?"
+  },
+  "telugu-6643249479996328175-8": {
+   "question": "2001లో భారతదేశంలో మొట్టమొదటి స్థానంలో నిలిచినా మోడల్ ఎవరు?",
+   "answer": "సెలీన జైట్లీ",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who was the first model in India in 2001?"
+  },
+  "telugu--4478227884449753493-0": {
+   "question": "2011 నాటికి వెంకటాద్రి అప్పారావుపురం గ్రామ జనాభా ఎంత?",
+   "answer": "976 జనాభా",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Venkatadri Apparaupuram village as of 2011?"
+  },
+  "telugu--5408480370971683253-1": {
+   "question": "హందేశ్వరపురం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "334 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Handeswarapuram village?"
+  },
+  "telugu--3178563638900189120-0": {
+   "question": "కూజబంగి గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "305 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kujabangi village?"
+  },
+  "telugu--7535765145254551954-0": {
+   "question": "2011లో చిట్టిబట్ల అగ్రహారం గ్రామంలో ఎంతమంది పురుషులు ఉన్నారు?",
+   "answer": "489",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many men are there in Chittibatla Agraharam village in 2011?"
+  },
+  "telugu-6554514634608409384-13": {
+   "question": "పితతొలి గ్రామ ప్రజలు ప్రధానంగా పండించే పంట ఏది?",
+   "answer": "వరి, పెసర, మినుము",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main crop grown by the people of Pitatholi village?"
+  },
+  "telugu-1185223489389764512-1": {
+   "question": "రసాయనశాస్త్ర పితామహుడు ఎవరు?",
+   "answer": "జాబిర్ ఇబ్న్ హయ్యాన్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is father of chemistry?"
+  },
+  "telugu-8082998557164987145-2": {
+   "question": "ఆరవీటి రామరాయలు తల్లి పేరేమిటి ?",
+   "answer": "తిరుమలాంబ",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Araveeti Rama Raya's mother?"
+  },
+  "telugu--2690275120863316535-0": {
+   "question": "యెర్రబొమ్మలు గ్రామ వైశాల్యం ఎంత?",
+   "answer": "262 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Yerrabommalu village?"
+  },
+  "telugu--7184155320789440892-0": {
+   "question": "2011 నాటికి కొండెపాడు గ్రామ జనాభా ఎంత?",
+   "answer": "1239",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Kondepadu village as of 2011?"
+  },
+  "telugu-120868636454483091-2": {
+   "question": "2011 నాటికి కొండారెడ్డిపల్లి గ్రామ జనాభా ఎంత?",
+   "answer": "2268",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Kondareddypalli village as of 2011?"
+  },
+  "telugu-1232440739069290030-21": {
+   "question": "తెలుగులో మొదటి నవల పేరేమిటి?",
+   "answer": "రాజశేఖర చరిత్రము",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the first novel in Telugu?"
+  },
+  "telugu-7237143677411949620-0": {
+   "question": "2011 జనగణన ప్రకారం పెండేకల్లు గ్రామంలో  ఎంతమంది పురుషులు ఉన్నారు?",
+   "answer": "3753",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "According to 2011 census how many males are there in Pendekallu village?"
+  },
+  "telugu-3131800214824283032-12": {
+   "question": "జెర్రిగొండి గ్రామంలో ప్రధాన పంట ఏంటి?",
+   "answer": "వరి, మినుము, మొక్కజొన్న",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main crop in Jerrygondi village?"
+  },
+  "telugu--6484339927734759267-0": {
+   "question": "2011 నాటికి హంప గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "1140",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many houses are there in Hampa village as of 2011?"
+  },
+  "telugu--1741405521389090014-4": {
+   "question": "అజితనాథ దిగంబర జైన దేవాలయం యొక్క విస్తీర్ణం ఎంత?",
+   "answer": "12800 చదరపు అడుగుల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ajitanatha Digambara Jain Temple?"
+  },
+  "telugu--607217453464204533-0": {
+   "question": "బాజిగర్ హిందీ సినిమా కథానాయకుడు ఎవరు?",
+   "answer": "షారుఖ్ ఖాన్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the protagonist of Hindi movie Baazigar?"
+  },
+  "telugu-6507490359755297368-0": {
+   "question": "కూచివాడ గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "340 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kuchiwada village?"
+  },
+  "telugu--5314296939889039307-0": {
+   "question": "పాల్కురికి సోమనాథుడు ఎప్పుడు మరణించాడు?",
+   "answer": "1240",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Palkuri Somanatha die?"
+  },
+  "telugu-8281016062436071759-0": {
+   "question": "భారత రక్షణ పరిశోధన సంస్థ ను ఆంగ్లంలో ఏం అంటారు?",
+   "answer": "Defence Research and Development Organisation",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Indian Defense Research Organization called in English?"
+  },
+  "telugu--8225758213320818171-1": {
+   "question": "పందిళ్ళ శేఖర్‌బాబు జన్మస్థలం ఏది ?",
+   "answer": "వరంగల్ జిల్లా, ధర్మసాగర్",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which is the birth place of Pantalla Shekhar Babu?"
+  },
+  "telugu-1558684476798494685-0": {
+   "question": "శ్రీహరికోట అంతరిక్ష పరిశోధనా కేంద్రము ఏ రాష్ట్రంలో ఉంది?",
+   "answer": "ఆంధ్రప్రదేశ్",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "Sriharikota Space Research Center is located in which state?"
+  },
+  "telugu-6081574050266137012-1": {
+   "question": "తాడేపల్లి రాఘవ నారాయణ శాస్త్రి తండ్రి పేరేంటి?",
+   "answer": "తాడేపల్లి వెంకటప్పయ్య శాస్త్రి",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the father's name of Tadepalli Raghava Narayana Shastri?"
+  },
+  "telugu-4617795002680831857-1": {
+   "question": "అజితనాథ దిగంబర జైన దేవాలయాన్ని ఎప్పుడు నిర్మించారు?",
+   "answer": "14వ శతాబ్దంలో",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Ajitanatha Digambara Jain temple built?"
+  },
+  "telugu--5255725799573700378-0": {
+   "question": "మందస నుండి చీపి కి ఎంత దూరం?",
+   "answer": "3 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Mandasa to Chipi?"
+  },
+  "telugu--6313428574462713322-1": {
+   "question": "రాజవోలు గ్రామ పిన్ కోడ్ ఎంత?",
+   "answer": "533124",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Rajavolu village?"
+  },
+  "telugu--1407102510519114749-0": {
+   "question": "అంట్లవరం గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "532195",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Antlavaram village?"
+  },
+  "telugu--3323358047847196855-0": {
+   "question": "అలెగ్జాండ పార్క్స్ ఎప్పుడు మరణించాడు?",
+   "answer": "29 జూన్ 1890",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Alexandra Parks die?"
+  },
+  "telugu--5004056448620739919-0": {
+   "question": "చీకుమద్దుల నుండి అనకాపల్లి కి ఎంత దూరం?",
+   "answer": "88 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Cheikumaddula to Anakapalli?"
+  },
+  "telugu--8644621123633008767-1": {
+   "question": "చొప్పకొండ గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "533339",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Choppakonda village?"
+  },
+  "telugu--3457150087725589412-11": {
+   "question": "పోతురాజుగున్నలు గ్రామంలో అధికంగా పండే పంట ఏది?",
+   "answer": "వరి, సోయాబీన్, రాగులు",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which is the most abundant crop in Poturajugunnalu village?"
+  },
+  "telugu-7783818474710184169-13": {
+   "question": "ముఖేష్ అంబానీకి ఎంతమంది పిల్లలు?",
+   "answer": "ఇద్దరు కొడుకులు అనంత్, ఆకాష్, ఒక కూతురు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many children does Mukesh Ambani have?"
+  },
+  "telugu--3286250401950518065-0": {
+   "question": "జమినివలస గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "581098",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Jaminivalasa village?"
+  },
+  "telugu-9141651990086038190-2": {
+   "question": "2011 జనగణన ప్రకారం వెల్చల్ గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+   "answer": "861",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "According to 2011 census how many women are there in Velchal village?"
+  },
+  "telugu--6194068905241325426-0": {
+   "question": "కారుమూరు గ్రామ వైశాల్యం ఎంత?",
+   "answer": "361 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Karumuru village?"
+  },
+  "telugu-4470416490946596125-0": {
+   "question": "వెలిగంటిపాలెం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "384 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Veligantipalem village?"
+  },
+  "telugu--3531155005677976174-1": {
+   "question": "డిమిట్రి ఇవనోవిఛ్ మెండలియెవ్ ఎక్కడ జన్మించాడు?",
+   "answer": "రష్యాలో \"వెర్నీ అరెంజ్యాని\"",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Dmitri Ivanovich Mendeleev born?"
+  },
+  "telugu-1991537017408254867-1": {
+   "question": "అరవింద్ అడిగ ఎక్కడ జన్మించాడు?",
+   "answer": "చెన్నై",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Arvind Adiga born?"
+  },
+  "telugu-3020647443258543933-0": {
+   "question": "రమచంద్రపాలెం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "33 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ramachandrapalem village?"
+  },
+  "telugu--7453709695842900858-0": {
+   "question": "సలనూతల గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1003 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Salanutala village?"
+  },
+  "telugu--3872341227618604440-0": {
+   "question": "2011 నాటికి జాడ గ్రామములో పురుషుల సంఖ్య ఎంత?",
+   "answer": "1056",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the number of men in Jada village as of 2011?"
+  },
+  "telugu-4759111311815861902-1": {
+   "question": "పుదేడు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "533436",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Pudedu village pin code?"
+  },
+  "telugu-5782153792227741305-1": {
+   "question": "లచ్చిపాలెం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "343 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Lacchipalem village?"
+  },
+  "telugu--8837079262691184745-0": {
+   "question": "బల్లూరు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "785 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ballur village?"
+  },
+  "telugu--5841814435557384269-1": {
+   "question": "గుందువారిగూడెం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "507121",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Gunduvarigudem Village Pin Code?"
+  },
+  "telugu--8818351038427865342-0": {
+   "question": "2011 జనాభా లెక్కల ప్రకారం కోటాయపల్లి గ్రామంలోని పురుషుల సంఖ్య ఎంత ?",
+   "answer": "138",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census what is the number of males in Kotayapalli village?"
+  },
+  "telugu-8345882727724660517-1": {
+   "question": "అల్యూమినియం ఆర్సనైడ్ సాంద్రత ఎంత?",
+   "answer": "3.72 గ్రాములు /సెం.మీ3",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the density of aluminum arsenide?"
+  },
+  "telugu--3990701736144734899-0": {
+   "question": "వట్రపాలెం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "524121",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Vatrapalem village pin code?"
+  },
+  "telugu-3422659575198637223-0": {
+   "question": "ఆదిలక్ష్మాంబ పురం గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "597068",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Adilakshmambapuram village?"
+  },
+  "telugu--7073795268828104447-1": {
+   "question": "కొవెలపాలెం గ్రామ వైశాల్యం ఎంత?",
+   "answer": "136 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kovelapalem village?"
+  },
+  "telugu--6601762791578773942-0": {
+   "question": "2011 జనగణన ప్రకారం సీతంవలస గ్రామములో పురుషుల సంఖ్య ఎంత?",
+   "answer": "349",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census what is the number of males in Sithamvalasa village?"
+  },
+  "telugu--761999120157003668-0": {
+   "question": "కావేటిపాలెం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "193 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kavetipalem village?"
+  },
+  "telugu-9179343978534529488-2": {
+   "question": "స్టీఫెన్ విలియం హాకింగ్ ఎప్పుడు జన్మించాడు?",
+   "answer": "1942 జనవరి 8",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Stephen William Hawking born?"
+  },
+  "telugu--9052359011095805857-3": {
+   "question": "మోర్తాడ్ గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "2324 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Mortad village?"
+  },
+  "telugu--8521842086649563962-0": {
+   "question": "వంటమామిడి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "0 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Vantamamidi village?"
+  },
+  "telugu--6495674712575945374-0": {
+   "question": "చేబియ్యం వలస గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "138 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Chebiyyam Migrant Village?"
+  },
+  "telugu-1766876479104403828-0": {
+   "question": "2011లో కారని గ్రామ జనాభా ఎంత?",
+   "answer": "1017",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the population of Karani village in 2011?"
+  },
+  "telugu-438068376064731254-0": {
+   "question": "2011 నాటికి చీకుమద్దుల గ్రామ జనాభా ఎంత?",
+   "answer": "559",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Chikumaddula village as of 2011?"
+  },
+  "telugu--7910894507662301366-0": {
+   "question": "2011 జనగణన ప్రకారం బంజరుకేశుపురం గ్రామములో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "329",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census, how many houses are there in Banjarukeshupuram village?"
+  },
+  "telugu--5922002196428211484-132": {
+   "question": "గీతా దత్ మొత్తం ఎన్ని పాటలను పాడారు?",
+   "answer": "దాదాపు 1500",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many songs did Geeta Dutt sing in total?"
+  },
+  "telugu--8837611806914316202-0": {
+   "question": "2011లో తేనెపల్లి గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+   "answer": "1198",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How many women are there in Mekhpalli village in 2011?"
+  },
+  "telugu--6730130097452155935-3": {
+   "question": "మొనాకో దేశ కరెన్సీ ఏంటి?",
+   "answer": "యూరో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the currency of Monaco?"
+  },
+  "telugu-3893476339229316273-0": {
+   "question": "మక్కా ఏ దేశంలో ఉంది?",
+   "answer": "సౌదీ అరేబియా",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "In which country is Mecca located?"
+  },
+  "telugu--7983043269831671701-0": {
+   "question": "పుట్రగుంట గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "524127",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Putragunta village?"
+  },
+  "telugu-5508938163307894708-4": {
+   "question": "సంకేతాధ్యయన శాస్త్రం అనే పదాన్ని మొదట ఉపయోగించిన వ్యక్తి ఎవరు?",
+   "answer": "హెన్రీ స్టబుల్స్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who first coined the term semiology?"
+  },
+  "telugu-8799120472346013786-0": {
+   "question": "భీమోలు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "2240 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Bhimolu village?"
+  },
+  "telugu-5489609643089141243-0": {
+   "question": "2011 జనగణన ప్రకారం కజ్జురుగుడ గ్రామములో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "10",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census how many houses are there in Kazjurugada village?"
+  },
+  "telugu-4229110749890419658-0": {
+   "question": "గసరపల్లి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531077",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Gasarapally village?"
+  },
+  "telugu--1314016646087771695-12": {
+   "question": "2001 నాటికి కరుగొండ గ్రామ జనాభా ఎంత?",
+   "answer": "544",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What was the population of Karugonda village in 2001?"
+  },
+  "telugu-1238804843768535806-0": {
+   "question": "2011 నాటికి అరిమెర గ్రామ జనాభా ఎంత?",
+   "answer": "100",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Arimera village as of 2011?"
+  },
+  "telugu-713671767070522679-0": {
+   "question": "బాలకృష్ణపురం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "532312",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Balakrishnapuram village pin code?"
+  },
+  "telugu-8981753676280641247-0": {
+   "question": "వెంకట్రాజపురం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "59 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Venkatarajapuram village?"
+  },
+  "telugu--4625427927478601702-1": {
+   "question": "అయ్యంకి వెంకటరమణయ్య ఎక్కడ జన్మించాడు?",
+   "answer": "తూర్పు గోదావరి జిల్లా రామచంద్రపురం తాలూకా అనపర్తి నియోజక వర్గంలోని బిక్కవోలు మండంలో ఉన్న  కొంకుదురు",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Ayyanki Venkataramaniah born?"
+  },
+  "telugu--7499025765353000835-1": {
+   "question": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "ఆర్జుల్ రాజన్న, తల్లి రాజవ్వ",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are Gaddam Rajaram's parents' names?"
+  },
+  "telugu-5723123497902555794-1": {
+   "question": "నాయుడుపేట మండలంలో ప్రధాన వానిజ్య పంట ఏంటి?",
+   "answer": "చెరకు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main commercial crop in Naidupet mandal?"
+  },
+  "telugu-913783137164522383-1": {
+   "question": "డిమిట్రి ఇవనోవిఛ్ మెండలియెవ్ ఎప్పుడు మరణించాడు?",
+   "answer": "1907",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Dmitri Ivanovich Mendeleev die?"
+  },
+  "telugu--6610205737804198866-1": {
+   "question": "మహదేవ్ దేశాయ్ జన్మస్థలం ఏది ?",
+   "answer": "గుజరాత్ లోని సూరత్ జిల్లాలో సారస్",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which is the birthplace of Mahadev Desai?"
+  },
+  "telugu--3900695699038118719-0": {
+   "question": "తనంచింటల గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "1314 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Tanachintala village?"
+  },
+  "telugu--3798739928630306927-0": {
+   "question": "బయ్యవరం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531031",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Bayyavaram village pin code?"
+  },
+  "telugu--8567611123057624844-1": {
+   "question": "మైల్వార్ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "501143",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Mylwar village pin code?"
+  },
+  "telugu--4438896797565601765-0": {
+   "question": "ములగరువు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "0 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Mulagaru village?"
+  },
+  "telugu-857938864392755844-0": {
+   "question": "2011 నాటికి బుడతవలస గ్రామ జనాభా ఎంత?",
+   "answer": "2208",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Budathavalasa village as of 2011?"
+  },
+  "telugu-6601999215007174744-1": {
+   "question": "చెన్నభూపాలపట్నం గ్రామం నుండి అనకాపల్లికి దూరం ఎంత?",
+   "answer": "59 కి. మీ",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the distance from Chennabhupalapatnam village to Anakapalli?"
+  },
+  "telugu--4165470913809322573-0": {
+   "question": "బంజరుకేశుపురం గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "580374",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Banjarukeshupuram village?"
+  },
+  "telugu--8110094475976051239-0": {
+   "question": "పొన్నంగి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1847 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ponnangi village?"
+  },
+  "telugu-7957524655276028586-0": {
+   "question": "వింజనంపాడు గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "357 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Vinjanampadu village?"
+  },
+  "telugu--4142982127391483137-4": {
+   "question": "అక్కినేని నాగేశ్వరరావు మొదటి చిత్రం ఏది ?",
+   "answer": "ధర్మపత్ని",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which was Akkineni Nageswara Rao's first film?"
+  },
+  "telugu--7187700702864250416-0": {
+   "question": "అంతస్తులు చిత్ర నిర్మాత ఎవరు ?",
+   "answer": "వి. బి. రాజేంద్ర ప్రసాద్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the producer of the movie Thonalu?"
+  },
+  "telugu--5463850440904472125-7": {
+   "question": "కలిజవీడు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "605 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kalijaveedu village?"
+  },
+  "telugu--397999538407153813-1": {
+   "question": "షేక్ అబ్దుల్లా రవూఫ్ తండ్రి పేరేంటి?",
+   "answer": "మదార్‌సాబ్",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of Sheikh Abdullah Rauf's father?"
+  },
+  "telugu--3316938560622730206-1": {
+   "question": "పందిళ్ళ శేఖర్‌బాబు తండ్రి పేరేమిటి",
+   "answer": "రాజయ్యశాస్త్రి",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Pantalla Shekhar Babu's father?"
+  },
+  "telugu-1101307206922587525-1": {
+   "question": "చెన్నభూపాలపట్నం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531116",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Chennabhupalapatnam Village Pin Code?"
+  },
+  "telugu-180720874081506186-2": {
+   "question": "పతర్ల పహాడ్ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1514 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of village Patrla Pahad?"
+  },
+  "telugu-182804324860416859-0": {
+   "question": "గురు గోవింద సింగ్ సిక్కుమత ఎన్నో గురువు?",
+   "answer": "పదవ",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "Guru Gobinda Singh Sikhism many gurus?"
+  },
+  "telugu--6588837035225524358-1": {
+   "question": "వెన్నం జ్యోతిసురేఖ తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "శ్రీ వెన్నం సురేంద్ర కుమార్ ఒక కబడ్డీ క్రీడాకారుడు. వీరి సతీమణి శ్రీదుర్గ",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are the names of Vennam Jyotisurekha's parents?"
+  },
+  "telugu-4370800272741876646-1": {
+   "question": "డాక్టర్ అన్నపరెడ్డి వెంకట గురవారెడ్డి తండ్రి పేరేంటి?",
+   "answer": "సత్యనారాయణ రెడ్డి",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the father's name of Dr. Annapareddy Venkata Guravareddy?"
+  },
+  "telugu--7217848662250527237-0": {
+   "question": "వెంకమ్మపాలెం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "534460",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Venkammapalem village pin code?"
+  },
+  "telugu--2820081501627356689-0": {
+   "question": "సూదనగుంట గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "523240",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Sudanagunta Village Pin Code?"
+  },
+  "telugu--2631405591805643531-4": {
+   "question": "అగరమంగళం గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "333 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Agaramangalam village?"
+  },
+  "telugu--1142136866887845073-0": {
+   "question": "రేనింగవరం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "523261",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Reningavaram village?"
+  },
+  "telugu-4070737363061762153-1": {
+   "question": "జీఎస్‌ఎల్‌వి-F04 ఉపగ్రహ వాహకనౌక యొక్క ఎత్తు ఎంత?",
+   "answer": "49మీటర్లు",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the height of GSLV-F04 satellite carrier?"
+  },
+  "telugu--8400100240936408494-4": {
+   "question": "వెస్ట్‌మిన్‌స్టర్ వంతెన మొత్తం పొడవు ఎంత?",
+   "answer": "252 metres",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the total length of Westminster Bridge?"
+  },
+  "telugu-7564080029903223957-2": {
+   "question": "ఛాలమంగళం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1010 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Chalamangalam village?"
+  },
+  "telugu--8520794036565099008-0": {
+   "question": "మహాసముద్రాలు ఎన్ని?",
+   "answer": "ఐదు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many oceans are there?"
+  },
+  "telugu-2788553866413187055-0": {
+   "question": "గొందిపర్ల గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1120 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Gondiparla village?"
+  },
+  "telugu-8703344035214227308-1": {
+   "question": "పైడిమడుగు గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "572115",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Paidimadugu village?"
+  },
+  "telugu-8764701881173651459-5": {
+   "question": "రాళ్ళపల్లి నరసింహారావు నటించిన తొలి చిత్రం ఏది?",
+   "answer": "స్త్రీ",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which was Rallapalli Narasimha Rao's first film?"
+  },
+  "telugu-5476110820137229322-28": {
+   "question": "సోలమన్‌ ఐలాండ్స్ దేశంలో ఎన్ని రాష్ట్రాలు ఉన్నాయి?",
+   "answer": "తొమ్మిది",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many states are there in Solomon Islands?"
+  },
+  "telugu--4667428670089207174-26": {
+   "question": "2001 జనగణన ప్రకారం దగ్గుబాడు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+   "answer": "2,795",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "According to 2001 census how many women are there in Daggubadu village?"
+  },
+  "telugu-1648490267441309188-0": {
+   "question": "రాళ్ళగడ్డ కొత్తూరు గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "531111",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Rallagadda Kothuru village?"
+  },
+  "telugu--6483130918060591485-2": {
+   "question": "మేగాన్ డెనిస్ ఫాక్స్  జన్మస్థలం ఏది ?",
+   "answer": "వోక్ రిడ్జే, టెన్నెస్సీ",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is the birthplace of Megan Denise Fox?"
+  },
+  "telugu--4610858086054818451-0": {
+   "question": "కొండసంత గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "187 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kondasanta village?"
+  },
+  "telugu-7769456936487005240-0": {
+   "question": "సిద్దాపురం గ్రామం నుండి నంద్యాలకు దూరం ఎంత?",
+   "answer": "65 కి. మీ",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the distance from Siddapuram village to Nandyas?"
+  },
+  "telugu-186640644350480854-5": {
+   "question": "డాక్టర్ అన్నపరెడ్డి వెంకట గురవారెడ్డి కి ఎంతమంది పిల్లలు?",
+   "answer": "ఇద్దరు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many children of Dr. Annapareddy Venkata Guravareddy?"
+  },
+  "telugu--1636800960932282092-0": {
+   "question": "రల్లగెడ్డ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "39 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Rallagedda village?"
+  },
+  "telugu-8309140169039827246-0": {
+   "question": "2011 నాటికి లేబూరు బిట్ – 1 గ్రామ జనాభా ఎంత?",
+   "answer": "3148",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Laboru Bit – 1 village as of 2011?"
+  },
+  "telugu--3109852641673961190-12": {
+   "question": "పణి తీరాద వీడు చిత్ర నిర్మాత పేరేమిటి ?",
+   "answer": "కె.యస్.ఆర్.మూర్తి",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of the producer of Pani Theerada Veedu?"
+  },
+  "telugu-887859453413312718-0": {
+   "question": "సైరస్ సాహుకార్ ఎప్పుడు జన్మించాడు?",
+   "answer": "1980 ఆగస్టు 6",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Cyrus Sahukar born?"
+  },
+  "telugu-3241686968765849876-0": {
+   "question": "మహారాజా నందకుమార్ ఎప్పుడు మరణించాడు?",
+   "answer": "1775 ఆగస్టు 5",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Maharaja Nandakumar die?"
+  },
+  "telugu--2641430406193075905-0": {
+   "question": "వంటలమామిడి @ గాదిలమెట్ట గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "584767",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Vantalamamidi @ Gadilametta village?"
+  },
+  "telugu-6536948700683842206-1": {
+   "question": "నటరాజ రామకృష్ణ ఎక్కడ జన్మించాడు?",
+   "answer": "ఇండోనేషియాలోని బాలి ద్వీపం",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Nataraja Ramakrishna born?"
+  },
+  "telugu-2254198842560317781-0": {
+   "question": "చినగంగగుడి గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "531149",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Chinagangagudi village?"
+  },
+  "telugu--9155670254631003378-1": {
+   "question": "కాకరపర్రు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "534331",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Kakaraparru village pin code?"
+  },
+  "telugu-1222380301012230281-1": {
+   "question": "సిరిగిండలపాడు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "182 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Sirigindalapadu village?"
+  },
+  "telugu--8024633511621294503-1": {
+   "question": "బాలుపల్లె గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "200 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Balupalle village?"
+  },
+  "telugu-9097301491518303277-2": {
+   "question": "న్యూట్రాన్ ను జేమ్స్ చాడ్విక్ ఏ సంవత్సరంలో కనుగొన్నాడు?",
+   "answer": "1932",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In which year James Chadwick discovered neutron?"
+  },
+  "telugu--4794520964796267362-1": {
+   "question": "టెస్సీ థామస్ ఎప్పుడు పుట్టింది?",
+   "answer": "ఏప్రిల్ 1963",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Tessie Thomas born?"
+  },
+  "telugu-7045541145752173182-0": {
+   "question": "చందులూరుపాడు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "302 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Chandulurupadu village?"
+  },
+  "telugu-9115912749184044385-1": {
+   "question": "తైలవర్ణ చిత్రలేఖనంని మొదటగా ఏ దేశ ప్రజలు ఉపయోగించారు ?",
+   "answer": "పశ్చిమ ఆఫ్ఘనిస్థాన్‌",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "Oil painting was first used by the people of which country?"
+  },
+  "telugu--2630403807688701071-0": {
+   "question": "2011 జనగణన ప్రకారం పసరుగిన్నె గ్రామములో పురుషుల సంఖ్య ఎంత?",
+   "answer": "62",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census what is the number of males in Pasaruginne village?"
+  },
+  "telugu-4078824087382361401-17": {
+   "question": "మహారాష్ట్రలోని పశ్చిమ కనుమల భాగాలను ఏమని అంటారు?",
+   "answer": "తమ్హిని ఘాట్, వరంధ ఘాట్, సవంత్‌వాడి ఘాట్",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What are the parts of Western Ghats of Maharashtra called?"
+  },
+  "telugu-1915828106004454396-0": {
+   "question": "అగతవరప్పాడు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "515 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Agathavarappadu village?"
+  },
+  "telugu--1764355545108912355-1": {
+   "question": "నారాయణాచార్యుల తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "తండ్రి శ్రీనివాసాచార్యులు, తల్లి లక్ష్మిదేవి",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What were the names of Narayanacharya's parents?"
+  },
+  "telugu--4099819279895685485-0": {
+   "question": "పాతకడవాడ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "23 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Patakadawada village?"
+  },
+  "telugu-4072144188588694092-0": {
+   "question": "కీసరి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "535523",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Keysari village pin code?"
+  },
+  "telugu--4540420274340076346-0": {
+   "question": "కలత్తూరు గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "517643",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Kalathur village?"
+  },
+  "telugu--6897524248430955276-0": {
+   "question": "కప్పలగొండి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "32 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kappalagondi village?"
+  },
+  "telugu-1599912630921983514-0": {
+   "question": "భారతదేశంలో అతి పెద్ద సరస్సు ఏది?",
+   "answer": "చిల్కా",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which is the largest lake in India?"
+  },
+  "telugu--7683651228898346185-1": {
+   "question": "భువనగిరి కోటను ఎవరు నిర్మించారు ?",
+   "answer": "త్రిభువన మల్ల విక్రమదిత్య",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who built Bhuvanagiri Fort?"
+  },
+  "telugu--157039399340251898-0": {
+   "question": "చీపురుగొండి నుండి అనకాపల్లి కి ఎంత దూరం?",
+   "answer": "81 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Chipurugondi to Anakapalli?"
+  },
+  "telugu-2258503647880305080-5": {
+   "question": "గూడరేవుపల్లె గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "596058",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Gudarevupalle village?"
+  },
+  "telugu-1062732908105395021-0": {
+   "question": "2011 నాటికి ఇందుపూరు గ్రామ జనాభా ఎంత?",
+   "answer": "2524",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Indopur village as of 2011?"
+  },
+  "telugu-3856908426778937878-3": {
+   "question": "శ్రీరాంపూర్ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "505153",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Srirampur village pin code?"
+  },
+  "telugu-4483675139803040652-0": {
+   "question": "వేల్పుచర్ల గ్రామ విస్తీర్ణం  ఎంత ?",
+   "answer": "1886 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Velpucharla village?"
+  },
+  "telugu-8291279294360240727-1": {
+   "question": "దిశలు మొత్తం ఎన్ని ?",
+   "answer": "దశ",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How many directions are there?"
+  },
+  "telugu--530661135137008399-0": {
+   "question": "బుడుమూరు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "816 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Budumuru village?"
+  },
+  "telugu-6105895597190189683-12": {
+   "question": "అవర్తన పట్టికలో ఎన్ని మూలకాలు ఉంటాయి?",
+   "answer": "114",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How many elements are there in the periodic table?"
+  },
+  "telugu-2355058992665135572-0": {
+   "question": "జమినివలస గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "198 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Zaminivalasa village?"
+  },
+  "telugu--8713351769867590190-16": {
+   "question": "మొరార్జీ దేశాయి యొక్క  జీవిత భాగస్వామి ఎవరు ?",
+   "answer": "గుజ్రాబెన్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the spouse of Morarji Desai?"
+  },
+  "telugu-3940679966091700104-0": {
+   "question": "అరిమెర గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "36 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Arimera village?"
+  },
+  "telugu--5031744350543391959-5": {
+   "question": "ఏ సంవత్సరంలో షెల్ టెక్నాలజీ ప్రివ్యూ పేరుతో మైక్రోసాఫ్ట్ తొలుత ఒక షెల్ రీఫ్రెష్ యొక్క టెస్ట్ వెర్షన్‌ను విడుదల చేసింది?",
+   "answer": "1995",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In which year did Microsoft first release a test version of Shell Refresh called Shell Technology Preview?"
+  },
+  "telugu--223794208526064664-0": {
+   "question": "దాసర్లపల్లె గ్రామ వైశాల్యం ఎంత?",
+   "answer": "58 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Dasarlapalle village?"
+  },
+  "telugu--5389449681164250066-0": {
+   "question": "2011 నాటికి దళెంరాజువలస గ్రామ జనాభా ఎంత ?",
+   "answer": "2080",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "As of 2011, what is the population of Dalemrajuvalasa village?"
+  },
+  "telugu-3788433127777706860-0": {
+   "question": "వీరభద్రపురం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "115 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Veerabhadrapuram village?"
+  },
+  "telugu-1044255355569754836-0": {
+   "question": "సమోవా దేశ రాజధాని ఏది ?",
+   "answer": "అపివా",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which is the capital of Samoa?"
+  },
+  "telugu--8732995727965505596-2": {
+   "question": "వల్లిగట్ల గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1856 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Valligatla village?"
+  },
+  "telugu-1898290725999272889-0": {
+   "question": "నక్కరాతిపాలెం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "31 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Nakkarathipalem village?"
+  },
+  "telugu-603254209369259020-79": {
+   "question": "ఆడమ్ క్రైగ్ గిల్‌క్రిస్ట్ వన్డేలలో అత్యుత్తమ స్కోరు ఎంత ?",
+   "answer": "172",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is Adam Craig Gilchrist's best ODI score?"
+  },
+  "telugu--3871595542692163869-0": {
+   "question": "ములబిన్నిడి గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "60 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Mulabinnidi village?"
+  },
+  "telugu--2990634891706649113-0": {
+   "question": "జీఎస్‌ఎల్‌వి-F04 ఉపగ్రహ వాహకనౌకని ఏ సంస్థ తయారుచేసింది?",
+   "answer": "ఇస్రో",
+   "gold": "NONE",
+   "pred": "who",
+   "english_question": "GSLV-F04 satellite launch vehicle is manufactured by which company?"
+  },
+  "telugu-1636747896697792564-0": {
+   "question": "గుల్లిపాడు గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "586437",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Gullipadu village?"
+  },
+  "telugu--1732178479439846731-1": {
+   "question": "మల్లెమడుగు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "3103 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Mallemadugu village?"
+  },
+  "telugu--4181886636633154453-0": {
+   "question": "అంబుగం గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "532243",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is pin code of Ambugam village?"
+  },
+  "telugu--6103912510687260292-45": {
+   "question": "ఒమన్ దేశ అధికారిక భాష ఏది ?",
+   "answer": "అరబిక్ భాష",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the official language of Oman?"
+  },
+  "telugu--1673285277412211903-1": {
+   "question": "లుడ్విగ్ వాన్ బీథోవెన్ తండ్రి వృత్తి ఏమిటి?",
+   "answer": "వ్యవసాయదారుడు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the occupation of Ludwig van Beethoven's father?"
+  },
+  "telugu-618090050479052839-1": {
+   "question": "మడగాస్కర్ ద్వీప విస్తీర్ణం ఎంత ?",
+   "answer": "5,87,041 చదరపు కిలోమీటర్లు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of the island of Madagascar?"
+  },
+  "telugu-1294412490545022373-0": {
+   "question": "దుగ్గి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "535521",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Duggi Village?"
+  },
+  "telugu--1703949158466743446-0": {
+   "question": "మొహమ్మద్ షమీ టెస్టు అరంగ్రేటం ఎప్పుడు జరిగింది ?",
+   "answer": "నవంబరు 2013",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Mohammed Shami's Test debut?"
+  },
+  "telugu-8571075206655806776-0": {
+   "question": "పెద్దదిమిలి గ్రామ వైశాల్యం ఎంత?",
+   "answer": "404 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of the village of Bigadimili?"
+  },
+  "telugu--2926711921696881715-0": {
+   "question": "వందవాగలి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "518308",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Vandavagali village?"
+  },
+  "telugu-5578742953116674238-0": {
+   "question": "రాజంపల్లి గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "1289 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Rajampalli village?"
+  },
+  "telugu-2649511996296237247-2": {
+   "question": "వై.ఎస్.విజయలక్ష్మి రెడ్డి భర్త పేరు ఏమిటి?",
+   "answer": "వై.ఎస్.రాజశేఖరరెడ్డి",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of YS Vijayalakshmi Reddy's husband?"
+  },
+  "telugu--988764030699408785-2": {
+   "question": "కామారెడ్డి జిల్లా విస్తీర్ణం ఎంత ?",
+   "answer": "3,667 చ.కి.మీ",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kamareddy district?"
+  },
+  "telugu--647216164607568860-0": {
+   "question": "అనంతవరప్పాడు గ్రామ వైశాల్యం ఎంత?",
+   "answer": "1030 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Anantavarappadu village?"
+  },
+  "telugu--6705766300250152798-1": {
+   "question": "పొడరాళ్ల గ్రామ పిన్ కోడ్ ఎంత?",
+   "answer": "515101",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Podaralla Village?"
+  },
+  "telugu-5394693980260661358-0": {
+   "question": "వేములూరు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "534350",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Vemuluru village pin code?"
+  },
+  "telugu-8679876662621765895-1": {
+   "question": "లొద్దిపాలెం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "62 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Loddipalem village?"
+  },
+  "telugu-8048202777172755275-0": {
+   "question": "కూనేరు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "535521",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Kuneru village pin code?"
+  },
+  "telugu--8618704549090519564-0": {
+   "question": "కొమురం భీమ్ తల్లి పేరు ఏమిటి ?",
+   "answer": "సోంబారు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Komuram Bheem's mother's name?"
+  },
+  "telugu--7951127334790758226-2": {
+   "question": "కేశవదాసు జన్మస్థలం ఏది ?",
+   "answer": "ఖమ్మం జిల్లా కూసుమంచి మండలంలోని జక్కేపల్లి",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which is the birthplace of Kesavadasa?"
+  },
+  "telugu-119276511844068401-0": {
+   "question": "లంకం గ్రామ పిన్ కోడ్ ఎంత?",
+   "answer": "532484",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Lankam village?"
+  },
+  "telugu-8129278576030709234-0": {
+   "question": "జగ్గంపాలెం గ్రామం ఏ జిల్లాలో ఉంది?",
+   "answer": "తూర్పు గోదావరి",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "Jaggampalem village is situated in which district?"
+  },
+  "telugu--7197225676827031746-0": {
+   "question": "మంజుల నటించిన మొదటి చిత్రం ఏది?",
+   "answer": "శాంతి నిలయం",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which was Manjula's first film?"
+  },
+  "telugu-5550445441499040971-6": {
+   "question": "తెలుగులో యర్రా రఘు బాబు నటించిన మొదటి చిత్రం ఏమిటి?",
+   "answer": "దొంగలున్నారు జాగ్రత్త",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was Yarra Raghu Babu's first film in Telugu?"
+  },
+  "telugu--7772116257455631270-0": {
+   "question": "రిలయన్స్ సంస్థ యజమాని ఎవరు?",
+   "answer": "ముఖేష్ ధీరూభాయ్ అంబానీ",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the owner of Reliance?"
+  },
+  "telugu--145648957736439358-0": {
+   "question": "బందరాయిపాకుల గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "657 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Bandaraipakula village?"
+  },
+  "telugu--6468934750673097193-2": {
+   "question": "గుమ్మలూరు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "534267",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Gummalur village?"
+  },
+  "telugu--4536152537674333130-3": {
+   "question": "ఆండ్రీ కిర్క్ అగస్సీ తల్లి పేరేమిటి?",
+   "answer": "ఎలిజబెత్ \"బెట్టీ\" అగస్సీ",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Andre Kirk Agassi's mother?"
+  },
+  "telugu--487528151828832029-1": {
+   "question": "ఛాయరాజ్ ఎక్కడ జన్మించాడు?",
+   "answer": "శ్రీకాకుళం జిల్లా లోని గార మండలం కొంక్యానపేట",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Chayaraj born?"
+  },
+  "telugu--9157759016887321242-0": {
+   "question": "2011 నాటికి ఏదులవలస గ్రామ జనాభా ఎంత?",
+   "answer": "195",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Yedulavalasa village as of 2011?"
+  },
+  "telugu--1316031475849282061-0": {
+   "question": "రేగటిపల్లె గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "2417 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Regatipalle village?"
+  },
+  "telugu-2444503621045969197-0": {
+   "question": "2011 జనగణన ప్రకారం ఎగవలసపల్లి గ్రామములో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "23",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census how many houses are there in Egavalasapalli village?"
+  },
+  "telugu-8243050460142458655-0": {
+   "question": "కొమ్మాలపాడు గ్రామ వైశాల్యం ఎంత?",
+   "answer": "1961 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kommalapadu village?"
+  },
+  "telugu-4688152711984061445-5": {
+   "question": "వైశాలి జిల్లా విస్తీర్ణం ఎంత?",
+   "answer": "2036 చ.కి.మీ",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Vaishali district?"
+  },
+  "telugu--7993248466351344329-0": {
+   "question": "2011 గణాంకాల ప్రకారం సంబవరం గ్రామ జనాభా ఎంత?",
+   "answer": "2813",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "According to 2011 statistics what is the population of village Sambavaram?"
+  },
+  "telugu--2518787719495008420-0": {
+   "question": "2011 నాటికి సత్యవరం గ్రామ జనాభా ఎంత?",
+   "answer": "5657",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Sathyavaram village as of 2011?"
+  },
+  "telugu-7280221406834583430-1": {
+   "question": "జామియా మిలియా ఇస్లామియా విశ్వవిద్యాలయం ఎక్కడ ఉంది?",
+   "answer": "ఢిల్లి",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Jamia Millia Islamia University located?"
+  },
+  "telugu-6071904198976439546-1": {
+   "question": "దామర్‌చేడ్ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "501143",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Damarched village?"
+  },
+  "telugu--4139417899306970261-0": {
+   "question": "బద్దిగుమ్మి గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "0 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Baddigummi village?"
+  },
+  "telugu--8586153017907660060-1": {
+   "question": "మల్లాది సుబ్బమ్మ ఎక్కడ జన్మించింది?",
+   "answer": "గుంటూరు జిల్లా రేపల్లె తాలూకా పోతార్లంక",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Malladi Subbamma born?"
+  },
+  "telugu-8540593601664885522-1": {
+   "question": "వాకపల్లి గ్రామ వైశాల్యం ఎంత?",
+   "answer": "395 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Vakapalli village?"
+  },
+  "telugu--4733237526728225686-2": {
+   "question": "మెంట్రాజ్‌పల్లి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1954 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Mentrajpally village?"
+  },
+  "telugu--7024664909033842374-0": {
+   "question": "భీమనుపల్లి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "25 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Bhimanupalli village?"
+  },
+  "telugu--591970387500414500-0": {
+   "question": "మురుగు చెరువు గ్రామ వైశాల్యం ఎంత?",
+   "answer": "91 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of sewage pond village?"
+  },
+  "telugu-591085499157233911-0": {
+   "question": "2011 కంబాలపాడు గ్రామ జనాభా సంఖ్య ఎంత?",
+   "answer": "5101",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Kambalapadu village in 2011?"
+  },
+  "telugu-7979461948002554763-4": {
+   "question": "సోనియా గాంధి ఏ దేశంలో జన్మించింది?",
+   "answer": "ఇటలీ",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "Sonia Gandhi was born in which country?"
+  },
+  "telugu-1671907552704639731-1": {
+   "question": "గోవింద్ పన్సారే ఎక్కడ జన్మించాడు?",
+   "answer": "అహ్మద్‌నగర్‌లో శ్రీరాంపూర్‌ తాలూకాలోని కొల్హాపూర్ గ్రామంలో",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Govind Pansare born?"
+  },
+  "telugu--9179046176937299698-0": {
+   "question": "కంత్రగద గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "532201",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Kantragada Village Pin Code?"
+  },
+  "telugu-4923114094324973103-0": {
+   "question": "2011 నాటికి బిజ్జపల్లి గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "30",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many houses are there in Bijapalli village as of 2011?"
+  },
+  "telugu-3763988890645022372-1": {
+   "question": "పొత్తందొరపాలెం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "533428",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Potthamdorapalem village?"
+  },
+  "telugu--4933410501699973162-1": {
+   "question": "పిలకా గణపతిశాస్త్రి జన్మస్థలం ఏది ?",
+   "answer": "తూర్పు గోదావరి జిల్లా కట్టుంగ",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which is the birthplace of Pilaka Ganapathi Shastri?"
+  },
+  "telugu--8810693408625259944-0": {
+   "question": "నిత్త పుత్తు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "153 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Nitta Puthu village?"
+  },
+  "telugu-9203890566038907750-0": {
+   "question": "నండవ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "532220",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Nandava village?"
+  },
+  "telugu-675854620814783374-15": {
+   "question": "షార్ట్ మెసేజ్ సర్వీస్ ను మొదటిగా ఏ సంస్థ ప్రారంభించింది?",
+   "answer": "వోడా ఫోన్",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which company started the short message service first?"
+  },
+  "telugu--2321669339670211890-1": {
+   "question": "దీవాన్ బహదూర్ పట్టు కేశవ పిళ్ళై ఎక్కడ జన్మించాడు?",
+   "answer": "తమిళనాడులోని ఉత్తర ఆర్కాటు జిల్లా",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Dewan Bahadur Pattu Keshav Pillai born?"
+  },
+  "telugu--6601567146960128775-0": {
+   "question": "వేముగోడు గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "1558 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Vemugodu village?"
+  },
+  "telugu-8070547748693572596-2": {
+   "question": "అంతర్జాతీయ క్రిమినల్ కోర్టు ఎక్కడ ఉంది?",
+   "answer": "నెదర్లాండ్స్‌లోని హేగ్",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the International Criminal Court?"
+  },
+  "telugu-4911701925463230103-4": {
+   "question": "పెంటాబోరాన్ అణుభారం ఎంత?",
+   "answer": "63.12గ్రాములు/మోల్",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the atomic weight of pentaboron?"
+  },
+  "telugu-6855106950534132500-1": {
+   "question": "భారతీయ జనసంఘ్ పార్టీ ఎన్నికల గుర్తు ఏమిటి?",
+   "answer": "దీపం",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the election symbol of Bharatiya Jan Sangh Party?"
+  },
+  "telugu--5033932555385277544-0": {
+   "question": "కుదిరి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "532 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kudiri village?"
+  },
+  "telugu--4950236824524122740-0": {
+   "question": "బరాటం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "118 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of village Baratam?"
+  },
+  "telugu--6621674146006300543-0": {
+   "question": "జింకిభద్ర గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "532284",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Jinkibhadra village pin code?"
+  },
+  "telugu-5283368341644873457-0": {
+   "question": "భీమన్నదొరపాలెం నుండి భీమునిపట్నం కి ఎంత దూరం?",
+   "answer": "33 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Bhimannadorapalem to Bhimunipatnam?"
+  },
+  "telugu-98743915525882704-2": {
+   "question": "గౌతు లచ్చన్న తల్లి పేరు ఏమిటి?",
+   "answer": "రాజమ్మ",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is Gautu Lacchanna's mother's name?"
+  },
+  "telugu-8412241609186161431-2": {
+   "question": "పోడూరు నుండి గుమ్మలూరు కి ఎంత దూరం?",
+   "answer": "10 కి. మీ",
+   "gold": "how-num",
+   "pred": "where",
+   "english_question": "How far is it from Poduru to Gummalur?"
+  },
+  "telugu-722969643293013705-3": {
+   "question": "మహారాజా నందకుమార్ ఎక్కడ జన్మించాడు?",
+   "answer": "పశ్చిమ బెంగాల్ లోని బీర్ భమ్ జిల్లాలోని భద్రాపూర్",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Maharaja Nandakumar born?"
+  },
+  "telugu-378235092536676-0": {
+   "question": "2011 నాటికి జెర్రిగొండి గ్రామ జనాభా ఎంత?",
+   "answer": "83",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Jerrygondi village as of 2011?"
+  },
+  "telugu-6749760750933629677-0": {
+   "question": "జంగంపాడు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "0 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Jangampadu village?"
+  },
+  "telugu--949730142302891848-2": {
+   "question": "పాట్రిక్ జోసెఫ్ తల్లి పేరేమిటి?",
+   "answer": "కేథరీన్ ఎలిజబెత్ (క్రుమ్) బుకానన్",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What was Patrick Joseph's mother's name?"
+  },
+  "telugu-4804513366818280491-0": {
+   "question": "కొట్టం సమరసింహారెడ్డి గారి తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "డి.కె.సత్యారెడ్డి",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are the parents' names of Kottam Samarasimha Reddy?"
+  },
+  "telugu-2731417664294876766-0": {
+   "question": "ములపలాం గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "580514",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Mulapalam village?"
+  },
+  "telugu--2430558658194449776-0": {
+   "question": "కిళ్ళాం గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "581459",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Killam village?"
+  },
+  "telugu--4361121277665540187-1": {
+   "question": "2011 నాటికి అంకంపాలెం గ్రామ జనాభా ఎంత?",
+   "answer": "5275",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Ankampalem village as of 2011?"
+  },
+  "telugu--3560213430683715863-0": {
+   "question": "బొర్రామంబపురం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "532458",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Borramambapuram village pin code?"
+  },
+  "telugu-4704834975159084030-2": {
+   "question": "యాద్గార్‌పల్లి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "212 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Yadgarpally village?"
+  },
+  "telugu-507719114038632250-0": {
+   "question": "బొన్నువాడ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "532201",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Bonnuvada village pin code?"
+  },
+  "telugu--1983775347992311413-8": {
+   "question": "మరియా మాంటిస్సోరి ఎప్పుడు మరణించింది?",
+   "answer": "1952",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Maria Montessori die?"
+  },
+  "telugu-2397973424066046896-0": {
+   "question": "బులార గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "168 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of village Bulara?"
+  },
+  "telugu--4577308434666303642-0": {
+   "question": "ఫ్రాంక్లిన్ డెలానో రూజ్‌వెల్ట్ ఎప్పుడు మరణించాడు?",
+   "answer": "1945 ఏప్రిల్ 12",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Franklin Delano Roosevelt die?"
+  },
+  "telugu-7029923615133480028-0": {
+   "question": "చియ్యేడు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "2498 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Chiyedu village?"
+  },
+  "telugu-3213758460568056965-1": {
+   "question": "ముచుపహాడ్ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1909 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Muchupahad village?"
+  },
+  "telugu--7897743503294232932-1": {
+   "question": "ఇక్కుర్రు గ్రామం యొక్క విస్తీర్ణం ఎంత ?",
+   "answer": "1110 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ikkurru village?"
+  },
+  "telugu-3605969491421171472-1": {
+   "question": "2011 జనగణన ప్రకారం బేవినహళ్ళి గ్రామములో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "1,233",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "As per 2011 census how many houses are there in Bevinahalli village?"
+  },
+  "telugu-1478036774570632719-0": {
+   "question": "కల్లితి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "535523",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Kalliti village pin code?"
+  },
+  "telugu-1602214480303968359-1": {
+   "question": "2011 నాటికి గొడుగునూరు గ్రామంలో మహిళల సంఖ్య ఎంత?",
+   "answer": "356",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the number of women in Godungunur village as of 2011?"
+  },
+  "telugu-6392711722785328441-0": {
+   "question": "సెల్లుం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531040",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Sellum village pin code?"
+  },
+  "telugu-9091766944557320492-0": {
+   "question": "కట్టబోలు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531061",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Kattabolu village pin code?"
+  },
+  "telugu--4788050008593503522-1": {
+   "question": "కందుకూరి శివానంద మూర్తి తల్లిదండ్రులెవరు ?",
+   "answer": "సర్వమంగళ, వీరబసవరాజులు",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who are the parents of Kandukuri Sivananda Murthy?"
+  },
+  "telugu--8840926162968480166-0": {
+   "question": "వేదము వేంకటరాయశాస్త్రి అండ్ బ్రదర్స్ ప్రచురణ సంస్థ ఎక్కడ ఉంది?",
+   "answer": "మద్రాసు",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the publishing house of Vedamu Venkatarayasastri and Brothers located?"
+  },
+  "telugu--5670904705437920426-1": {
+   "question": "సౌరకుటుంబంలో ఎన్ని గ్రహాలు ఉన్నాయి?",
+   "answer": "ఎనిమిది",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many planets are there in solar system?"
+  },
+  "telugu-5649172850430814974-1": {
+   "question": "కె. బాలగోపాల్ ఎప్పుడు మరణించాడు?",
+   "answer": "8.10.2009 గురువారం రాత్రి",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did K. Balagopal die?"
+  },
+  "telugu--2405059370505186439-0": {
+   "question": "గొల్లగండి గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "532263",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Gollagandi village?"
+  },
+  "telugu--3975249318335695971-1": {
+   "question": "బవురువాక గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "533446",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Bavuruwaka village pin code?"
+  },
+  "telugu-5596953417989630345-27": {
+   "question": "2011 నాటికి మరిపెడ మండల జనాభా ఎంత?",
+   "answer": "83,876",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Maripeda Mandal as of 2011?"
+  },
+  "telugu-7736499346715793855-2": {
+   "question": "పొదలడ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "86 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Pudalada village?"
+  },
+  "telugu-1135351072168324430-0": {
+   "question": "లమ్మడంపల్లి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "65 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Lammadampally village?"
+  },
+  "telugu--5811819559749370011-1": {
+   "question": "దీవాన్ బహదూర్ పట్టు కేశవ పిళ్ళై తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "వేంకటాచలం, సుబ్బమ్మ",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What were the parents' names of Dewan Bahadur Pattu Keshav Pillai?"
+  },
+  "telugu--6628737881559698799-0": {
+   "question": "2011లో సీకాయిపాడు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+   "answer": "30",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many women are there in Seekaipadu village in 2011?"
+  },
+  "telugu-4630179666841338388-0": {
+   "question": "మధిరపాడు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "185 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Madhirapadu village?"
+  },
+  "telugu--6968862546849511992-1": {
+   "question": "నలందా విశ్వవిద్యాలయం ఎక్కడ ఉంది?",
+   "answer": "పాట్నాకు ఆగ్నేయంగా 55 మైళ్ళ దూరం",
+   "gold": "where",
+   "pred": "how-num",
+   "english_question": "Where is Nalanda University located?"
+  },
+  "telugu-5226001079666942441-2": {
+   "question": "అన్నాసాగర్ గ్రామ వైశాల్యం ఎంత?",
+   "answer": "591 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Annasagar village?"
+  },
+  "telugu--4145490190548225689-0": {
+   "question": "జగన్నాధవలస గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "394 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Jagannadhavalasa village?"
+  },
+  "telugu-5035499853953755582-0": {
+   "question": "బొద్దులూరుపాడు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "110 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Boddulurupadu village?"
+  },
+  "telugu-6951394504842166897-0": {
+   "question": "బౌర్తి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "0 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Bourti village?"
+  },
+  "telugu--7792301342145430299-0": {
+   "question": "2011 జనాభా లెక్కల ప్రకారం కొమ్ముగూడెం గ్రామ జనాభా ఎంత ?",
+   "answer": "79",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Kommugudem village according to 2011 census?"
+  },
+  "telugu-4249800921675088165-2": {
+   "question": "ద హిందూ దినపత్రిక ప్రధాన కార్యాలయం ఎక్కడ ఉంది?",
+   "answer": "తమిళనాడు రాష్ట్రంలోని చెన్నై",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the headquarters of The Hindu Daily?"
+  },
+  "telugu--4630111938065112594-0": {
+   "question": "వింబుల్డన్ టెన్నిస్ టోర్నమెంట్ ను మొదటిసారిగా ఎప్పుడు ప్రారంభించారు?",
+   "answer": "1877",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Wimbledon tennis tournament first started?"
+  },
+  "telugu--3260888461598513423-1": {
+   "question": "బయ్యనపల్లి గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "258 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Bayyanapally village?"
+  },
+  "telugu--5192312663959101670-0": {
+   "question": "కాల్సియం పరమాణు భారం ఎంత?",
+   "answer": "40.078 గ్రా/మోల్",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the molecular weight of calcium?"
+  },
+  "telugu--2067844180198469761-0": {
+   "question": "పెదగోగాడ అగ్రహారం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531026",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Pedagogada Agraharam village pin code?"
+  },
+  "telugu-5105661199281660897-3": {
+   "question": "2011 నాటికి అన్నూరు గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "692",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How many houses are there in Annur village as of 2011?"
+  },
+  "telugu--6496181029024550272-0": {
+   "question": "కణుపూరుపల్లి గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "751 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kanupurupalli village?"
+  },
+  "telugu-5356279629965838252-0": {
+   "question": "కొండమామిడి నుండి పాడేరుకు ఎంత దూరం?",
+   "answer": "7 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Kondamamidi to Paderu?"
+  },
+  "telugu-2788352386131681213-2": {
+   "question": "మేగాన్ ఫాక్స్ యొక్క తల్లి పేరేమిటి ?",
+   "answer": "డార్లెనె టోనాచియో",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is Megan Fox's mother's name?"
+  },
+  "telugu-3402334351653392495-0": {
+   "question": "జౌకులెదుదిన్నె గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "91 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Joukuledudinne village?"
+  },
+  "telugu-4831434226867109360-7": {
+   "question": "విజయనగరం కు చెందిన గురజాడ అప్పారావు తన ఎన్నో ఏటా మరణించాడు?",
+   "answer": "53",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "Gurjada Apparao of Vizianagaram died at what age?"
+  },
+  "telugu-1023361118057822164-0": {
+   "question": "బుడంపాడు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "522017",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Budampadu village pin code?"
+  },
+  "telugu-713837412555502316-1": {
+   "question": "డాక్టర్ ఎన్.ఎం.జయసూర్య తల్లిదండ్రులు ఎవరు?",
+   "answer": "సరోజినీ నాయుడు, ముత్యాల గోవిందరాజులు నాయుడు",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who are the parents of Dr. NM Jayasurya?"
+  },
+  "telugu-8741423891768717983-0": {
+   "question": "సూర్యుడి నుండి ఏ విటమిన్ వస్తుంది?",
+   "answer": "విటమిన్ D3",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which vitamin comes from the sun?"
+  },
+  "telugu-1181802106142036998-9": {
+   "question": "ముంబయి విశ్వవిద్యాలయంను ఎప్పుడు స్థాపించారు?",
+   "answer": "1857",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Mumbai University established?"
+  },
+  "telugu--3405278114247314362-0": {
+   "question": "2011 కొడవటికల్లు గ్రామ జనాభా సంఖ్య ఎంత?",
+   "answer": "4112",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of the village in 2011?"
+  },
+  "telugu-2934703165142379601-0": {
+   "question": "డాక్టర్ అన్నపరెడ్డి వెంకట గురవారెడ్డి భార్య పేరేంటి?",
+   "answer": "భవాని",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the name of Dr. Annapareddy Venkata Guravareddy's wife?"
+  },
+  "telugu-6628408888331830881-0": {
+   "question": "సాలెపురుగుకి ఎన్ని కాళ్లు ఉంటాయి?",
+   "answer": "ఎనిమిది",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many legs does a spider have?"
+  },
+  "telugu-5232916475794677075-8": {
+   "question": "కందుకూరి శివానంద మూర్తి జన్మస్థలం ఏది ?",
+   "answer": "ఆంధ్రప్రదేశ్‌లోని తూర్పుగోదావరి జిల్లా రాజమండ్రి",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which is the birth place of Kandukuri Sivananda Murthy?"
+  },
+  "telugu--8382194305259380141-1": {
+   "question": "కొత్తరామవరం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "120 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kottaramavaram village?"
+  },
+  "telugu-8923434920878572835-25": {
+   "question": "లీచ్టెన్‌స్టీన్ దేశ కరెన్సీ ఏంటి?",
+   "answer": "స్విస్ ఫ్రాంక్ను",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the currency of Liechtenstein?"
+  },
+  "telugu-261437164357885089-0": {
+   "question": "పెన్నానది ఎక్కడ పుట్టింది?",
+   "answer": "ర్ణాటక రాష్ట్రములో కోలారు సమీపాన గల నందిదుర్గ కొండలలోని చెన్నకేశవ కొండల్లో",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where did pennanadi originate?"
+  },
+  "telugu--2398000796140006776-2": {
+   "question": "ఎస్టోనియా దేశ రాజధాని ఏది?",
+   "answer": "టాలిన్",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the capital of Estonia?"
+  },
+  "telugu-4104683261239688573-0": {
+   "question": "హిందూ పురాణాల ప్రకారం వజ్రాయుధం ఎవరి ఆయుధం?",
+   "answer": "ఇంద్రుని",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Whose weapon is Vajrayudham according to Hindu mythology?"
+  },
+  "telugu-4032062894756104734-0": {
+   "question": "రంగపల్లి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "120 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Rangapalli village?"
+  },
+  "telugu-8882898492993333835-0": {
+   "question": "2011లో ముశ్రిగుడ గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+   "answer": "114",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many women are there in Mushriguda village in 2011?"
+  },
+  "telugu--1144941283126327525-0": {
+   "question": "2011 జనగణన ప్రకారం ములబిన్నిడి గ్రామములో పురుషుల సంఖ్య ఎంత?",
+   "answer": "22",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census what is the number of males in Mulabinnidi village?"
+  },
+  "telugu-5990844033220334854-1": {
+   "question": "2011 నాటికి చింతాడ గ్రామ జనాభా ఎంత?",
+   "answer": "1,225",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Chintada village as of 2011?"
+  },
+  "telugu-5215048932490181128-0": {
+   "question": "2011 నాటికి సత్యవరం గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "1530",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many houses are there in Sathyavaram village as of 2011?"
+  },
+  "telugu-6630525368906161089-0": {
+   "question": "కేట్ ఎలిజబెత్ విన్స్‌లెట్ ఎప్పుడు జన్మించింది?",
+   "answer": "అక్టోబర్ 5వ తేదీ 1975",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Kate Elizabeth Winslet born?"
+  },
+  "telugu--8699586962668200935-0": {
+   "question": "చిలకవీధిలంక గ్రామ వైశాల్యం ఎంత?",
+   "answer": "145 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Chilakaveedhilanka village?"
+  },
+  "telugu--3654160177395292542-0": {
+   "question": "అలెగ్జాండ పార్క్స్ పార్కెసిన్ ప్లాస్టిక్ ను ఎప్పుడు సృష్టించాడు?",
+   "answer": "1962",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Alexandra Parks create parkesin plastic?"
+  },
+  "telugu-5145309729567964604-0": {
+   "question": "లింగభూపాల పట్నం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "179 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Lingabhupala Patnam village?"
+  },
+  "telugu--8617240323497387366-0": {
+   "question": "బంగరువలస గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "532461",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is pin code of Bangaruvalasa village?"
+  },
+  "telugu--8407644093601331412-1": {
+   "question": "2011 నాటికి వజ్రకూటం గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "279",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many houses are there in Vajrakootam village as of 2011?"
+  },
+  "telugu-3752463835882571120-1": {
+   "question": "జె.వి. సోమయాజులు ఎక్కడ జన్మించాడు?",
+   "answer": "శ్రీకాకుళం జిల్లా, నరసన్నపేట మండలం   లుకలాం",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "J.V. Where was Somayazulu born?"
+  },
+  "telugu-7600256277150926045-2": {
+   "question": "కట్టంగూర్ గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "1611 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kattangur village?"
+  },
+  "telugu--8641756524442103592-0": {
+   "question": "గొత్తిపల్లి గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "532459",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Gottipalli village?"
+  },
+  "telugu--1010193839169011781-0": {
+   "question": "కిళ్ళాం నుండి శ్రీకాకుళం కి ఎంత దూరం?",
+   "answer": "26 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Killam to Srikakulam?"
+  },
+  "telugu--9188323197696508714-0": {
+   "question": "తాటిపాలెం నుండి అనకాపల్లి కి ఎంత దూరం?",
+   "answer": "85",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Tattipalem to Anakapalli?"
+  },
+  "telugu--832070322882074033-0": {
+   "question": "బిజ్జపల్లి నుండి అనకాపల్లి కి ఎంత దూరం?",
+   "answer": "99 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Bijapalli to Anakapalli?"
+  },
+  "telugu-4676280216503207753-1": {
+   "question": "మహా సముద్రాలు మొత్తం ఎన్ని?",
+   "answer": "ఐదు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many oceans are there?"
+  },
+  "telugu--5717190580014217797-15": {
+   "question": "పెద్దమల్లెల గ్రామ ప్రజలు ప్రధానంగా పండించే పంట ఏది?",
+   "answer": "వేరుశనగ, చెరకు, వరి",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main crop grown by the people of Peddamalle village?"
+  },
+  "telugu--2932572111128454881-0": {
+   "question": "చిలకల మామిడి గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "0 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Chilakala Mango Village?"
+  },
+  "telugu-6266250617979360302-0": {
+   "question": "2011 సంవత్సర ఉలిందకొండ గ్రామ జనాభా సంఖ్య ఎంత?",
+   "answer": "6504",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Ulindakonda village in 2011?"
+  },
+  "telugu--2015683467866031501-12": {
+   "question": "డౌన్ సిండ్రోమ్‌ ఎక్కువగా ఏ వయస్సు వారికి వస్తుంది ?",
+   "answer": "60",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "At what age does Down syndrome occur?"
+  },
+  "telugu-8763966168799021580-2": {
+   "question": "షేక్ అబ్దుల్లా రవూఫ్ ఎప్పుడు మరణించాడు?",
+   "answer": "2014, ఫిబ్రవరి 9",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Sheikh Abdullah Rauf die?"
+  },
+  "telugu--6591105495621874463-0": {
+   "question": "రాళ్లకుంట గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "531 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Rallakunta village?"
+  },
+  "telugu-8845759963849672971-0": {
+   "question": "యుద్ధం శరణం చిత్ర నిర్మాత ఎవరు?",
+   "answer": "కొర్రపాటి సాయి",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the producer of Yuddha Saranam?"
+  },
+  "telugu-7743764252464510895-0": {
+   "question": "కౌంకె గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "344 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of village Kaunke?"
+  },
+  "telugu-7966230961322917835-0": {
+   "question": "చంద్రశేఖరేంద్ర సరస్వతి స్వామి ఎప్పుడు మరణించాడు?",
+   "answer": "జనవరి 8, 1994",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Chandrasekharendra Saraswati Swamy die?"
+  },
+  "telugu--8901307525806333050-0": {
+   "question": "తొడుము గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "535521",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Todumu village pin code?"
+  },
+  "telugu--550236728512035346-0": {
+   "question": "చెరువు పకల గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "238 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of the village by the pond?"
+  },
+  "telugu-4049593387939392600-1": {
+   "question": "సెలపాక గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "767 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Selapaka village?"
+  },
+  "telugu-4172673173528939685-0": {
+   "question": "హంప గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "4075 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Hampa village?"
+  },
+  "telugu-5200698824499384619-0": {
+   "question": "ఆల్లూరు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1381 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Alluru village?"
+  },
+  "telugu--5679188692956046837-0": {
+   "question": "పెసర్లంక పిన్ కోడ్ ఎంత ?",
+   "answer": "522257",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Pesarlanka?"
+  },
+  "telugu--5275978445875500449-0": {
+   "question": "2011 జనగణన ప్రకారం కరెం గ్రామములో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "127",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census how many houses are there in Karen village?"
+  },
+  "telugu--8568863619957500023-1": {
+   "question": "అరబిందో ఎప్పుడు జన్మించాడు?",
+   "answer": "కోల్‌కతా",
+   "gold": "when",
+   "pred": "where",
+   "english_question": "When was Aurobindo born?"
+  },
+  "telugu-191596268018808945-1": {
+   "question": "భద్రిరాజు కృష్ణమూర్తి గారికి ఎంతమంది సంతానం ?",
+   "answer": "ముగ్గురు కుమారులు, ఓ కూతురు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many children did Bhadriraj Krishnamurthy have?"
+  },
+  "telugu--3977923017846260053-0": {
+   "question": "చీకుమద్దుల గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531077",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Cheekumaddula village?"
+  },
+  "telugu--8370615169311360493-1": {
+   "question": "బోడపాడు గ్రామ పిన్ కోడ్ ఎంత?",
+   "answer": "534196",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the Pin Code of Bodapadu Village?"
+  },
+  "telugu-5813125854914667078-0": {
+   "question": "నవ్‌జ్యోత్ సింగ్ సిద్ధూ జన్మస్థలం ఏది ?",
+   "answer": "పంజాబ్‌లోని మాల్వా పాంత్రంలోని పాటియాలా",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which is the birthplace of Navjot Singh Sidhu?"
+  },
+  "telugu--1817004721681155192-3": {
+   "question": "2017లో లోకనాథం నందికేశ్వరరావు ఏ రాష్ట్ర ప్రభుత్వం చే ఉగాది పురస్కారంను అందుకున్నాడు?",
+   "answer": "ఆంధ్రప్రదేశ్",
+   "gold": "NONE",
+   "pred": "who",
+   "english_question": "In 2017, Lokanatham Nandikeswara Rao received Ugadi Award from which state government?"
+  },
+  "telugu-2253248287622124614-2": {
+   "question": "2011 జనగణన ప్రకారం రాజాపేట గ్రామములో పురుషుల సంఖ్య ఎంత?",
+   "answer": "2700",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census what is the number of males in Rajapet village?"
+  },
+  "telugu-5427887964099392608-1": {
+   "question": "సైరస్ సాహుకార్ తల్లిదండ్రులు ఎవరు?",
+   "answer": "కల్నల్ బెహ్రామ్ సాహుకార్ ఒక పార్సీ కాగా రచయిత్రి అయిన ఇతడి తల్లి నిమెరన్ సాహుకార్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who are the parents of Cyrus Sahukar?"
+  },
+  "telugu-4592785495844417074-0": {
+   "question": "నండవ నుండి పలాస కి ఎంత దూరం?",
+   "answer": "20 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Nandava to Palasa?"
+  },
+  "telugu--4709769463837767491-1": {
+   "question": "షేక్ అబ్దుల్లా రవూఫ్ ఎక్కడ జన్మించాడు?",
+   "answer": "అనంతపురం జిల్లా, కదిరి పట్టణంలోని కుటాగుళ్ల",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Sheikh Abdullah Rauf born?"
+  },
+  "telugu-970103359591154922-0": {
+   "question": "2011 నాటికి లుబ్బగుంట గ్రామ జనాభా ఎంత?",
+   "answer": "253",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Lubbagunta village as of 2011?"
+  },
+  "telugu-3716284108328176690-0": {
+   "question": "కామయ్యపేట గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "584437",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Kamayapet village?"
+  },
+  "telugu--4128250577886289487-0": {
+   "question": "రామనగరం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "271 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ramanagaram village?"
+  },
+  "telugu-4138343713848688859-0": {
+   "question": "బసివిరెడ్డిపల్లె గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "517167",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Basivireddypalle village pin code?"
+  },
+  "telugu-6897686615987136693-1": {
+   "question": "జెట్ ఎయిర్‌వేస్ సంస్థ భారత్ లో ఎప్పుడు ప్రారంభమైంది?",
+   "answer": "1992 ఏప్రిల్ 1",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Jet Airways started in India?"
+  },
+  "telugu-6661939391280699842-1": {
+   "question": "భద్రిరాజు కృష్ణమూర్తి గారు ఏ సంవత్సరంలో మరణించారు ?",
+   "answer": "2012",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In which year did Bhadriraj Krishnamurthy die?"
+  },
+  "telugu-4508986566050255444-1": {
+   "question": "జక్కరం గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "534206",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Jakkaram village?"
+  },
+  "telugu-5990531127617270484-0": {
+   "question": "కొమ్మువలస గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "532459",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Kommuvalasa village?"
+  },
+  "telugu-5407216860480703727-1": {
+   "question": "గోవింద్ పన్సారే తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "హర్నాబాయి,పండరీనాథ్",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What are the names of Govind Pansare's parents?"
+  },
+  "telugu-7420072780338521988-1": {
+   "question": "చింతలపాటి సీతా రామచంద్ర వరప్రసాద మూర్తిరాజు భార్య పేరేమిటి ?",
+   "answer": "సత్యవతీదేవి",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the name of the wife of Chinthalpati Sita Ramachandra Varaprasada Murthiraja?"
+  },
+  "telugu-5591190559811547544-0": {
+   "question": "2011 నాటికి బంటనహళ్ గ్రామ జనాభా ఎంత?",
+   "answer": "1455",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of village Bantanahal as of 2011?"
+  },
+  "telugu-1276705790060490427-1": {
+   "question": "యెర్రవరం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1036 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Yerravaram village?"
+  },
+  "telugu-5315675774639248518-0": {
+   "question": "పంజాబు రాష్ట్రం ఏ దేశంలో ఉంది?",
+   "answer": "భారతదేశం",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "In which country is the state of Punjab located?"
+  },
+  "telugu--3775752726340130607-3": {
+   "question": "విందా కరందీకర్‌ భార్య పేరు ఏంటి?",
+   "answer": "యేసూ గోఖలే",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of Vinda Karandekar's wife?"
+  },
+  "telugu--3352046514437978194-0": {
+   "question": "2011 భారత జనగణన గణాంకాల ప్రకారం నరసరాయనిపాలెం గ్రామంలో ఆడవారి సంఖ్య ఎంత?",
+   "answer": "297",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the number of females in Narasarayanipalem village as per 2011 India census?"
+  },
+  "telugu-4542062497788357745-9": {
+   "question": "ఏ సంధి వలన భారత దేశం లో మూడవ కర్ణాటక యుద్దం ముగిసింది?",
+   "answer": "ప్యారిస్",
+   "gold": "which",
+   "pred": "who",
+   "english_question": "Which treaty ended the Third Carnatic War in India?"
+  },
+  "telugu-4929855935458292728-0": {
+   "question": "ముక్తపురం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "39 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Muktapuram village?"
+  },
+  "telugu--2266785206517740528-0": {
+   "question": "చిత్తజల్లు వరహాలరావు ఎక్కడ జన్మించాడు?",
+   "answer": "గుంటూరు",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Chittajallu Varaha Rao born?"
+  },
+  "telugu--5956730576250297090-0": {
+   "question": "2011 నాటికి రమణపల్లె గ్రామంలో మహిళల సంఖ్య ఎంత?",
+   "answer": "1620",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What is the number of women in Ramanapalle village as of 2011?"
+  },
+  "telugu--904600951087888087-1": {
+   "question": "మేల్పత్తూరు నారాయణ భట్టతిరి ఎన్నోవ ఏట నారాయణీయం ని రచించారు?",
+   "answer": "27",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "At what age did Melpatthur Narayana Bhattathiri write Narayaniyam?"
+  },
+  "telugu-2577486778253316605-0": {
+   "question": "చెరుకుంపాకలు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "327 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Cherukumpakalu village?"
+  },
+  "telugu--3272466605711022131-2": {
+   "question": "2011 జనగణన ప్రకారం రుస్తుంబాద గ్రామములో పురుషుల సంఖ్య ఎంత?",
+   "answer": "2704",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "According to 2011 census what is the number of males in village Rustumbada?"
+  },
+  "telugu-5435080895440121384-0": {
+   "question": "అరిమెర గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531040",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is pin code of Arimera Village?"
+  },
+  "telugu-4626184454329343483-0": {
+   "question": "భారతదేశ 10వ రాష్ట్రపతి ఎవరు?",
+   "answer": "కొచెరిల్ రామన్ నారాయణన్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the 10th President of India?"
+  },
+  "telugu--7137066371404013191-0": {
+   "question": "రమణక్కపేట గ్రామము విస్తీర్ణం ఎంత ?",
+   "answer": "1475 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ramanakkapet village?"
+  },
+  "telugu-8464364398173274800-1": {
+   "question": "రాధావిశ్వనాథన్ తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "త్యాగరాజన్ సదాశివం మరియు అతని మొదటి భార్య అపితకుచంబల్",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are the names of Radhaviswanathan's parents?"
+  },
+  "telugu--2500652433121621472-1": {
+   "question": "దామరాజు పుండరీకాక్షుడు తల్లిదండ్రులు ఎవరు?",
+   "answer": "రంగమాంబ, గోపాలకృష్ణయ్యలు",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who are the parents of Damaraju Pundarikaksha?"
+  },
+  "telugu-3444986412828056826-0": {
+   "question": "తమిళనాడు ప్రభుత్వం ఆర్యకు కళైమామణి  పురస్కారం ఏ సంవత్సరంలో ఇచ్చి గౌరవించింది?",
+   "answer": "2011",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In which year the Tamil Nadu government honored Arya with Kalaimamani award?"
+  },
+  "telugu--4770120218856778442-0": {
+   "question": "జిడ్డు కృష్ణమూర్తి ఎప్పుడు మరణించాడు?",
+   "answer": "1986",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Jiddu Krishnamurthy die?"
+  },
+  "telugu-3325305296549286077-0": {
+   "question": "పుజారిపాకలు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "42 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Pujaripakalu village?"
+  },
+  "telugu-2926902268366627346-1": {
+   "question": "మొరార్జీ దేశాయి జన్మస్థలం ఏది ?",
+   "answer": "బొంబాయి రాజ్యంలో (ప్రస్తుతం గుజరాత్)[2] బ్లస్టర్ జిల్లాకు చెందిన భడేలీ",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which is the birthplace of Morarji Desai?"
+  },
+  "telugu--8818865735026842962-0": {
+   "question": "తుంపాడ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531077",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Tumpada village pin code?"
+  },
+  "telugu-7114910992982444868-0": {
+   "question": "లోతేరు గ్రామ పిన్  కోడ్ ఎంత ?",
+   "answer": "531149",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Lotheru village?"
+  },
+  "telugu--1526336483193941112-0": {
+   "question": "ఇంకొల్లు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "3365 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of another village?"
+  },
+  "telugu-1958361549569187879-2": {
+   "question": "ఆర్మూర్ పట్టణ వైశాల్యం ఎంత?",
+   "answer": "26.07km",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of the town of Armour?"
+  },
+  "telugu-5193864777826380183-0": {
+   "question": "ములబిన్నిడి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "535523",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Mulabinnidi village?"
+  },
+  "telugu--3998778591207008843-1": {
+   "question": "ఆమ్లాలు యొక్క రుచి ఏమిటి ?",
+   "answer": "పులుపు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the taste of acids?"
+  },
+  "telugu--5155085342043776965-1": {
+   "question": "డాక్టర్ ఎన్.ఎం.జయసూర్య ఏ దేశంలో హోమియోపతీ వైద్యంలో ఎం.డి పట్టా పొందారు?",
+   "answer": "జర్మనీ",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "In which country did Dr. NM Jayasuriya get his MD degree in Homeopathic medicine?"
+  },
+  "telugu-8206357834751997597-1": {
+   "question": "కొత్తూరుపాడు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "102 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kothurupadu village?"
+  },
+  "telugu--2209246184784177145-2": {
+   "question": "కొల్లాజ్ అనే పదం ఏ బాషా నుండి వచ్చింది?",
+   "answer": "ఫ్రెంచ్",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "From which language does the word collage come?"
+  },
+  "telugu--3050850446411399123-0": {
+   "question": "పెనుబర్తి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1240 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Penubarti village?"
+  },
+  "telugu-2306120302328996995-0": {
+   "question": "వంటలమామిడి @ గాదిలమెట్ట గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531024",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Vandalamamidi @ Gadilametta village?"
+  },
+  "telugu-3854057866257069688-1": {
+   "question": "కె. ఎస్. రవికుమార్ దర్శకత్వం వహించిన మొదటి చిత్రం ఏది?",
+   "answer": "పురియాద పుధిర్",
+   "gold": "NONE",
+   "pred": "which",
+   "english_question": "K.S. Which was the first film directed by Ravikumar?"
+  },
+  "telugu--6829655519328693111-1": {
+   "question": "సుశీల్‌కుమార్ శంభాజీరావు షిండే ఎప్పుడు జన్మించాడు?",
+   "answer": "1941, సెప్టెంబరు 4",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Sushilkumar Shambhajirao Shinde born?"
+  },
+  "telugu-4103866158851903520-23": {
+   "question": "జార్జ్ డెనిస్ పాట్రిక్ కార్లిన్ నటించిన మొదటి చిత్రం ఏది?",
+   "answer": "ఔట్రేజియుస్ ఫార్చ్యూన్",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which was the first film starring George Denis Patrick Carlin?"
+  },
+  "telugu--3689554238284869531-0": {
+   "question": "మీనకోట పట్టణ విస్తీర్ణం ఎంత?",
+   "answer": "17 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Meenakota town?"
+  },
+  "telugu-5516463244955843844-5": {
+   "question": "థామస్ హార్డీ ఏ సంవత్సరంలో మరణించాడు?",
+   "answer": "1928",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In which year did Thomas Hardy die?"
+  },
+  "telugu-5999786575726038840-13": {
+   "question": "గుంజుగూడెం గ్రామంలో ప్రధాన పంట ఏంటి?",
+   "answer": "చింతపండు, సోంపు, శీకాయ",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the main crop in Gunjugudem village?"
+  },
+  "telugu--5279721065286609175-1": {
+   "question": "అంబాజీపేట గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "348 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ambajipet village?"
+  },
+  "telugu--3202023016512206553-0": {
+   "question": "గుర్రం సగటు జీవితకాలం ఎంత?",
+   "answer": "25 నుంచి 30 సంవత్సరాల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the average lifespan of a horse?"
+  },
+  "telugu-9104527796195654627-0": {
+   "question": "పేటలూరు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "781 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Petalur village?"
+  },
+  "telugu--5259889437120033805-1": {
+   "question": "కొడవటూర్ గ్రామ వైశాల్యం ఎంత?",
+   "answer": "1000 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kodavatur village?"
+  },
+  "telugu--3842917371441451594-18": {
+   "question": "లైదాం గ్రామంలో ప్రధాన పంట ఏంటి?",
+   "answer": "వరి, వేరుశనగ, చెరకు",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main crop in Laidam village?"
+  },
+  "telugu--148100420711063025-1": {
+   "question": "ములకల్లంక గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1013 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Mulakallanka village?"
+  },
+  "telugu-8194107483849249801-1": {
+   "question": "2011 నాటికి గూడరేవుపల్లె గ్రామ జనాభా ఎంత?",
+   "answer": "1, 804",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Gudarevupalle village as of 2011?"
+  },
+  "telugu--7536986136510268138-1": {
+   "question": "పి. భాస్కరయోగి ఎక్కడ జన్మించాడు?",
+   "answer": "మహబూబ్ నగర్ జిల్లా పోతిరెడ్డిపల్లి",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "P. Where was Bhaskarayogi born?"
+  },
+  "telugu-6180518781100030011-1": {
+   "question": "దామర్‌చేడ్ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1231 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Damarched village?"
+  },
+  "telugu-2319056933804294016-13": {
+   "question": "జురాసిక్ పార్క్ చలనచిత్ర దర్శకుడు ఎవరు?",
+   "answer": "స్టీవెన్ స్పీల్బర్గ్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the director of Jurassic Park movie?"
+  },
+  "telugu--4761359073987721930-0": {
+   "question": "వనజాజులు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531111",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Vanajazulu village?"
+  },
+  "telugu-3579591480184644767-0": {
+   "question": "దెంగం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "53 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Dengam village?"
+  },
+  "telugu-2235995934991525988-0": {
+   "question": "బసలదొడ్డి గ్రామం యొక్క పిన్ కోడ్ ఎంత ?",
+   "answer": "518349",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Basaladoddi village?"
+  },
+  "telugu--7109164587956577540-3": {
+   "question": "బత్తిని చేప ప్రసాదం ను మొదటిగా ఎప్పుడు ప్రారంభించారు?",
+   "answer": "1847",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Battini Fish Prasadam first introduced?"
+  },
+  "telugu-3084606416399887653-0": {
+   "question": "అల్లివీడు నుండి ఏలూరు కి ఎంత దూరం?",
+   "answer": "17 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Alliveedu to Eluru?"
+  },
+  "telugu-8102265621715472661-1": {
+   "question": "అనీ బిసెంట్ భర్త పేరేంటి?",
+   "answer": "ఫ్రాంక్ బిసెంటు",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Ani Besant's husband?"
+  },
+  "telugu-1820385295673046551-0": {
+   "question": "తాటిపాలెం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531111",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Tathipalem village?"
+  },
+  "telugu-2983175149020114154-5": {
+   "question": "హెల్త్ లెవల్ సెవెన్ సంస్థ ప్రధాన కార్యాలయం ఎక్కడ ఉంది?",
+   "answer": "అన్ అర్బోర్, మిచిగాన్‌",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the headquarters of Health Level Seven?"
+  },
+  "telugu-1278911153514129585-1": {
+   "question": "దామరాజు పుండరీకాక్షుడు ఎక్కడ జన్మించాడు?",
+   "answer": "గుంటూరు జిల్లా, పెదకూరపాడు మండలం, పాటిబండ్ల",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Damaraju Pundarikaksha born?"
+  },
+  "telugu--5920683494071357698-0": {
+   "question": "ముశ్రిగుడ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531149",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Mushriguda village pin code?"
+  },
+  "telugu--5224442275809489841-0": {
+   "question": "కింతరేలు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531040",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Kintharelu village?"
+  },
+  "telugu--4787526391341319835-0": {
+   "question": "2011 నాటికి భీమన్నదొరపాలెం గ్రామ జనాభా ఎంత?",
+   "answer": "1047",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Bhimannadorapalem village as of 2011?"
+  },
+  "telugu--7914194854064479225-0": {
+   "question": "మానవ శరీరంలో ఎన్ని రకాల  కండరాలు ఉంటాయి?",
+   "answer": "మూడు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many types of muscles are there in the human body?"
+  },
+  "telugu--9122505122412088499-0": {
+   "question": "వసంతవాడ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "669 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Vasantavada village?"
+  },
+  "telugu-2674058602839391213-0": {
+   "question": "2011 నాటికి బెంబి గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "25",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many houses are there in Bembi village as of 2011?"
+  },
+  "telugu--7172629632450044553-0": {
+   "question": "గార్లదిన్నె గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "515731",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Garladinne Village Pin Code?"
+  },
+  "telugu-3110531980405570075-0": {
+   "question": "2011 జనగణన ప్రకారం మకవరం గ్రామములో పురుషుల సంఖ్య ఎంత?",
+   "answer": "243",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census what is the number of males in Makavaram village?"
+  },
+  "telugu--1783025877424845273-0": {
+   "question": "జంగంపాడు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531133",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Jangampadu village?"
+  },
+  "telugu--1837280191017494601-3": {
+   "question": "అలెగ్జాండ పార్క్స్ తల్లిదండ్రులు ఎవరు?",
+   "answer": "జేమ్స్ పార్క్స్ మరియు కెరెన్ హపుచ్ చైల్డ్స్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who Are Alexandra Parks Parents?"
+  },
+  "telugu--2655153400332993578-0": {
+   "question": "రాయిగెడ్డ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531077",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Raigedda Village Pin Code?"
+  },
+  "telugu--810491394665791913-2": {
+   "question": "బ్రాందీలో ఎన్ని రకాలు ఉన్నాయి?",
+   "answer": "మూడు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many varieties of brandy are there?"
+  },
+  "telugu-1451845695853096941-0": {
+   "question": "2011 నాటికి నాయనిపల్లి గ్రామంలోని పురుషుల సంఖ్య ఎంత ?",
+   "answer": "103",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the number of men in Nayanipalli village as of 2011?"
+  },
+  "telugu--412226009556141862-1": {
+   "question": "సెలపాక గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "533468",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Selapaka village pin code?"
+  },
+  "telugu--5772858717744189095-0": {
+   "question": "పాడలి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "532459",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Padali village pin code?"
+  },
+  "telugu-7525881299794414097-1": {
+   "question": "నూకరాయి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "125 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Nukarai village?"
+  },
+  "telugu-4527046517267694248-0": {
+   "question": "కంద్రం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1179 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kandram village?"
+  },
+  "telugu--311119443308021951-0": {
+   "question": "గుంపరమనదిన్నె గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1450 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Gumparamanadinne village?"
+  },
+  "telugu-3974735144762033772-2": {
+   "question": "యద్దనపూడి సులోచనారాణి మొత్తం ఎన్ని నవలలు రచించారు?",
+   "answer": "40",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many novels did Yaddanapudi Sulochanarani write?"
+  },
+  "telugu--2459994970341378465-0": {
+   "question": "మధురమామిడి గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "531029",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Madhuramamid village pin code?"
+  },
+  "telugu--2652244388913687149-0": {
+   "question": "సఫియ్యా బింత్ హుయాయ్ కు ఉన్న బిరుదు పేరేంటి?",
+   "answer": "విస్వాసుల యొక్క తల్లి",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the title of Safiyyah bint Huayy?"
+  },
+  "telugu-2636186131952676551-1": {
+   "question": "వెల్లంకి తాతంభట్టు తల్లి పేరేంటి?",
+   "answer": "యెర్రమ్మ",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is Vellamki Tatambhattu's mother's name?"
+  },
+  "telugu--2897585283393064148-0": {
+   "question": "2011 నాటికి ఆశన్నగూడెం గ్రామ జనాభా ఎంత?",
+   "answer": "1540",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Ashannagudem village as of 2011?"
+  },
+  "telugu-7863280556530488203-0": {
+   "question": "2011 నాటికి పాకివలస గ్రామంలోని స్త్రీల సంఖ్య ఎంత ?",
+   "answer": "1090",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the number of women in Pakivalasa village as of 2011?"
+  },
+  "telugu-7229976932671761209-0": {
+   "question": "ఆళ్లగడ్డ గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "1026 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Allagadda village?"
+  },
+  "telugu-918133519643966911-0": {
+   "question": "బజాజ్‌ ఆటో కంపెనీ ప్రధాన కార్యాలయం ఎక్కడ ఉంది?",
+   "answer": "పూణే, మహారాష్ట్ర",
+   "gold": "where",
+   "pred": "what",
+   "english_question": "Where is the headquarters of Bajaj Auto Company located?"
+  },
+  "telugu--7806496682270806604-0": {
+   "question": "కోబ్ బీన్ బ్రయంట్ జన్మించిన సంవత్సరం ఏది ?",
+   "answer": "1978",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What year was Kobe Bryant born?"
+  },
+  "telugu--8187839313971886423-8": {
+   "question": "దాగుడు మూతలు చిత్ర నిర్మాత ఎవరు?",
+   "answer": "డి.బి.నారాయణ",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the producer of Dagdu Moothulu movie?"
+  },
+  "telugu-6559387472785409498-0": {
+   "question": "2011లో అమలగుడ గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+   "answer": "112",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many women are there in Amalaguda village in 2011?"
+  },
+  "telugu-6960890119334841027-0": {
+   "question": "పాలిచెర్లరాజుపాలెం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "505 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Palicherlarajupalem village?"
+  },
+  "telugu--548921703247702173-0": {
+   "question": "కోకిలంపాడు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "736 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kokilampadu village?"
+  },
+  "telugu--2602920650833299137-5": {
+   "question": "2001 జనాభా లెక్కల ప్రకారం గొల్లచేమన పల్లె గ్రామ జనాభా ఎంత ?",
+   "answer": "2,231",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Gollachemana village according to the 2001 census?"
+  },
+  "telugu-3607254030267049024-0": {
+   "question": "2011 నాటికి కామయ్యపేట గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "65",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many houses are there in Kamayapet village as of 2011?"
+  },
+  "telugu--241457374398232419-0": {
+   "question": "మకరజోలా గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "199 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of village Makarjola?"
+  },
+  "telugu-5459876262173192429-0": {
+   "question": "సెరిబయలు గ్రామ వైశాల్యం ఎంత?",
+   "answer": "149 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Seribayalu village?"
+  },
+  "telugu-4349812337730113509-0": {
+   "question": "అనుమసముద్రం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "2552 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Anumasamudram village?"
+  },
+  "telugu-4263114134671819636-1": {
+   "question": "డామే అన్నా విన్టోర్ తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "చార్లెస్ విన్టూర్ (1917-1999), ఈవెనింగ్ స్టాండర్డ్[4]ఎడిటర్ మరియు ఎలియనోర్ \"నానీ\" ట్రెగో బేకర్",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are the names of Dame Anna Wintour's parents?"
+  },
+  "telugu--3288662760249588708-3": {
+   "question": "2011లో పి. భాస్కరయోగి కి ఏ విశ్వవిద్యాలయం డాక్టరేట్ ప్రధానం చేసింది?",
+   "answer": "ఉస్మానియా",
+   "gold": "NONE",
+   "pred": "which",
+   "english_question": "In 2011 P. Which university conferred doctorate on Bhaskarayogi?"
+  },
+  "telugu--270415133905807879-1": {
+   "question": "సుద్దాల హనుమంతు తల్లిదండ్రుల పేర్లు ఏమిటి?",
+   "answer": "బుచ్చిరాములు, లక్ష్మీనరసమ్మ",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are the names of Suddala Hanuman's parents?"
+  },
+  "telugu--946263036523312103-3": {
+   "question": "యునానీ వైద్యంలో ఎన్ని రకాలుగా చికిత్స చేస్తారు?",
+   "answer": "నాలుగు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many types of treatment are used in Unani medicine?"
+  },
+  "telugu--3778199122033835785-0": {
+   "question": "అల్యూమినియం ఆర్సనైడ్ రసాయన ఫార్ములా ఏంటి?",
+   "answer": "AlAs",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the chemical formula of aluminum arsenide?"
+  },
+  "telugu--32593633399878691-0": {
+   "question": "క్రిస్టోఫర్ నెయిల్ ఏ సంవత్సరంలో జన్మించాడు?",
+   "answer": "1985",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year was Christopher Nail born?"
+  },
+  "telugu--8667251529008602157-10": {
+   "question": "హిమదాస్ అండర్-20 వరల్డ్ అథ్లెటిక్స్ చాంపియన్‌షిప్ 400 మీటర్ల దూరాన్ని ఎంత సమయంలో పూర్తి చేసింది?",
+   "answer": "51.47 సెకన్ల",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "In what time did Himadas complete the Under-20 World Athletics Championship 400m?"
+  },
+  "telugu--4225688826574780420-1": {
+   "question": "2011 జనగణన ప్రకారం గోకివాఢ గ్రామములో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "572",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census how many houses are there in Gokivadha village?"
+  },
+  "telugu-2228724662690067693-0": {
+   "question": "గార్లదిన్నె నుండి అనంతపురం కి ఎంత దూరం?",
+   "answer": "18 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Garladinne to Anantapur?"
+  },
+  "telugu--1304484378393083091-1": {
+   "question": "రాజవోలు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "533124",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Rajavolu village?"
+  },
+  "telugu--7098919862958983026-16": {
+   "question": "నానోటెక్ అనే పదం ఎవరు కనిపెట్టారు?",
+   "answer": "ఎరిక్ డ్రేక్స్లార్",
+   "gold": "who",
+   "pred": "which",
+   "english_question": "Who coined the term nanotech?"
+  },
+  "telugu-579956359250478907-1": {
+   "question": "ఆచార్య జె. బి. కృపలానీ ఎప్పుడు జన్మించాడు?",
+   "answer": "1888",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "Acharya J. When was B. Kripalani born?"
+  },
+  "telugu--8240222396908097036-24": {
+   "question": "ఫిలిప్పీన్స్ దేశ కరెన్సీ ఏంటి?",
+   "answer": "ఫిలిప్పైన్ పెసో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the currency of the Philippines?"
+  },
+  "telugu--8594568077650425699-0": {
+   "question": "కుట్రవాడ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "163 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kutravada village?"
+  },
+  "telugu--6372401983332920209-0": {
+   "question": "చీపురుగొండి గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "45 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Chipurugondi village?"
+  },
+  "telugu--2636765360731359333-0": {
+   "question": "రొసాయిగుడ గ్రామ పిన్ కోడ్ ఎంత?",
+   "answer": "531133",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Rosaiguda village?"
+  },
+  "telugu-2793172171728606130-3": {
+   "question": "జాజిరెడ్డిగూడెం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "508222",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Jajireddygudem village pin code?"
+  },
+  "telugu-5044271430728444691-0": {
+   "question": "భీమన్నదొరపాలెం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531183",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Bhimannadorapalem village?"
+  },
+  "telugu-2013662435830074518-0": {
+   "question": "బాలెమర్రు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "522410",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Balemarru Village Pin Code?"
+  },
+  "telugu-1576872523990993401-1": {
+   "question": "ఇందిరాదేవి తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "వడ్లకొండ నరసింహారావు",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are the names of Indira Devi's parents?"
+  },
+  "telugu--534530456931366482-0": {
+   "question": "గడికోట గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "2269 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Gadikota village?"
+  },
+  "telugu--7283276260874648463-0": {
+   "question": "చిల్లమనిచేను గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "367 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Chillamanichenu village?"
+  },
+  "telugu--8489457523093862922-0": {
+   "question": "వంజరి 2011 లెక్కల ప్రకారం వంజరి గ్రామంలో ఎంత మంది పురుషులు ఉన్నారు?",
+   "answer": "147",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to Vanjari 2011 calculations, how many men are there in Vanjari village?"
+  },
+  "telugu-401634085008455126-2": {
+   "question": "విలియం వర్డ్స్ వర్త్ తల్లి పేరేమిటి ?",
+   "answer": "అన్ కుక్సన్",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is William Wordsworth's mother's name?"
+  },
+  "telugu--5538727031154681220-0": {
+   "question": "రక్తసంబంధం చిత్ర దర్శకుడు ఎవరు?",
+   "answer": "వి.మధుసూదనరావు",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the director of Raktsambandham?"
+  },
+  "telugu--6307747614489896265-1": {
+   "question": "పనసలొద్ది గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "40 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Panasallodi village?"
+  },
+  "telugu--5143317000289524141-0": {
+   "question": "బాపురం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "891 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Bapuram village?"
+  },
+  "telugu--3846730530284249064-1": {
+   "question": "రఘుపతి వెంకయ్య నాయుడు తండ్రి పేరేంటి?",
+   "answer": "అప్పయ్యనాయుడు",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is Raghupathi Venkaiah Naidu's father's name?"
+  },
+  "telugu--3953033159814705946-0": {
+   "question": "మహారాష్ట్ర లో ఉన్న అతిపెద్ద నగరం ఏది?",
+   "answer": "ముంబయి",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which is the largest city in Maharashtra?"
+  },
+  "telugu-6513532292911302929-0": {
+   "question": "తారకాసురుడు యొక్క తండ్రి పేరేంటి?",
+   "answer": "వజ్రానకుడు",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Tarakasura's father?"
+  },
+  "telugu-4695774552164420581-1": {
+   "question": "షంషుద్దీన్ ఎక్కడ జన్మించాడు?",
+   "answer": "ఖమ్మం జిల్లాలోని చింతకాణి గ్రామం",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Shamshuddin born?"
+  },
+  "telugu-8126767212033764171-3": {
+   "question": "పరమ వీర చక్ర పురస్కారంను అందుకున్న మొదటి వ్యక్తి ఎవరు?",
+   "answer": "మేజర్ సోమనాథ్ శర్మ",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first person to receive the Parama Veera Chakra award?"
+  },
+  "telugu--1414160643307733205-0": {
+   "question": "ఉస్మాన్ ఆలీ ఖాన్ తండ్రి పేరేంటి?",
+   "answer": "మహబూబ్ ఆలీ ఖాన్",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is Usman Ali Khan's father's name?"
+  },
+  "telugu-4647361663725668377-1": {
+   "question": "2011 నాటికి పల్లంకుర్రు గ్రామ జనాభా ఎంత?",
+   "answer": "12423",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Palankurru village as of 2011?"
+  },
+  "telugu--5850870213252444707-0": {
+   "question": "చినవంక గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "415 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Chinavanka village?"
+  },
+  "telugu--407325054538441230-1": {
+   "question": "కోటికేశవరం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "533290",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Kotikesavaram village pin code?"
+  },
+  "telugu-5857225547647467698-14": {
+   "question": "సింగరాయకొండ గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "1,548 హెక్టారులు",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Singarayakonda village?"
+  },
+  "telugu-3732769311547664392-0": {
+   "question": "జిల్లెడిపూడి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "841 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Jilledipudi village?"
+  },
+  "telugu-4104336235161592703-1": {
+   "question": "రాయపల్లి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "496 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Rayapalli village?"
+  },
+  "telugu--1496801181529035639-1": {
+   "question": "వేమూరి వేంకటేశ్వరరావు తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "వేమూరి సోమేశ్వరరావు మరియు తెన్నేటి సీతమ్మ",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are the names of Vemuri Venkateswara Rao's parents?"
+  },
+  "telugu-4503799920784012214-0": {
+   "question": "మొగుళ్ళపల్లి నుండి వరంగల్ కి ఎంత దూరం?",
+   "answer": "67 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Mugullapally to Warangal?"
+  },
+  "telugu-762746933511858313-0": {
+   "question": "నిదానంపాడు గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "522612",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of village Nidanapadu?"
+  },
+  "telugu--5931268618417143904-0": {
+   "question": "2011 నాటికి తక్కెళ్ళపాడు గ్రామ జనాభా ఎంత?",
+   "answer": "1320",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Takkelpadu village as of 2011?"
+  },
+  "telugu-4436857607377049614-6": {
+   "question": "ప్లేక్సాస్ వెబ్ సర్వర్ రచయిత ఎవరు?",
+   "answer": "టోనీ సాండెర్స్",
+   "gold": "who",
+   "pred": "which",
+   "english_question": "Who is the author of Plexus web server?"
+  },
+  "telugu-7630802943810999135-0": {
+   "question": "దూసి గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "641 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Dusi village?"
+  },
+  "telugu-3909867429318160430-0": {
+   "question": "వూటగెడ్డ గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "535145",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Wootagedda village?"
+  },
+  "telugu-1062288017596117450-2": {
+   "question": "చొక్కండ్లపల్లె గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "1151 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Chokkandlapalle village?"
+  },
+  "telugu--6685339955364562274-0": {
+   "question": "బెసైపెట్టు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "85 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Besaipettu village?"
+  },
+  "telugu-2633461991681613199-0": {
+   "question": "పరింపూడి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "4259 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Parimpudi village?"
+  },
+  "telugu-8007205440339949177-0": {
+   "question": "పోతెగుంట గ్రామ పిన్ కోడ్ ఎంత ?",
+   "answer": "524407",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Potegunta village?"
+  },
+  "telugu--2872307516355500199-0": {
+   "question": "ఏనుగు సగటు జీవిత కాలం ఎంత ?",
+   "answer": "70 సంవత్సరాలు కంటే ఎక్కువగా",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the average life span of an elephant?"
+  },
+  "telugu-4579575691120726673-0": {
+   "question": "బల్ సరాయ్ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "676 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of village Bal Sarai?"
+  },
+  "telugu-1204212152454557697-3": {
+   "question": "ఆమీ లీ భర్త పేరేమిటి ?",
+   "answer": "జోష్ హర్జ్‌లర్",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is Amy Lee's husband's name?"
+  },
+  "telugu--6650652802751049121-0": {
+   "question": "గిల్లిగొండి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "531133",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Gilligondi village pin code?"
+  },
+  "telugu-5396571801290910867-17": {
+   "question": "తలారివెట్టు గ్రామంలో అధికంగా పండే పంట ఏది?",
+   "answer": "వరి, వేరుశనగ, చెరకు",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which is the most abundant crop in Talarivettu village?"
+  },
+  "telugu--8652869396874309461-2": {
+   "question": "రంగులు ఎన్ని రకాలు?",
+   "answer": "రెండు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many types of colors?"
+  },
+  "telugu--5783249057624572712-0": {
+   "question": "యుగాలు ఎన్ని?",
+   "answer": "నాలుగు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many eras?"
+  },
+  "telugu--5740967483434187526-0": {
+   "question": "పెద్ద తుంబలం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "3144 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Pedda Tumbalam village?"
+  },
+  "telugu--3285628036396185959-0": {
+   "question": "జెర్రిపొతులపాలెం గ్రామ పిన్ కోడ్ ఎంత?",
+   "answer": "530027",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Jerripothulapalem village?"
+  },
+  "telugu--2717211874956452304-10": {
+   "question": "లెయోన్ చిత్ర దర్శకుడు ఎవరు ?",
+   "answer": "లుక్ బెసోన్",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the director of Leon movie?"
+  },
+  "telugu-1405430503004515382-2": {
+   "question": "రుస్తుంబాద గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "1238 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the area of Rustumbada village?"
+  },
+  "telugu-3575388972580136242-0": {
+   "question": "దొండలవలస గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "42 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Dondalavalasa village?"
+  },
+  "telugu-8886857687342225827-0": {
+   "question": "2011 జనగణన ప్రకారం  చెలికానివారి పోతేపల్లి గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+   "answer": "792",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "According to 2011 census how many women are there in Pothepalli village of Chelikanivari?"
+  },
+  "telugu--1182505954974481191-2": {
+   "question": "కేతేపల్లి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "2561 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kethepalli village?"
+  },
+  "telugu-8356975782443648326-5": {
+   "question": "లాల్ కృష్ణ అద్వానీ ఏ పార్టీకి చెందినవాడు?",
+   "answer": "భారతీయ జనతా పార్టీ",
+   "gold": "NONE",
+   "pred": "which",
+   "english_question": "Lal Krishna Advani belongs to which party?"
+  },
+  "telugu-623671250513987569-1": {
+   "question": "గిరీష్ కర్నాడ్ జన్మస్థలం ఏది ?",
+   "answer": "మహారాష్ట్రలోని మథేరా",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which is the birth place of Girish Karnad?"
+  },
+  "telugu-8149601904083835013-0": {
+   "question": "2011 నాటికి వండువ గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "593",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many houses are there in Vanduva village as of 2011?"
+  },
+  "telugu--3346471557079852751-0": {
+   "question": "ఉద్ధానం రామకృష్ణపురం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "60 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Uddhanam Ramakrishnapuram village?"
+  },
+  "telugu--4462374222991037392-0": {
+   "question": "రావులపర్రు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "637 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ravulaparru village?"
+  },
+  "telugu-6739016594433115540-0": {
+   "question": "నల్లమల అడవులు ఆంధ్రప్రదేశ్ లో  ఎన్ని జిల్లాలలో విస్తరించి ఉంది?",
+   "answer": "ఐదు",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "Nallamala forests are spread in how many districts of Andhra Pradesh?"
+  },
+  "telugu--1626927074160241543-0": {
+   "question": "రాములకొండ గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "28 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ramulakonda village?"
+  },
+  "telugu--6600657745231265295-0": {
+   "question": "మక్కపేట గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "981 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Makkapet village?"
+  },
+  "telugu-8253928922712570370-4": {
+   "question": "తూర్పు విప్పర్రు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "310 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of East Viparru village?"
+  },
+  "telugu--3447227837209308442-1": {
+   "question": "హమీదా బాను బేగం ఏ మతానికి చెందినది?",
+   "answer": "ముస్లిం",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "Hamida Banu Begum belonged to which religion?"
+  },
+  "telugu-8185427475266241264-4": {
+   "question": "పుపుల్ జయకర్ భర్త పేరేంటి?",
+   "answer": "మన్మోహన్ జయకర్",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Pupul Jayakar's husband?"
+  },
+  "telugu-382790196080423292-0": {
+   "question": "2011 నాటికి  కోరుకొండ గ్రామ  జనాభా ఎంత ?",
+   "answer": "9228",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Korukonda village as of 2011?"
+  },
+  "telugu-997773189427554722-0": {
+   "question": "విజ్జేశ్వరం గ్రామ విస్తీర్ణం ఎంత ?",
+   "answer": "282 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Vijjeshwaram village?"
+  },
+  "telugu--7291245216548778888-0": {
+   "question": "శేరినరసన్నపాలెం గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "369 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Serinarasannapalem village?"
+  },
+  "telugu-8504506071223648151-0": {
+   "question": "ఎగవలసపల్లి గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "585140",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Egavalasapalli village?"
+  },
+  "telugu-740756690946067338-0": {
+   "question": "నెరుడుబండ గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "0 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Nerudubanda village?"
+  },
+  "telugu--5671144852763198029-1": {
+   "question": "పనసలొద్ది గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "533483",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Panasaloddi village?"
+  },
+  "telugu--7618410241789574352-1": {
+   "question": "వెల్లంకి తాతంభట్టు తండ్రి పేరేంటి?",
+   "answer": "యబ్బయ్య",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is Vellamki Tatambhattu's father's name?"
+  },
+  "telugu--8902283708563645540-2": {
+   "question": "తురగా జనకీరాణి భర్త పేరేమిటి ?",
+   "answer": "తురగా కృష్ణమోహన్",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Turaga Janakirani's husband?"
+  },
+  "telugu--8276825699979661869-8": {
+   "question": "ఆంధ్రప్రదేశ్ రాష్ట్ర శాసన మండలి ఎప్పుడు పునఃస్థాపించబడింది?",
+   "answer": "2007 ఏప్రిల్",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Andhra Pradesh State Legislative Council reconstituted?"
+  },
+  "telugu-1327025946082456622-4": {
+   "question": "ఆర్య నటించిన మొదటి చిత్రం ఏది?",
+   "answer": "అరియమలుమ్(2005)",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which was Arya's first movie?"
+  },
+  "telugu-4651424343128722319-6": {
+   "question": "దామరాజు పుండరీకాక్షుడు ఎప్పుడు మరణించాడు?",
+   "answer": "1975",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Damaraju Pundarikaksha die?"
+  },
+  "telugu--8891913951487169326-0": {
+   "question": "జీఎస్‌ఎల్‌వి-F04 ఉపగ్రహ వాహకనౌకని అంతరిక్షములోకి ఎప్పుడు ప్రవేశపెట్టారు?",
+   "answer": "2 వతేదీ, సెప్టెంబరు, 2007",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the GSLV-F04 satellite launch vehicle launched into space?"
+  },
+  "telugu-5084030639229316953-2": {
+   "question": "గోవింద్ పన్సారే సీపీఐ పార్టీ లో ఎప్పుడు చేరాడు?",
+   "answer": "1952",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Govind Pansare join the CPI party?"
+  },
+  "telugu--55654700119000497-1": {
+   "question": "డామే అన్నా విన్టోర్ ఎక్కడ జన్మించాడు?",
+   "answer": "లండన్ లోని హాంప్స్టెడ్",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Dame Anna Wintour born?"
+  },
+  "telugu--167811619269044618-0": {
+   "question": "బంటనహళ్ గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "1222 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of village Bantanahal?"
+  },
+  "telugu-1618530107620974565-0": {
+   "question": "వల్లభాపురం గ్రామ యొక్క విస్తీర్ణం ఎంత ?",
+   "answer": "858 హెక్టార్లల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Vallabhapuram village?"
+  },
+  "telugu-1676555275330387030-0": {
+   "question": "అన్న సినిమాను ఐఫా చలన చిత్రోత్సవంలో ఎప్పుడు ప్రదర్శించారు?",
+   "answer": "1995",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Anna's movie screened at IIFA Film Festival?"
+  },
+  "telugu-5867941296833988746-0": {
+   "question": "బాణాం నుండి శ్రీకాకుళం కు ఎంత దూరం?",
+   "answer": "23 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Banam to Srikakulam?"
+  },
+  "telugu--4718620258852430300-0": {
+   "question": "కెఎస్‌ఆర్‌ఎమ్ ఇంజనీరింగ్ కళాశాల ఎక్కడ ఉంది?",
+   "answer": "ఆంధ్ర ప్రదేశ్ యొక్క కడప నగరం వెలుపల, కడప నుండి చింతకొమ్మదిన్నె వెల్లే రహదారిలోని  ఎర్రమాసుపల్లె",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is KSRM Engineering College located?"
+  },
+  "telugu--4430797098823265093-0": {
+   "question": "బగ్గ గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ ఏంటి?",
+   "answer": "37774",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the census location code of Bagga village?"
+  },
+  "telugu--328056891919666369-17": {
+   "question": "2001 జనాభా లెక్కల ప్రకారం భానుముక్కల గ్రామంలోని స్త్రీల సంఖ్య ఎంత ?",
+   "answer": "2,045",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "According to 2001 census what is the number of women in Bhanumukkala village?"
+  },
+  "telugu--5864880835678716698-6": {
+   "question": "మర్రిపూడి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "4380 హెక్టారులు",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Marripudi village?"
+  },
+  "telugu--8194228042991988190-2": {
+   "question": "2011 గణాంకాల ప్రకారం సోమవరప్పాడు గ్రామ జనాభా ఎంత?",
+   "answer": "3015",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Somavarappadu village as per 2011 statistics?"
+  },
+  "telugu-2126379261742190860-5": {
+   "question": "కావేరిమహారాజులుంగారీగ్రహారం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "650 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Kaverimaharajulungarigraharam village?"
+  },
+  "telugu-8313779368877574477-8": {
+   "question": "నలందా విశ్వవిద్యాలయంను ఎప్పుడు ప్రారంభించారు?",
+   "answer": "క్రీ.శ. 450",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Nalanda University started?"
+  },
+  "telugu-3786361596107259436-2": {
+   "question": "అమేజాన్ ఫైర్‌ఫోన్ ని అమెజాన్ సంస్థ ఎప్పుడు విడుదల చేసింది?",
+   "answer": "2014 జూన్ 18",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Amazon company released the Amazon FireFone?"
+  },
+  "telugu-6466275081959274898-0": {
+   "question": "2011 జనగణన ప్రకారం చెలిమారివలస గ్రామములో పురుషుల సంఖ్య ఎంత?",
+   "answer": "81",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census what is the number of males in Chelimarivalasa village?"
+  },
+  "telugu--1181159886776109180-6": {
+   "question": "స్టెఫానే మారియా గ్రాఫ్ తల్లిదండ్రుల పేర్లేమిటి?",
+   "answer": "పీటర్ గ్రాఫ్",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are the parents' names of Stefanie Maria Graf?"
+  },
+  "telugu-1523477131206705337-4": {
+   "question": "కాపర్ సల్ఫేట్ యొక్క  ద్రవీభవన స్థానం ఎంత ?",
+   "answer": "150°C",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the melting point of copper sulphate?"
+  },
+  "telugu--5001161027362363390-6": {
+   "question": "చిరపుంజీ సముద్రమట్టం నుండి ఎంత ఎత్తులో ఉంది ?",
+   "answer": "1370మీటర్లు",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How high is Cherrapunji above sea level?"
+  },
+  "telugu--606418107161930490-0": {
+   "question": "దాతురు గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "502 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Daturu village?"
+  },
+  "telugu-8512712591011307880-1": {
+   "question": "రెడ్డిపల్లి గ్రామ పిన్ కోడ్ ఏంటి?",
+   "answer": "505503",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the pin code of Reddipally village?"
+  },
+  "telugu-6608816980210762837-1": {
+   "question": "చంద్రశేఖరేంద్ర సరస్వతి స్వామి ఎక్కడ జన్మించాడు?",
+   "answer": "దక్షిణ తమిళనాడులోని దక్షిణ ఆర్కాట్ జిల్లాలోని విల్లుపురం",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Chandrasekharendra Saraswati Swami born?"
+  },
+  "telugu--3406235526541671609-0": {
+   "question": "పొన్నపల్లి గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "671 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Ponnappalli village?"
+  },
+  "telugu--3273318773353031826-0": {
+   "question": "తాటిపాలెం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "71 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Tattipalem village?"
+  },
+  "telugu-7517799190253635121-0": {
+   "question": "మానెగుంటపాడు నుండి నెల్లూరు కి ఎంత దూరం?",
+   "answer": "15 కి. మీ",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How far is it from Maneguntapadu to Nellore?"
+  },
+  "telugu-2993588682501501056-0": {
+   "question": "పాలుట్ల గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "169 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Palutla village?"
+  },
+  "telugu--456436026316094789-1": {
+   "question": "2011 జనాభా లెక్కల ప్రకారం బండకొంద గ్రామ జనాభా ఎంత?",
+   "answer": "14",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Bandakonda village according to 2011 census?"
+  },
+  "telugu-5418992947019922414-2": {
+   "question": "నల్లారి కిరణ్ కుమార్ రెడ్డి భార్య పేరేమిటి?",
+   "answer": "రాధికారెడ్డి",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Nallari Kiran Kumar Reddy's wife?"
+  },
+  "telugu-2171042096945528000-0": {
+   "question": "2011 జనగణన ప్రకారం జంగంపాడు గ్రామములో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "15",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census, how many houses are there in Jangampadu village?"
+  },
+  "telugu--4906630013951901327-1": {
+   "question": "గొబ్బిలమడుగు గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "552 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Gobbilamadugu village?"
+  },
+  "telugu-163662792776459186-1": {
+   "question": "ఖండాలలో అతిపెద్ద ఖండం ఏది?",
+   "answer": "ఆసియా",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which is the largest continent?"
+  },
+  "telugu-2031815126335706317-2": {
+   "question": "2011 జనగణన ప్రకారం పెద్ద అడిశర్లపల్లి గ్రామములో పురుషుల సంఖ్య ఎంత?",
+   "answer": "6136",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "According to 2011 census what is the number of males in the village of Pedda Adisarlapalli?"
+  },
+  "telugu--92291811373439143-0": {
+   "question": "గట్టుపల్లి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "4227 హెక్టార్ల",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Gattupalli village?"
+  },
+  "telugu--657759985724074404-13": {
+   "question": "ఏటుకూరి బలరామమూర్తి ఏ సంవత్సరంలో మరణించారు ?",
+   "answer": "1996",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In which year did Aetukuri Balarama Murthy die?"
+  },
+  "telugu-8568473327636172507-0": {
+   "question": "బొర్రామంబపురం గ్రామ విస్తీర్ణత ఎంత?",
+   "answer": "81 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Borramambapuram village?"
+  },
+  "telugu-4890017941420323792-0": {
+   "question": "రాజీవ్ గాంధీ ఎప్పుడు మరణించాడు?",
+   "answer": "మే 21, 1991",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Rajiv Gandhi die?"
+  },
+  "telugu-4674911647699126792-1": {
+   "question": "రాచమల్లు రామచంద్రారెడ్డి తండ్రి పేరేంటి?",
+   "answer": "భయపు రెడ్డి",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the father's name of Rachamallu Ramachandra Reddy?"
+  },
+  "telugu-2806638141189394237-0": {
+   "question": "గబురుమామిడి గ్రామ విస్తీర్ణం ఎంత?",
+   "answer": "65 హెక్టార్లలో",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the area of Gaburumamidi village?"
+  },
+  "telugu-7537405400545875715-1": {
+   "question": "2011 నాటికి లచ్చిపాలెం గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "245",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many houses are there in Lacchipalem village as of 2011?"
+  },
+  "telugu-4665610752691275402-20": {
+   "question": "అన్నవరం లో ఉన్న శ్రీ వీర వెంకట సత్యనారాయణ స్వామి వారి దేవస్థానాన్ని ఎప్పుడు నిర్మించారు?",
+   "answer": "సా. శ. 1934",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Sri Veera Venkata Satyanarayana Swamy's Devasthanam built in Annavaram?"
+  },
+  "telugu-4503152514719341819-0": {
+   "question": "2011 జనగణన ప్రకారం బొరవంచ గ్రామములో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+   "answer": "724",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "According to 2011 census how many houses are there in Boravancha village?"
+  },
+  "telugu-1710238401545053429-1": {
+   "question": "తాడేపల్లి రాఘవ నారాయణ శాస్త్రి ఎక్కడ జన్మించాడు?",
+   "answer": "గుంటూరు జిల్లా లోని చందోలు (చందవోలు) గ్రామం",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Tadepalli Raghava Narayana Shastri born?"
+  },
+  "telugu-6864900869020429717-14": {
+   "question": "2011 నాటికి అంబాపురం గ్రామ జనాభా ఎంత?",
+   "answer": "2,247",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Ambapuram village as of 2011?"
+  }
+ }
+}
