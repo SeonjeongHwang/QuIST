@@ -1,4 +1,4 @@
 # QuIST
 
 + The question exemplars used in our experiments are located in the `data` folder.
-+ The trained models will be uploaded to huggingface after the anonymous period ends.
++ Training model and execution script will be uploaded soon.
