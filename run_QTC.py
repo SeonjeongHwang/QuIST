@@ -5,18 +5,15 @@ import random
 import numpy as np
 import argparse
 import collections
-import nltk
 
 import evaluate
 
 import torch
 from torch.utils.data import Dataset, DataLoader, default_collate
-from datasets import load_dataset
 from transformers import  AutoModelForSequenceClassification, AutoTokenizer, TrainingArguments, Trainer, default_data_collator, EarlyStoppingCallback
 FeatInst = collections.namedtuple('FeatInst', 'unique_id input_ids attention_mask token_type_ids labels')
 
 args = None
-LANGCODE = {"en": "english", "bn": "bengali", "id": "indonesian", "sw": "swahili", "te": "telugu", "ko": "korean", "fi": "finnish", "de": "german", "zh": "chinese", "hi": "hindi"}
 
 with open("data/interro_list.json", "r") as fin:
     LABEL_LIST = json.load(fin)
@@ -34,25 +31,15 @@ def parse_argument():
     parser.add_argument("--seed", type=int, default=2024)
 
     parser.add_argument("--do_train", action="store_true")
-    parser.add_argument("--do_test", action="store_true")
+    parser.add_argument("--do_eval", action="store_true")
     parser.add_argument("--do_inference", action="store_true")
+    parser.add_argument("--inference_lang", choices=["bn", "de", "fi", "hi", "id", "ko", "te", "sw", "zh"])
 
-    parser.add_argument("--do_generate", action="store_true")
-    parser.add_argument("--generation_input_file", type=str, default=None)
-    parser.add_argument("--generated_file", type=str, default=None)
-
-    parser.add_argument("--output_dir", type=str, default="output")
-    parser.add_argument("--exp_tag", type=str, default="test")
-    parser.add_argument("--use_checkpoint", action="store_true")
-    parser.add_argument("--checkpoint", type=str)
-
+    parser.add_argument("--exp_dir", type=str, default=None)
     parser.add_argument("--model_name", type=str, default="bert-base-multilingual-cased")
     parser.add_argument("--max_seq_length", type=int, default=512)
-    parser.add_argument("--inference_dataset", type=str, choices=["tydiqa", "xquad", "squad"])
-    parser.add_argument("--inference_lang", type=str, default=None)
     parser.add_argument("--freeze_encoder", action="store_true")
     parser.add_argument("--label_balance", action="store_true")
-    parser.add_argument("--use_answer_context", action="store_true")
 
     args = parser.parse_args()
 
@@ -66,70 +53,14 @@ def seed_everything(seed):
     torch.backends.cudnn.benchmark = False
 
 class Dataset(Dataset):
-    def __init__(self, lang, tokenizer, mode):
-        assert lang in LANGCODE.keys()
+    def __init__(self, tokenizer, lang, split):
         super().__init__()
         self.tokenizer = tokenizer
-        self.mode = mode
+        self.lang = lang
+        self.split = split
 
         print(f"Generate features...")
-        if args.do_generate:
-            self.features, self.unique_id_to_gold = self.get_syn_features()
-
-        else:
-            samples = []
-            if args.inference_dataset == "tydiqa":
-                assert lang in ["bn", "id", "sw", "te", "ko", "fi"]
-                s = load_dataset("tydiqa", "secondary_task", split="validation")
-                lang_name = LANGCODE[lang]
-                for sample in s:
-                    if sample["id"].startswith(lang_name):
-                        context = f"[{sample['title']}] {sample['context']}"
-                        question = sample["question"]
-                        answer = sample["answers"]["text"][0]
-                        answer_start = sample["answers"]["answer_start"][0] + len(f"[{sample['title']}] ")
-                        samples.append({"id": sample["id"], "context": context, "question": question, "answer": answer, "answer_start": answer_start}) 
-
-            elif args.inference_dataset == "xquad":
-                assert lang in ["de", "zh", "hi"]
-                s = load_dataset("xquad", f"xquad.{lang}", split="validation")
-                for sample in s:
-                    context = sample["context"]
-                    question = sample["question"]
-                    answer = sample["answers"]["text"][0]
-                    answer_start = sample["answers"]["answer_start"][0]
-                    samples.append({"id": sample["id"], "context": context, "question": question, "answer": answer, "answer_start": answer_start})
-
-            elif args.inference_dataset == "squad":
-                assert lang in ["en"]
-                with open(f"data/SQuADv1.1_newsplits/test.json", "r") as fin:
-                    data_list = json.load(fin)["data"]
-                for data in data_list:
-                    title = data["title"]
-                    paras = data["paragraphs"]
-                    for para in paras:
-                        context = f"[{title}] {para['context']}"
-                        for qa in para["qas"]:
-                            question = qa["question"]
-                            answer = qa["answers"][0]["text"]
-                            samples.append({"id": qa["id"], "context": context, "question": question, "answer": answer})
-                            
-            elif lang == "en":
-                with open(f"data/SQuADv1.1_QT/{mode}.json", "r") as fin:
-                    data_list = json.load(fin)["data"]
-                for data in data_list:
-                    title = data["title"]
-                    paras = data["paragraphs"]
-                    for para in paras:
-                        context = f"[{title}] {para['context']}"
-                        for qa in para["qas"]:
-                            question = qa["question"]
-                            answer = qa["answers"][0]["text"]
-                            answer_start = qa["answers"][0]["answer_start"] + len(f"[{sample['title']}] ")
-                            label = qa["answers"][0]["label"]
-                            samples.append({"id": qa["id"], "context": context, "question": question, "answer": answer, "answer_start": answer_start, "label": label})
-
-            self.features, self.unique_id_to_gold = self.get_features(samples, mode)
+        self.features, self.unique_id_to_id = self.get_features()
         print("feature num:", len(self.features))
 
     def __len__(self):
@@ -148,37 +79,46 @@ class Dataset(Dataset):
         results = FeatInst(*(default_collate(samples) for samples in zip(*batch)))
         return results
     
-    def get_features(self, samples, mode):
+    def get_data_list(self):
+        data_list = []
+        if self.lang == "en":
+            with open(f"data/SQuADv1.1_QT/{self.split}.json", "r") as fin:
+                samples = json.load(fin)["data"]
+            for sample in samples:
+                title = sample["title"]
+                paras = sample["paragraphs"]
+                for para in paras:
+                    context = f"[{title}] {para['context']}"
+                    for qa in para["qas"]:
+                        answer = qa["answers"][0]["text"]
+                        question_type = qa["answers"][0]["label"]
+                        data_list.append({"id": qa["id"], "context": context, "answer": answer, "question_type": question_type})
+        else:
+            assert self.lang in ["bn", "de", "fi", "id", "ko", "te", "sw", "zh"]
+            assert self.split == "inference"
+            data_list = json.load(open(f"data/target/{self.lang}.test.json"))
+
+        return data_list
+    
+    def get_features(self):
+        data_list = self.get_data_list()
+
         unique_id = 0
-        unique_id_to_gold = dict()
+        unique_id_to_id = dict()
         features = []
-        label_to_features = dict([(i, []) for i, label in enumerate(LABEL_LIST)])
+        label_to_features = dict([(i, []) for i, _ in enumerate(LABEL_LIST)])
 
-        passed = 0
-        for sample in tqdm.tqdm(samples):
-            context = sample["context"]
-            question = sample["question"]
-            answer = sample["answer"]
+        for data in tqdm.tqdm(data_list):
+            context = data["context"]
+            answer = data["answer"]
 
-            if args.use_answer_context:
-                answer_start = sample["answer_start"]
-                answer_end = answer_start + len(answer) - 1
-
-                context_sentences = []
-                for sent in nltk.sent_tokenize(context):
-                    sent_start = context.find(sent)
-                    sent_end = sent_start + len(sent) - 1
-                    if not (answer_end < sent_start or sent_end < answer_start):
-                        context_sentences.append(sent)
-                context = " ".join(context_sentences)
-
-            if mode != "inference":
-                if sample["label"] == "NONE":
-                    passed += 1
-                    continue
-                label = LABEL_LIST.index(sample["label"])
-            else:
+            if self.split == "inference":
                 label = -1
+            else:
+                question_type = data["question_type"]
+                if question_type == "NONE":
+                    continue
+                label = LABEL_LIST.index(question_type)
             
             inputs = self.tokenizer(answer, context, max_length=args.max_seq_length, truncation="only_second", padding='max_length')
             assert len(inputs["input_ids"]) == args.max_seq_length
@@ -195,15 +135,12 @@ class Dataset(Dataset):
                            "attention_mask": inputs["attention_mask"],
                            "labels": label}
             features.append(feature)
-            if mode == "train":
+            if self.split == "train":
                 label_to_features[label].append(feature)
-            unique_id_to_gold[unique_id] = {"id": sample["id"], 
-                                            "question": question,
-                                            "answer": answer}
+            unique_id_to_id[unique_id] = data["id"]
             unique_id += 1
 
-        print(f"Passed: {passed}/{len(samples)}")
-        if args.label_balance and mode == "train":
+        if args.label_balance and self.split == "train":
             print("Original label distribution:", dict((k, len(v)) for k,v in label_to_features.items()))
             max_num = -1
             for v in label_to_features.values():
@@ -222,57 +159,7 @@ class Dataset(Dataset):
                     assert len(aug_features) == max_num
                     features += aug_features            
 
-        return features, unique_id_to_gold
-    
-    def get_syn_features(self):
-        unique_id = 0
-        unique_id_to_gold = dict()
-        features = []
-
-        with open(args.generation_input_file, "r") as fin:
-            data_dict = json.load(fin)
-
-        for _id, data in tqdm.tqdm(data_dict.items(), total=len(data_dict.keys())):
-            document = data["context"]
-            for aid, answer in enumerate(data["pred"]):
-                answer_text = answer["text"]
-                context = document[:]
-                
-                if args.use_answer_context:
-                    answer_start = answer["char_start"]
-                    answer_end = answer["char_end"]
-
-                    context_sentences = []
-                    for sent in nltk.sent_tokenize(context):
-                        sent_start = context.find(sent)
-                        sent_end = sent_start + len(sent) - 1
-                        if not (answer_end < sent_start or sent_end < answer_start):
-                            context_sentences.append(sent)
-                    context = " ".join(context_sentences)
-
-                label = -1
-
-                inputs = self.tokenizer(answer_text, context, max_length=args.max_seq_length, truncation="only_second", padding='max_length')
-                assert len(inputs["input_ids"]) == args.max_seq_length
-
-                if "token_type_ids" in inputs.keys():
-                    feature = {"unique_id": unique_id,
-                            "input_ids": inputs["input_ids"],
-                            "attention_mask": inputs["attention_mask"],
-                            "token_type_ids": inputs["token_type_ids"],
-                            "labels": label}
-                else:
-                    feature = {"unique_id": unique_id,
-                            "input_ids": inputs["input_ids"],
-                            "attention_mask": inputs["attention_mask"],
-                            "labels": label}
-                features.append(feature)
-                unique_id_to_gold[unique_id] = {"id": f"{_id}-{aid}",
-                                                "question": "Empty",
-                                                "answer": answer_text}
-                unique_id += 1         
-
-        return features, unique_id_to_gold
+        return features, unique_id_to_id
 
 def compute_metrics(EvalPred):
     total_preds, references = EvalPred
@@ -333,17 +220,13 @@ def inference(model, dataset, device, result_file):
         scores = None
 
     results = dict()
-    for unique_id, pred, ref in zip(unique_ids, preds, golds):
-        _id = dataset.unique_id_to_gold[unique_id]["id"]
-        question = dataset.unique_id_to_gold[unique_id]["question"]
-        answer = dataset.unique_id_to_gold[unique_id]["answer"]
+    for unique_id, pred, gold in zip(unique_ids, preds, golds):
+        _id = dataset.unique_id_to_id[unique_id]
 
         pred_interro = label2interro[pred]
-        ref_interro = label2interro[ref]
+        gold_interro = label2interro[gold]
 
-        results[_id]= {"question": question,
-                       "answer": answer,
-                       "gold": ref_interro,
+        results[_id]= {"gold": gold_interro,
                        "pred": pred_interro}
         
     with open(result_file, "w", encoding="UTF-8") as fout:
@@ -352,44 +235,33 @@ def inference(model, dataset, device, result_file):
 if __name__ == "__main__":
     parse_argument()
 
-    os.makedirs(args.output_dir, exist_ok=True)
-    model_dir = os.path.join(args.output_dir, args.exp_tag)
-    os.makedirs(model_dir, exist_ok=True)
-    
-
-    config = os.path.join(model_dir, "config.json")
-    if args.use_checkpoint or args.checkpoint:
-        with open(config, "r") as fin:
-            arg_dict = json.load(fin)
-            args.seed = arg_dict["seed"]
-            args.model_name = arg_dict["model_name"]
-            args.max_seq_length = arg_dict["max_seq_length"]
-            args.use_answer_context = arg_dict["use_answer_context"]
-    print(args)
+    if args.exp_dir:
+        os.makedirs(args.exp_dir, exist_ok=True)
+        config = os.path.join(args.exp_dir, "config.json")
 
     if args.do_train:
-        config = os.path.join(model_dir, "config.json")
+        config = os.path.join(args.exp_dir, "config.json")
         with open(config, "w") as fout:
             json.dump(vars(args), fout, indent=1)
+    elif args.exp_dir:
+        config_dict = json.load(open(config))
+        args.max_seq_length = config_dict["max_seq_length"]
 
     seed_everything(args.seed)
     device = torch.device("cuda")
-
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
-    model = AutoModelForSequenceClassification.from_pretrained(args.model_name, num_labels=len(LABEL_LIST))
-    print(model) 
 
     if args.do_train:
+        model = AutoModelForSequenceClassification.from_pretrained(args.model_name, num_labels=len(LABEL_LIST))
+
         ### Load Dataset
         print("Generate train features...")
-        train_dataset = Dataset("en", tokenizer, "train")
-
+        train_dataset = Dataset(tokenizer, "en", "train")
         print("Generate valid features...")
-        valid_dataset = Dataset("en", tokenizer, "dev")
+        valid_dataset = Dataset(tokenizer, "en", "dev")
 
-        
         training_args = TrainingArguments(
-            output_dir=model_dir,
+            output_dir=args.exp_dir,
             num_train_epochs=args.epochs,
             per_device_train_batch_size=args.batch_size,
             per_device_eval_batch_size=args.valid_batch_size,
@@ -429,44 +301,35 @@ if __name__ == "__main__":
             callbacks = [EarlyStoppingCallback(early_stopping_patience=args.early_stop)]
         )
 
-        trainer.train(resume_from_checkpoint=args.use_checkpoint)
+        trainer.train()
+        trainer.save_model(f"{args.exp_dir}/best")
 
-    if args.do_test:
+    os.makedirs("evaluation_results", exist_ok=True)
+
+    if args.do_eval:
         ### Load Dataset
         print("Generate valid features...")
-        test_dataset = Dataset("en", tokenizer, "test")
+        test_dataset = Dataset(tokenizer, "en", "dev")
 
-        assert args.checkpoint is not None
-        checkpoint_dir = os.path.join(model_dir, f"checkpoint-{args.checkpoint}")
-        model = AutoModelForSequenceClassification.from_pretrained(checkpoint_dir)
+        if args.exp_dir:
+            checkpoint_dir = f"{args.exp_dir}/best"     
+            model = AutoModelForSequenceClassification.from_pretrained(checkpoint_dir)
+        else:
+            model = AutoModelForSequenceClassification.from_pretrained(args.model_name)
         model = model.to(device)
 
-        result_file = os.path.join(checkpoint_dir, f"test-en.json")
+        result_file = os.path.join("evaluation_results", f"qtc.evaluation_en.json")
         inference(model, test_dataset, device, result_file)
 
     if args.do_inference:
-        assert args.inference_lang is not None
-        inference_langs = args.inference_lang.split(",")
-        for lang in inference_langs:
-            ### Load Dataset
-            print("Lang:", lang)
-            print("Generate Inference features...")
-            test_dataset = Dataset(lang, tokenizer, "inference")
+        test_dataset = Dataset(tokenizer, args.inference_lang, "inference")
 
-            assert args.checkpoint is not None
-            checkpoint_dir = os.path.join(model_dir, f"checkpoint-{args.checkpoint}")
+        if args.exp_dir:
+            checkpoint_dir = f"{args.exp_dir}/best"     
             model = AutoModelForSequenceClassification.from_pretrained(checkpoint_dir)
-            model = model.to(device)
-
-            result_file = os.path.join(checkpoint_dir, f"inference-{args.inference_dataset}.{lang}.json")
-            inference(model, test_dataset, device, result_file)
-
-    if args.do_generate:
-        test_dataset = Dataset(None, tokenizer, "generation")
-
-        assert args.checkpoint is not None
-        checkpoint_dir = os.path.join(model_dir, f"checkpoint-{args.checkpoint}")
-        model = AutoModelForSequenceClassification.from_pretrained(checkpoint_dir)
+        else:
+            model = AutoModelForSequenceClassification.from_pretrained(args.model_name)
         model = model.to(device)
 
-        inference(model, test_dataset, device, result_file=args.generated_file)
+        result_file = os.path.join("evaluation_results", f"qtc.evaluation_{args.inference_lang}.json")
+        inference(model, test_dataset, device, result_file)

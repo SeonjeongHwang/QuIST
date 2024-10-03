@@ -1,0 +1,3963 @@
+{
+ "score": {
+  "Hard macro F1": 0.6378091224738287,
+  "Relaxed macro F1": 0.9635901388527439
+ },
+ "results": {
+  "indonesian-1906590851264221380-1": {
+   "question": "Siapakah yang menemuka benua Amerika ?",
+   "answer": "orang-orang Viking dari Eropa Utara",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who discovered the American continent?"
+  },
+  "indonesian-2929200220081600730-0": {
+   "question": "Dimanakah letak Donggala ?",
+   "answer": "provinsi Sulawesi Tengah, Indonesia",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Donggala located?"
+  },
+  "indonesian-4607285943632227849-2": {
+   "question": "Siapa bapak Teknik industri?",
+   "answer": "Frederick Winslow Taylor",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the father of industrial engineering?"
+  },
+  "indonesian--4964839677005994515-0": {
+   "question": "Kapan Penghulu Rasyid meninggal ?",
+   "answer": "15 Desember 1861",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Penghulu Rashid die?"
+  },
+  "indonesian-5827667072711256175-0": {
+   "question": "seberapa luas kah samudera pasifik?",
+   "answer": "179,7 juta km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How wide is the Pacific Ocean?"
+  },
+  "indonesian-1317243484848711212-0": {
+   "question": "apakah yang dimaksud denga geisha ?",
+   "answer": "seniman-penghibur (entertainer) tradisional Jepang",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by geisha?"
+  },
+  "indonesian-2697627882910527557-8": {
+   "question": "Kapan Bank BCA mengeluarkan kartu debit?",
+   "answer": "2000-an",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When does BCA Bank issue debit cards?"
+  },
+  "indonesian--3858210709123344411-0": {
+   "question": "Dimana kantor pusat General Motors?",
+   "answer": "Renaissance Center di Detroit, Michigan, Amerika Serikat",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is General Motors headquartered?"
+  },
+  "indonesian-3298833907673500763-10": {
+   "question": "Berapa luas kota Blitar?",
+   "answer": "32,58 km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is the city of Blitar?"
+  },
+  "indonesian--15863405150471405-0": {
+   "question": "Siapa yang menciptakan serial manga Crows?",
+   "answer": "Hiroshi Takahashi",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who created the Crows manga series?"
+  },
+  "indonesian-7541238870509425379-2": {
+   "question": "siapakah karakter utama serial anime dan manga Eyeshield 21?",
+   "answer": "Sena",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the main character of the anime and manga series Eyeshield 21?"
+  },
+  "indonesian--5958949481681307252-21": {
+   "question": "Siapakah yang merumuskan naskah proklamasi ?",
+   "answer": "Tadashi Maeda, Tomegoro Yoshizumi, S. Nishijima, S. Miyoshi, Mohammad Hatta, Soekarno, dan Achmad Soebardjo",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who formulated the text of the proclamation?"
+  },
+  "indonesian-7925028448701269832-0": {
+   "question": "Bagaimanakah sistem pemerintahan di Jepang ?",
+   "answer": "monarki konstitusional yang di dalamnya terdapat kuasa dari seorang Kaisar yang masih dibatasi dan hanya diturunkan terutama ketika melakukan tugas resmi",
+   "gold": "what",
+   "pred": "how-way",
+   "english_question": "What is the government system in Japan?"
+  },
+  "indonesian-1298115866203065769-0": {
+   "question": "kapankah Gerakan Pemuda Ansor didirikan?",
+   "answer": "24 April 1934",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Ansor Youth Movement founded?"
+  },
+  "indonesian--6426501256669401183-0": {
+   "question": "Apakah yang diceritakan dalam The Years of Rice and Salt?",
+   "answer": "dunia tanpa peradaban Kristen dan Eropa seperti yang kita ketahui sekarang",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is told in The Years of Rice and Salt?"
+  },
+  "indonesian--570537041513375231-2": {
+   "question": "apakah pendidikan terakhir  Budi Susilo Soepandji?",
+   "answer": "kursus gabungan Stanford University dan Asia-Pacific Centre for Security Studies (APCSS) di Amerika Serikat mengenai Geopolitik Dunia",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Budi Susilo Soepandji's final education?"
+  },
+  "indonesian--583453450122125019-0": {
+   "question": "dimanakah letak Cekungan Tarim?",
+   "answer": "Xinjiang China",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the Tarim Basin located?"
+  },
+  "indonesian--8049205462564184448-1": {
+   "question": "terbuat dari apakah Genta ?",
+   "answer": "logam",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Genta made of?"
+  },
+  "indonesian--9117916853695338851-0": {
+   "question": "Siapakah R.L. Stine?",
+   "answer": "penulis dan produser Amerika Serikat",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who is R.L. Stine?"
+  },
+  "indonesian-306902544801599758-5": {
+   "question": "Siapakah yang menggagas Determinisme biologis?",
+   "answer": "Thornstein Veblen",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who initiated biological determinism?"
+  },
+  "indonesian-5925872488574960756-0": {
+   "question": "Apakah nama lagu kebangsaan Jepang?",
+   "answer": "Kimigayo",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the Japanese national anthem?"
+  },
+  "indonesian--3048505686405703534-0": {
+   "question": "Dimana Konsili Kartago diadakan?",
+   "answer": "kota Kartago di Afrika",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was the Council of Carthage held?"
+  },
+  "indonesian--2713017846173138465-0": {
+   "question": "berapakah luas Bendung Katulampa?",
+   "answer": "5.000 hektare",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How wide is the Katulampa Dam?"
+  },
+  "indonesian--4700432985840902903-0": {
+   "question": "Apa nama ilmiah tumbuhan kaktus ?",
+   "answer": "Cactaceae",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the scientific name of the cactus plant?"
+  },
+  "indonesian-1305117806086659816-3": {
+   "question": "Kapan perahu pertama dibuat ?",
+   "answer": "masa Neolitikum",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the first boat built?"
+  },
+  "indonesian-2903207091537092754-0": {
+   "question": "dari manakah tari angin mamiri berasal?",
+   "answer": "suku Bugis di Sulawesi Selatan",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where does the Mamiri wind dance come from?"
+  },
+  "indonesian-231406860435832069-1": {
+   "question": "Kapan Yekaterina I lahir ?",
+   "answer": "15 April 1684",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Catherine I born?"
+  },
+  "indonesian--888256965388362496-0": {
+   "question": "Kapan Banjir Besar Gun-Yu pertama kali terjadi ?",
+   "answer": "milenium ke-3 SM",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Great Gun-Yu Flood first occur?"
+  },
+  "indonesian-4872122324683106303-92": {
+   "question": "kapankah presiden soeharto meninggal dunia?",
+   "answer": "27 Januari 2008 Pukul 13.10 WIB",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did President Soeharto die?"
+  },
+  "indonesian-4381316835208564836-1": {
+   "question": "Kapan Johann Ludwig Tieck lahir ?",
+   "answer": "31 Mei 1773",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Johann Ludwig Tieck born?"
+  },
+  "indonesian--1230803176174127151-0": {
+   "question": "Dimana letak Museum Anak Kolong Tangga?",
+   "answer": "Jalan Sriwedani No. 1, Yogyakarta",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the Kolong Tangga Children's Museum located?"
+  },
+  "indonesian-75053562526448830-0": {
+   "question": "apakah yang dimaksud dengan Hiragana?",
+   "answer": "cara penulisan bahasa Jepang dan mewakili sebutan sukukata",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by Hiragana?"
+  },
+  "indonesian-2690625855741799667-5": {
+   "question": "siapakah pendiri klub Leicester City?",
+   "answer": "sekelompok pemuda Wyggeston School",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the founder of the Leicester City club?"
+  },
+  "indonesian-884713245177664670-22": {
+   "question": "Apa lambang dari perusahaan Paramount Pictures?",
+   "answer": "gunung dengan lingkaran dari puluhan bintang",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the symbol of the Paramount Pictures company?"
+  },
+  "indonesian--8463001180589502999-0": {
+   "question": "Apa nama pesawat terbang pertama yang dimiliki Indonesia?",
+   "answer": "Dakota RI-001 Seulawah",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the name of the first airplane owned by Indonesia?"
+  },
+  "indonesian--8440965881926336503-0": {
+   "question": "Siapakah raja pertama kerajaan Yordania ?",
+   "answer": "Abdullah I",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first king of the kingdom of Jordan?"
+  },
+  "indonesian--8120683671882488836-3": {
+   "question": "tahun berapakah Universitas Islam Negeri Sumatera Utara didirikan?",
+   "answer": "1973",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year was the North Sumatra State Islamic University founded?"
+  },
+  "indonesian-7365527844656062099-1": {
+   "question": "kapankah perum PNRI didirikan?",
+   "answer": "1809",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Perum PNRI established?"
+  },
+  "indonesian-6679017379838716366-0": {
+   "question": "Apakah yang dimaksud dengan korvet ?",
+   "answer": "jenis kapal perang yang lebih kecil dari fregat dan lebih besar dari kapal patroli pantai",
+   "gold": "what",
+   "pred": "how-way",
+   "english_question": "What is meant by corvette?"
+  },
+  "indonesian--7167040277874601929-0": {
+   "question": "Di negara manakah Moehammad Joesoef Ronodipoero menjadi duta besar?",
+   "answer": "Uruguay, Argentina, dan Chili",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "In which country is Moehammad Joesoef Ronodipoero ambassador?"
+  },
+  "indonesian-3385368338123207507-3": {
+   "question": "Bagaimana Porifera berkembangbiak?",
+   "answer": "seksual atau aseksual",
+   "gold": "how-way",
+   "pred": "how-way",
+   "english_question": "How do Porifera reproduce?"
+  },
+  "indonesian-1888995352287232025-1": {
+   "question": "Dari mana asal kata Bodas ?",
+   "answer": "bahasa Sunda",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where does the word Bodas come from?"
+  },
+  "indonesian--781657737474561698-0": {
+   "question": "apa nam mata uang thailand ?",
+   "answer": "baht",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "what is the name of Thailand's currency?"
+  },
+  "indonesian-739592917684095724-0": {
+   "question": "Kapan The Best Damn Thing dirilis?",
+   "answer": "Amerika Utara dan sebagian negara-negara Eropa pada tanggal 17 April 2007, serta di Inggris dan Australia tepat satu hari sebelumnya",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is The Best Damn Thing released?"
+  },
+  "indonesian-5286001275176098554-2": {
+   "question": "Sejak kapan Yakuza mulai muncul di Jepang ?",
+   "answer": "1612",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "Since when did the Yakuza start to appear in Japan?"
+  },
+  "indonesian--5629393827601609865-0": {
+   "question": "apakah nama mata uang jepang?",
+   "answer": "Yen",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "what is the name of japanese currency?"
+  },
+  "indonesian--4238790120253223657-0": {
+   "question": "siapakah pendiri Proton?",
+   "answer": "Mahathir Mohammad",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the founder of Proton?"
+  },
+  "indonesian-3448639450575033835-0": {
+   "question": "siapakah Grandmaster termuda di indonesia?",
+   "answer": "Susanto Megaranto",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the youngest Grandmaster in Indonesia?"
+  },
+  "indonesian-7080680131248604784-0": {
+   "question": "apakah kabupaten terluas di Provinsi Jawa Timur?",
+   "answer": "Banyuwangi",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the largest district in East Java Province?"
+  },
+  "indonesian--3875120835418262199-0": {
+   "question": "Apakah gereja terbesar di Swedia?",
+   "answer": "Gereja Swedia",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the largest church in Sweden?"
+  },
+  "indonesian--1840704882786676343-0": {
+   "question": "Kapan Walt Disney Animation Studios berdiri ?",
+   "answer": "16 Oktober 1923",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Walt Disney Animation Studios founded?"
+  },
+  "indonesian--6843182450878715796-1": {
+   "question": "Apa nama alat penyimpan audio pertama ?",
+   "answer": "piringan hitam",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the name of the first audio storage device?"
+  },
+  "indonesian-5131403281275179787-3": {
+   "question": "Kapan István III lahir ?",
+   "answer": "musim panas tahun 1147",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Stephen III born?"
+  },
+  "indonesian--6217719533912236139-1": {
+   "question": "Siapa sutradara film Sleeping Beauty?",
+   "answer": "Les Clark, Eric Larson, dan Wolfgang Reitherman",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who directed the film Sleeping Beauty?"
+  },
+  "indonesian-7227842998692093985-2": {
+   "question": "siapakah karakter utama Serial anime dand manga Eyeshield 21?",
+   "answer": "Sena",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the main character of the anime and manga series Eyeshield 21?"
+  },
+  "indonesian-8550971794597243841-0": {
+   "question": "Apa maksud kata Whataboutisme?",
+   "answer": "teknik propaganda yang pernah digunakan oleh Uni Soviet saat berinteraksi dengan dunia Barat, kemudian menjadi bentuk propaganda di Rusia pasca-Soviet",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What does the word Whataboutism mean?"
+  },
+  "indonesian--5402583469354843387-0": {
+   "question": "Apa nama bandara di Penang?",
+   "answer": "Bandar Udara Internasional Penang",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the airport in Penang?"
+  },
+  "indonesian--4622348312497948416-3": {
+   "question": "Siapakah nama istri Sir Alexander Chapman \"Alex\" Ferguson ?",
+   "answer": "Cathie",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of Sir Alexander Chapman \"Alex\" Ferguson's wife?"
+  },
+  "indonesian-4927281053146265274-0": {
+   "question": "Apakah arti kata Mandala ?",
+   "answer": "lingkaran",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What does the word Mandala mean?"
+  },
+  "indonesian-1606377727930692561-6": {
+   "question": "Berapakah luas negara wales ?",
+   "answer": "20,779 square kilometres",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is the country of Wales?"
+  },
+  "indonesian-6891847290815664717-25": {
+   "question": "dimanakah  Dipati Ukur meninggal?",
+   "answer": "Mataram",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "where did Dipati Ukur die?"
+  },
+  "indonesian-3478702389593878292-5": {
+   "question": "kapan lionel messi masuk barcelona?",
+   "answer": "2000",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will Lionel Messi join Barcelona?"
+  },
+  "indonesian--8887802702043187732-0": {
+   "question": "apakah yang definisi psikopatologi?",
+   "answer": "studi tentang penyakit mental, tekanan mental, dan abnormal/perilaku maladaptif",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the definition of psychopathology?"
+  },
+  "indonesian-6728105105066851725-0": {
+   "question": "Kapan Sense and Sensibility dirilis?",
+   "answer": "1811",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Sense and Sensibility released?"
+  },
+  "indonesian-5905186367272012247-0": {
+   "question": "siapakah sutradara film Jailangkung pertama?",
+   "answer": "Jose Poernomo serta Rizal Mantovani",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the director of the first Jailangkung film?"
+  },
+  "indonesian-6421625313549442470-0": {
+   "question": "apakah yang di maksud dengan masyarakat?",
+   "answer": "sekelompok orang yang membentuk sebuah sistem semi tertutup (atau semi terbuka), di mana sebagian besar interaksi adalah antara individu-individu yang berada dalam kelompok tersebut",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by society?"
+  },
+  "indonesian--2032711279341409122-2": {
+   "question": "apakah warna ular Bakas?",
+   "answer": "merah atau merah tua",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What color is the Bakas snake?"
+  },
+  "indonesian--4653962058660382583-0": {
+   "question": "Berapa luas Museum Louvre?",
+   "answer": "60.600 meter persegi",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is the Louvre Museum?"
+  },
+  "indonesian-9101999654320347831-6": {
+   "question": "Kapan Sekolah Regina Pacis didirikan?",
+   "answer": "17 Juli 1951",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Regina Pacis School founded?"
+  },
+  "indonesian-397615025219847627-0": {
+   "question": "Kapankah TVRI berdiri ?",
+   "answer": "24 Agustus 1962",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was TVRI founded?"
+  },
+  "indonesian--1927403425928245932-0": {
+   "question": "berapakah luas Kabupaten Banggai?",
+   "answer": "9.672km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Banggai Regency?"
+  },
+  "indonesian--5956841560647642395-1": {
+   "question": "siapakah orang tua Ferdinand VII?",
+   "answer": "Pangeran Charles dan Maria Luisa dari Parma",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who were Ferdinand VII's parents?"
+  },
+  "indonesian--134996752721981144-2": {
+   "question": "berapakah jumlah populasi di seoul?",
+   "answer": "10 juta",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "what is the population in Seoul?"
+  },
+  "indonesian--3724318458930736973-1": {
+   "question": "kapankah Kekaisaran Bizantium berakhir?",
+   "answer": "29 Mei 1453",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Byzantine Empire end?"
+  },
+  "indonesian--4886491269693360242-0": {
+   "question": "Apa yang dimaksud dengan daerah otonom?",
+   "answer": "daerah di dalam suatu negara yang memiliki kekuasaan otonom, atau kebebasan dari pemerintah di luar daerah tersebut",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by autonomous region?"
+  },
+  "indonesian-5478647477458968590-0": {
+   "question": "Apakah seni Islam pertama di Baitul Qur'an?",
+   "answer": "Alquran yang ditulis pada masa pemerintahan Khalifah Utsman bin Affan",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the first Islamic art in Baitul Qur'an?"
+  },
+  "indonesian-5830828203890263932-1": {
+   "question": "apa yang dimaksud dengan komunikasi satu arah?",
+   "answer": "pengirim dan penerima informasi tidak dapat menjalin komunikasi yang berkesinambungan melalui media yang sama",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by one-way communication?"
+  },
+  "indonesian-7098145460893043121-2": {
+   "question": "Kapan sekuel Percy Jackson difilmkan ?",
+   "answer": "12 Februari 2010",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Percy Jackson sequel filmed?"
+  },
+  "indonesian-2813780833670841995-28": {
+   "question": "Berapa lama periode Sengoku berlangsung?",
+   "answer": "Sejak tahun 1467 hingga berakhirnya zaman Muromachi",
+   "gold": "how-num",
+   "pred": "when",
+   "english_question": "How long does the Sengoku period last?"
+  },
+  "indonesian--3437140793745313293-0": {
+   "question": "dimanakah kantor pusat perusahaan Sampoerna?",
+   "answer": "Surabaya, Jawa Timur",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the Sampoerna company head office?"
+  },
+  "indonesian-7847706444162925186-0": {
+   "question": "Apakah maksud istilah Shengnü?",
+   "answer": "ejekan yang dipopulerkan oleh Federasi Wanita Seluruh Tiongkok yang mengklasifikasikan wanita yang masih belum menikah pada usia akhir dua puluh tahunan atau lebih",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What does the term Shengnü mean?"
+  },
+  "indonesian-8425721221890785086-0": {
+   "question": "Apa nomor atom Klorin?",
+   "answer": "17",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the atomic number of Chlorine?"
+  },
+  "indonesian-2614661186447353297-0": {
+   "question": "kapankah Bebop mulai dipopulerkan?",
+   "answer": "1970an",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Bebop become popular?"
+  },
+  "indonesian--9157824161423576632-2": {
+   "question": "Berapa tinggi rata rata pohon pace?",
+   "answer": "3–8 m",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the average height of a pace tree?"
+  },
+  "indonesian--8530088349693954139-19": {
+   "question": "adakah mikroorganisme yang bisa bertahan di planet mars?",
+   "answer": "ekstremofil",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "Are there microorganisms that can survive on the planet Mars?"
+  },
+  "indonesian--1498784819524320992-0": {
+   "question": "Dimanakah letak Manchuria ?",
+   "answer": "sebelah timur laut Tiongkok dekat perbatasan dengan Korea Utara dan Rusia",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Manchuria?"
+  },
+  "indonesian-7607882459638268302-0": {
+   "question": "apakah yang di maksud dengan Manga Shonen?",
+   "answer": "sebutan untuk ragam manga atau anime khusus bagi remaja lelaki",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by Shonen Manga?"
+  },
+  "indonesian--4369211543328689193-6": {
+   "question": "Kapan Sakurajima pertama kali erupsi?",
+   "answer": "12 Januari 1914",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Sakurajima first erupt?"
+  },
+  "indonesian-2300904982335661737-0": {
+   "question": "apakah kekuatan Sonic the Hedgehog?",
+   "answer": "berjalan pada kecepatan supersonik",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What are Sonic the Hedgehog's powers?"
+  },
+  "indonesian-1161790376915374713-3": {
+   "question": "Apakah buku pertama dari novel \"The Chronicles of Narnia\"?",
+   "answer": "Sang Singa, sang Penyihir, dan Lemari",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the first book of the novel \"The Chronicles of Narnia\"?"
+  },
+  "indonesian--5062648100914826307-2": {
+   "question": "Apakah kepanjangan dari HIV ?",
+   "answer": "Human Immunodeficiency Virus",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What does HIV stand for?"
+  },
+  "indonesian--732045120412160314-2": {
+   "question": "Kapan Bob Dylan lahir?",
+   "answer": "24 Mei 1941",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Bob Dylan born?"
+  },
+  "indonesian--158655463727236006-0": {
+   "question": "Berapa luas Kabupaten Donggala?",
+   "answer": "4275,08km²",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How big is Donggala Regency?"
+  },
+  "indonesian-7731687685014337572-0": {
+   "question": "Apakah yang dimaksud dengan dewa dalam kepercayaan Hindu ?",
+   "answer": "makhluk suci, makhluk supernatural, penghuni surga, malaikat, dan manifestasi dari Brahman",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by a god in Hinduism?"
+  },
+  "indonesian--7857881171451420821-0": {
+   "question": "Apakah bahan bakar mesin jet?",
+   "answer": "aviation turbine fuel",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is jet engine fuel?"
+  },
+  "indonesian--5796063964613720423-0": {
+   "question": "Kapan Yan Xishan diangkat menjadi panglima perang Tiongkok ?",
+   "answer": "1911",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Yan Xishan appointed Chinese warlord?"
+  },
+  "indonesian--1212851734343898324-1": {
+   "question": "siapa pelopor ilmu mekanika kuantum?",
+   "answer": "Max Planck tahun 1900 pada masalah radiasi benda-hitam (dilaporkan 1859) dan paper Albert Einstein",
+   "gold": "who",
+   "pred": "where",
+   "english_question": "Who is the pioneer of quantum mechanics?"
+  },
+  "indonesian--5493664379047958017-8": {
+   "question": "siapakah nama pemeran the beast dalam serial Beauty and the Beast?",
+   "answer": "Dan Stevens",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of the actor who plays the beast in the series Beauty and the Beast?"
+  },
+  "indonesian--4181143998309039502-0": {
+   "question": "Kapan WrestleMania XXVII pertama tayang?",
+   "answer": "3 April 2011",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will the first WrestleMania XXVII air?"
+  },
+  "indonesian-7851133177215376507-1": {
+   "question": "Berapa besar kapal Galiung Manila?",
+   "answer": "2.000 ton",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is the Manila Galleon?"
+  },
+  "indonesian--1423642965894376141-4": {
+   "question": "kapankah HUT kota Balikpapan?",
+   "answer": "10 Februari",
+   "gold": "when",
+   "pred": "what",
+   "english_question": "when is Balikpapan city's anniversary?"
+  },
+  "indonesian--600184890718707705-0": {
+   "question": "kapan Naguib Mahfouz dilahirkan?",
+   "answer": "11 Desember 1911",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Naguib Mahfouz born?"
+  },
+  "indonesian--7212944268145830193-0": {
+   "question": "Kapan film animasi Monster,Inc dirilis?",
+   "answer": "2001",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will the animated film Monsters, Inc be released?"
+  },
+  "indonesian-78503375255208593-0": {
+   "question": "Siapakah istri Djamaludin Malik?",
+   "answer": "Farida Al-Hasni",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is Djamaludin Malik's wife?"
+  },
+  "indonesian--1206256074487935506-0": {
+   "question": "Dimanakah letak Galilea?",
+   "answer": "bagian utara tanah Israel dan bertumpang tindih dengan sebagian Distrik Utara Israe",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Galilee?"
+  },
+  "indonesian--5047113458577405376-0": {
+   "question": "Siapa pendiri PT Scooter Victory Inter Part?",
+   "answer": "Dennil S",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the founder of PT Scooter Victory Inter Part?"
+  },
+  "indonesian--4521865618779795091-1": {
+   "question": "siapakah aktivis Feminisme indonesia yang pertama?",
+   "answer": "Raden Ajeng Kartini",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first Indonesian feminist activist?"
+  },
+  "indonesian--4287572534298619738-0": {
+   "question": "Kapan album Hollywood Dreams dirilis?",
+   "answer": "16 Juli 2012",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Hollywood Dreams album released?"
+  },
+  "indonesian--1681349931705366096-3": {
+   "question": "siapakah yang membangun Gedung Reichstag?",
+   "answer": "Paul Wallot",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who built the Reichstag Building?"
+  },
+  "indonesian-197859663987879392-1": {
+   "question": "Apa tugas utama malaikat Israfil menurut Islam ?",
+   "answer": "meniup sangkakala pada hari kiamat",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main task of the angel Israfil according to Islam?"
+  },
+  "indonesian--806401275785095864-3": {
+   "question": "Apakah smartphone pertama yang diproduksi realme?",
+   "answer": "Realme 1",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the first smartphone produced by Realme?"
+  },
+  "indonesian--5104646170401738836-2": {
+   "question": "Kapan Komputer mikro mulai dikembangkan ?",
+   "answer": "1959",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did microcomputers begin to be developed?"
+  },
+  "indonesian-2447946428908350610-0": {
+   "question": "Apakah pengertian matronimik?",
+   "answer": "Komomene sebuah nama yang berdasarkan pada nama ibu atau leluhur wanita",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the meaning of matronymic?"
+  },
+  "indonesian-4393902115515410814-0": {
+   "question": "Siapakah Basuki Tjahaja Purnama?",
+   "answer": "Gubernur DKI Jakarta yang menjabat sejak 19 November 2014 hingga 9 Mei 2017",
+   "gold": "who",
+   "pred": "how-num",
+   "english_question": "Who is Basuki Tjahaja Purnama?"
+  },
+  "indonesian--946152862847362246-5": {
+   "question": "Kapan Raja  Ataulf menikah ?",
+   "answer": "Januari 414",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did King Ataulf get married?"
+  },
+  "indonesian--5326623978465733400-0": {
+   "question": "Apakah kuliner yang terkenal dari daerah surabaya ?",
+   "answer": "Lontong kupang",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What culinary delights are famous in the Surabaya area?"
+  },
+  "indonesian-6251910719611252724-0": {
+   "question": "Dimanakah letak Desa Karang kancana?",
+   "answer": "Kabupaten Kuningan, Provinsi Jawa Barat, Indonesia",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Karang Kancana Village located?"
+  },
+  "indonesian-41630485471428337-0": {
+   "question": "Kenapa Hamzah bin Abdul-Muththalib dijuluki singa Allah ?",
+   "answer": "karena kepahlawanannya saat membela Islam",
+   "gold": "why",
+   "pred": "why",
+   "english_question": "Why is Hamzah bin Abdul-Muththalib nicknamed the lion of God?"
+  },
+  "indonesian--1470669640237602136-0": {
+   "question": "Berapa lama proses pembangunan Masjid Wazir Khan?",
+   "answer": "han dimulai pada tahun 1634 masehi, dan selesai pada tahun",
+   "gold": "how-num",
+   "pred": "when",
+   "english_question": "How long did the construction of the Wazir Khan Mosque take?"
+  },
+  "indonesian--5956027879139616666-0": {
+   "question": "siapakah penemu televisi?",
+   "answer": "John Logie Baird",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "who invented television?"
+  },
+  "indonesian--183818938953106577-0": {
+   "question": "dimanakah letak Lecce ?",
+   "answer": "Apulia, Italia",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "where is Lecce?"
+  },
+  "indonesian--1084205248357951225-0": {
+   "question": "Siapakah presiden pertama Singapura ?",
+   "answer": "Encik Yusof bin Ishak",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first president of Singapore?"
+  },
+  "indonesian-1162098311824782737-19": {
+   "question": "Apa tugas Malaikat Mikhael dalam Islam?",
+   "answer": "mengatur air, menurunkan hujan/petir, membagikan rezeki pada manusia, tumbuh-tumbuhan juga hewan-hewan dan lain-lain di muka bumi ini",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the role of Archangel Michael in Islam?"
+  },
+  "indonesian--2148551939547837175-0": {
+   "question": "apakah yang dimaksud dengan gagasan?",
+   "answer": "istilah yang dipakai baik secara populer maupun dalam bidang filsafat dengan pengertian umum \"citra mental\" atau \"pengertian\"",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by idea?"
+  },
+  "indonesian--2225293880259737052-15": {
+   "question": "dari manakah asal pohon Bidara ?",
+   "answer": "Asia Tengah",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where does the Bidara tree come from?"
+  },
+  "indonesian--8804676386957542679-1": {
+   "question": "Siapakah anak Bunda Maria Penolong Abadi?",
+   "answer": "Yesus Kristus",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the son of Our Lady of Perpetual Help?"
+  },
+  "indonesian--9188495959455792764-14": {
+   "question": "apakah penyebab kematian Wong Agung Wilis?",
+   "answer": "usia yang sangat lanjut",
+   "gold": "what",
+   "pred": "why",
+   "english_question": "What was the cause of Wong Agung Wilis' death?"
+  },
+  "indonesian-3273556322655286818-0": {
+   "question": "di kota manakah Sapta Darma pertama kali muncul?",
+   "answer": "Kediri",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "in which city did Sapta Darma first appear?"
+  },
+  "indonesian--1974146960971729002-3": {
+   "question": "kapankah boneka Barbie pertama kali diciptakan?",
+   "answer": "9 Maret 1959",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the first Barbie doll created?"
+  },
+  "indonesian-4246573490711865323-0": {
+   "question": "Apa pengertian dari antibiotik ?",
+   "answer": "segolongan molekul, baik alami maupun sintetik, yang mempunyai efek menekan atau menghentikan suatu proses biokimia pada organisme, khususnya dalam proses infeksi oleh bakteri",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the meaning of antibiotics?"
+  },
+  "indonesian-2407823565770372086-0": {
+   "question": "Jenis Protista apakah yang dapat membahayakan manusia?",
+   "answer": "Kinetoplastid dan Apicomplexa",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What types of Protista can harm humans?"
+  },
+  "indonesian-2244511725405401195-7": {
+   "question": "berapakah luas benua Republik Demokratik Somali?",
+   "answer": "637.657 km2",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is the continent of the Somali Democratic Republic?"
+  },
+  "indonesian--4057616802663015280-0": {
+   "question": "Kapan Liu Ju meninggal?",
+   "answer": "91 SM",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Liu Ju die?"
+  },
+  "indonesian-9118153106675511397-0": {
+   "question": "Dimana letak Orléans?",
+   "answer": "muara Sungai Mississippi",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Orléans?"
+  },
+  "indonesian-8481806855657363799-7": {
+   "question": "Ada berapa kandidat dalam Pemilu Jerman 2017?",
+   "answer": "51",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many candidates are there in the 2017 German Election?"
+  },
+  "indonesian--4940122262243913352-9": {
+   "question": "Apakah makanan Thopha saccata?",
+   "answer": "getah pohon hidup",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Thopha saccata food?"
+  },
+  "indonesian--8380718726832560895-2": {
+   "question": "Kapan kereta api Orient Express pertama dibuka?",
+   "answer": "4 Oktober 1883",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the first Orient Express train open?"
+  },
+  "indonesian-472000765713348191-0": {
+   "question": "Apa undang-undang yang mengatur tentang pornografi di Indonesia ?",
+   "answer": "Undang-Undang Pornografi",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What laws regulate pornography in Indonesia?"
+  },
+  "indonesian--6708557529659787209-2": {
+   "question": "Kapan Arung Palakka lahir?",
+   "answer": "15 September 1634",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Arung Palakka born?"
+  },
+  "indonesian-1794255526555892069-8": {
+   "question": "Berapa luas kota Atambua?",
+   "answer": "56.18km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is the city of Atambua?"
+  },
+  "indonesian-8467684182395137975-0": {
+   "question": "Apa itu Wangsa Plantagenet?",
+   "answer": "wangsa kerajaan yang berasal dari wilayah Anjou, Perancis",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the Plantagenet Dynasty?"
+  },
+  "indonesian-618173822640144215-0": {
+   "question": "siapakah yang menciptakan boneka Barbie?",
+   "answer": "Ruth Handler",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "who created the Barbie doll?"
+  },
+  "indonesian-3853087137648665184-0": {
+   "question": "apakah nama mata uang rusia?",
+   "answer": "Rubel",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "what is the name of the Russian currency?"
+  },
+  "indonesian-3860299910520195461-1": {
+   "question": "Kapan Kinetoskop diciptakan ?",
+   "answer": "1889",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Kinetoscope invented?"
+  },
+  "indonesian--6073321995878501914-1": {
+   "question": "Siapakah sultan pertama Brunei Darussalam ?",
+   "answer": "Muhammad",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first sultan of Brunei Darussalam?"
+  },
+  "indonesian--6595738386988521796-0": {
+   "question": "apakah yang di maksud dengan feodal?",
+   "answer": "struktur pendelegasian kekuasaan sosiopolitik yang dijalankan kalangan bangsawan/monarki untuk mengendalikan berbagai wilayah yang diklaimnya melalui kerja sama dengan pemimpin-pemimpin lokal sebagai mitra",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by feudal?"
+  },
+  "indonesian--7189733817500866658-4": {
+   "question": "apakah pendidikan terakhir Mochamad Fadjroel Rachman?",
+   "answer": "Pasca Sarjana",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Mochamad Fadjroel Rachman's final education?"
+  },
+  "indonesian--4782615596472535438-3": {
+   "question": "seberapa luaskah samudera atlantik?",
+   "answer": "82.362.000km²",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How wide is the Atlantic Ocean?"
+  },
+  "indonesian-4846904435976028994-0": {
+   "question": "Kapan agama katolik masuk ke Indonesia ?",
+   "answer": "1534",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Catholicism enter Indonesia?"
+  },
+  "indonesian-6428972462615110112-3": {
+   "question": "Kapan Helloween dibentuk ?",
+   "answer": "1785",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Helloween formed?"
+  },
+  "indonesian--3112227998733662201-1": {
+   "question": "Dari manakah asal Mr. Raden Mas Sartono?",
+   "answer": "Jawa",
+   "gold": "where",
+   "pred": "what",
+   "english_question": "Where does Mr. Raden Mas Sartono?"
+  },
+  "indonesian--4761289375847738490-0": {
+   "question": "Siapa presiden Republik Ghana pertama?",
+   "answer": "Kwame Nkrumah",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first president of the Republic of Ghana?"
+  },
+  "indonesian-2390039993025147708-1": {
+   "question": "Ada berapakah serial Cardcaptor Sakura?",
+   "answer": "dua belas volume",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many Cardcaptor Sakura series are there?"
+  },
+  "indonesian-6620160721308182976-4": {
+   "question": "Berapa jumlah pasukan yang mempertahankan Roma?",
+   "answer": "5.000",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many troops defended Rome?"
+  },
+  "indonesian--2934583737601469589-0": {
+   "question": "Kapankah Gempa bumi dan tsunami Sulawesi 2018 terjadi ?",
+   "answer": "28 September 2018, pukul 18.02 WITA",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the 2018 Sulawesi earthquake and tsunami occur?"
+  },
+  "indonesian--8050064646771375190-0": {
+   "question": "Apa itu karapas ?",
+   "answer": "cangkang keras yang melindungi organ dalam pada tubuh crustacea",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is carapace?"
+  },
+  "indonesian-7015441913548390432-0": {
+   "question": "Apakah kepanjangan dari Nekolim?",
+   "answer": "Neokolonialisme-Kolonialisme-Imperialisme",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What does Nekolim stand for?"
+  },
+  "indonesian--2254684359334902769-1": {
+   "question": "Kapan Yuchi Jingde lahir?",
+   "answer": "585",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "Kapan Yuchi Jingde lahir?"
+  },
+  "indonesian--6830203592631087359-0": {
+   "question": "Kapan Katolik masuk ke Indonesia ?",
+   "answer": "1534",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Catholicism come to Indonesia?"
+  },
+  "indonesian--7009031226202049024-1": {
+   "question": "Siapa ibu Baudouin I ?",
+   "answer": "Ide dari Lorraine",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is Baudouin I's mother?"
+  },
+  "indonesian-6690076890848102576-0": {
+   "question": "Siapakah yang terlibat dalam Pertempuran Badar?",
+   "answer": "Pasukan kecil kaum Muslim yang berjumlah 313 orang bertempur menghadapi pasukan Quraisy",
+   "gold": "who",
+   "pred": "how-num",
+   "english_question": "Who was involved in the Battle of Badr?"
+  },
+  "indonesian--4580157749161260649-16": {
+   "question": "Apa nama badan PBB yang mengurus tentang perlindungan anak ?",
+   "answer": "UNICEF",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the UN agency that deals with child protection?"
+  },
+  "indonesian--7599454018376888338-0": {
+   "question": "Apa yang dimaksud dengan neokonservatif ?",
+   "answer": "aliran politik yang lahir di Amerika Serikat pada tahun 1960-an di kalangan Demokrat yang tidak sepakat dengan kebijakan dalam dan luar negeri partainya",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is meant by neoconservative?"
+  },
+  "indonesian-2644990372733495139-0": {
+   "question": "Apa definisi dari frekuensi ?",
+   "answer": "ukuran jumlah putaran ulang per peristiwa dalam satuan detik dengan satuan Hz",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the definition of frequency?"
+  },
+  "indonesian--7494851848327627773-0": {
+   "question": "Apa itu hipertropi otot?",
+   "answer": "peningkatan ukuran sel-sel otot",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is muscle hypertrophy?"
+  },
+  "indonesian-8908592808758908032-0": {
+   "question": "Kapan Petrus Lombardus lahir?",
+   "answer": "1096",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "Kapan Peter Lombardus lahir?"
+  },
+  "indonesian--5961409780035435015-0": {
+   "question": "Siapa yang menciptakan robot pertama kali ?",
+   "answer": "Joseph Frederick Engelberger",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who created the first robot?"
+  },
+  "indonesian--3618989136571774106-0": {
+   "question": "dimanakah letak samudera pasifik?",
+   "answer": "di antara Asia dan Australia di sebelah barat, Amerika di sebelah timur, Antartika di sebelah selatan dan Samudra Arktik di sebelah utara",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "where is the pacific ocean?"
+  },
+  "indonesian--5541505473670232084-3": {
+   "question": "Apa yang dimaksud dengan pornoaksi ?",
+   "answer": "perbuatan mengeksploitasi seksual, kecabulan, dan/atau erotika di muka umum",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by pornographic action?"
+  },
+  "indonesian--1393628225722807620-0": {
+   "question": "Apakah nomor atom Iodin?",
+   "answer": "53",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the atomic number of Iodine?"
+  },
+  "indonesian-2124026153559115618-1": {
+   "question": "apakah spesies ubur-ubur yang terbesar?",
+   "answer": "Cyanea capillata",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "what is the largest species of jellyfish?"
+  },
+  "indonesian--3830786035124636490-0": {
+   "question": "Kapan Radio Republik Indonesia berdiri ?",
+   "answer": "11 September 1945",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Radio Republik Indonesia founded?"
+  },
+  "indonesian--440498740671200932-0": {
+   "question": "berapakah luas Takalar ?",
+   "answer": "566,51km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Takalar?"
+  },
+  "indonesian-7575798115556807571-0": {
+   "question": "Dimanakah letak objek wisata Sendang Bidadari?",
+   "answer": "desa Daren, kecamatan Nalumsari, Kabupaten Jepara",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the Sendang Bidadari tourist attraction located?"
+  },
+  "indonesian--4161336943052375029-0": {
+   "question": "Kapan Komando Divisi IX Banteng dibentuk?",
+   "answer": "1945",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Banteng Division IX Command formed?"
+  },
+  "indonesian--1275409122708459341-0": {
+   "question": "mata uang apakah yang di gunakan di korea selatan?",
+   "answer": "Won Korea Selatan",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What currency is used in South Korea?"
+  },
+  "indonesian-2229164829475472857-0": {
+   "question": "Apa itu  Sport Utility Vehicle?",
+   "answer": "klasifikasi mobil penumpang namun dibangun di atas kerangka truk ringan",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is a Sport Utility Vehicle?"
+  },
+  "indonesian--524221942146087021-0": {
+   "question": "berapakah luas  Candi Ratu Boko?",
+   "answer": "25 ha",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Ratu Boko Temple?"
+  },
+  "indonesian-8039407788388911481-0": {
+   "question": "dimanakah Squidward Tentacles bekerja?",
+   "answer": "Krusty Krab",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "where does Squidward Tentacles work?"
+  },
+  "indonesian-6527871681915931636-0": {
+   "question": "dimanakah letak danau baikal?",
+   "answer": "selatan Siberia di Russia, antara Oblast Irkutsk di barat laut dan Buryatia di tenggara, dekat kota Irkutsk",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "where is lake baikal?"
+  },
+  "indonesian-3706814167655780728-0": {
+   "question": "Apakah nama tempat wisata yang terkenal di Jepang ?",
+   "answer": "Taman Monyet Jigokudani",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What are the names of famous tourist attractions in Japan?"
+  },
+  "indonesian-8182136693414622644-1": {
+   "question": "dari manakah asalsuku-bangsa Sasak?",
+   "answer": "pulau Lombok",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where did the Sasak people come from?"
+  },
+  "indonesian--4466847012233180063-0": {
+   "question": "Apakah definisi dari Gempa Tektonik ?",
+   "answer": "jenis gempa Bumi yang disebabkan oleh pergeseran lempeng plat tektonik",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the definition of a tectonic earthquake?"
+  },
+  "indonesian-5227115705188248844-0": {
+   "question": "Kapan Fender Musical Instruments Corporation berdiri ?",
+   "answer": "1946",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Fender Musical Instruments Corporation founded?"
+  },
+  "indonesian-3348575089074556514-6": {
+   "question": "Dari manakah wangsa Komnenos berasal ?",
+   "answer": "Konstantinopel",
+   "gold": "where",
+   "pred": "what",
+   "english_question": "Where did the Komnenos dynasty come from?"
+  },
+  "indonesian--5249516903841688021-17": {
+   "question": "apakah yang dimaksudkan dengan Tsarevich?",
+   "answer": "gelar bagi putra tsar",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What does Tsarevich mean?"
+  },
+  "indonesian-5504523980933763749-0": {
+   "question": "Kapan Festival Film Indonesia pertama diadakan?",
+   "answer": "1955",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the first Indonesian Film Festival held?"
+  },
+  "indonesian--5100548638855619259-1": {
+   "question": "Apakah nama bidang ilmu yang mempelajari morfem ?",
+   "answer": "Morfologi",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the field of science that studies morphemes?"
+  },
+  "indonesian--4425974513094872410-2": {
+   "question": "Apakah ajaran yang dipercayai Suku Dayak Hindu Budha Bumi Segandu Indramayu?",
+   "answer": "agama Jawa",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What are the teachings believed by the Dayak Hindu Buddhist Bumi Segandu Indramayu Tribe?"
+  },
+  "indonesian--375135310713422495-0": {
+   "question": "Kapan HSBC Holdings PLC didirikan?",
+   "answer": "1865",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was HSBC Holdings PLC founded?"
+  },
+  "indonesian--5301554501884710592-2": {
+   "question": "Apakah film pertama Alexa Ellesse Vega?",
+   "answer": "1996",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What is Alexa Ellesse Vega's first film?"
+  },
+  "indonesian--672314816430822109-0": {
+   "question": "Apakah yang dimaksud dengan Urochordata?",
+   "answer": "sebuah subfilum dari chordata",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by Urochordata?"
+  },
+  "indonesian--386998411000574466-1": {
+   "question": "dimanakah letak Manokwari?",
+   "answer": "pantai utara Daerah Kepala Burung Pulau Papua",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "where is Manokwari located?"
+  },
+  "indonesian-5639771081532264448-0": {
+   "question": "Apakah yang dimaksud dengan emosi ?",
+   "answer": "perasaan intens yang ditujukan kepada seseorang atau sesuatu",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by emotion?"
+  },
+  "indonesian-4941573732675186211-0": {
+   "question": "Apakah nama kopi yang terkenal dari Aceh ?",
+   "answer": "Kopi gayo",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the famous coffee from Aceh?"
+  },
+  "indonesian-6951848111335766578-0": {
+   "question": "Apa nama mata uang Lebanon ?",
+   "answer": "Pound Lebanon",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of Lebanon's currency?"
+  },
+  "indonesian--4863824397538545016-0": {
+   "question": "Kapan Insiden Honnoji terjadi ?",
+   "answer": "21 Juni 1582",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Honnoji Incident occur?"
+  },
+  "indonesian-2401284618182245642-0": {
+   "question": "Apa nama mata uang Uzbekistan ?",
+   "answer": "Som",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of Uzbekistan's currency?"
+  },
+  "indonesian-7655280760775583857-0": {
+   "question": "Apakah warna bendera Myanmar ?",
+   "answer": "tiga jalur warna horizontal: kuning, hijau, merah, dengan sebuah bintang segilima bewarna putih di tengah-tengahnya",
+   "gold": "what",
+   "pred": "how-way",
+   "english_question": "What are the colors of the Myanmar flag?"
+  },
+  "indonesian--6293495378544318646-6": {
+   "question": "Kapan industri penerbangan mulai beroperasi di Indonesia ?",
+   "answer": "awal abad ke-20",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will the aviation industry start operating in Indonesia?"
+  },
+  "indonesian--547454599895804280-9": {
+   "question": "Dimana Siauw Giok Tjhan  lahir ?",
+   "answer": "Indonesia",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Siauw Giok Tjhan born?"
+  },
+  "indonesian--2351224557039675212-3": {
+   "question": "Dimana Dr. Henry Walton Jones, Jr mengajar arkeologi?",
+   "answer": "Perguruan Marshall",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Dr. Henry Walton Jones, Jr taught archaeology?"
+  },
+  "indonesian--7213059798696322439-0": {
+   "question": "Berapa lama Pelemparan di Praha terjadi?",
+   "answer": "20 tahun",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How long ago did the Throwing at Prague take place?"
+  },
+  "indonesian-7598225175590369327-0": {
+   "question": "Di siaran tv apa Hikmah Fajar ditayangkan?",
+   "answer": "RCTI",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What TV broadcast is Hikmah Fajar shown on?"
+  },
+  "indonesian-1196143324092985694-0": {
+   "question": "Apakah nama stasiun kereta api di Bekasi?",
+   "answer": "Stasiun Bekasi",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the train station in Bekasi?"
+  },
+  "indonesian-513635420017124918-0": {
+   "question": "Kapan Pemberontakan Para Budak terjadi ?",
+   "answer": "abad ke-18 dan 19",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Slave Revolt occur?"
+  },
+  "indonesian-9102206571105525621-0": {
+   "question": "Dimana Insiden Honnoji  terjadi ?",
+   "answer": "Honnoji",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where did the Honnoji Incident occur?"
+  },
+  "indonesian--8310069802068552946-2": {
+   "question": "Apakah tujuan utama upacara adat Kuangkay dilakukan?",
+   "answer": "menghormati dan memuliakan roh para leluhur yang sudah meninggal",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main purpose of the Kuangkay traditional ceremony?"
+  },
+  "indonesian--4680663331296924137-0": {
+   "question": "Kapan konsep Melayu Raya dibentuk?",
+   "answer": "1920-an",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Malay Raya concept formed?"
+  },
+  "indonesian--904221691152630074-1": {
+   "question": "Siapakah sultan pertama Kesultanan Aceh?",
+   "answer": "Sultan Ali Mughayat Syah",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first sultan of the Aceh Sultanate?"
+  },
+  "indonesian-3096957547792497454-0": {
+   "question": "Apa warna bendera Meksiko ?",
+   "answer": "hijau, putih, dan merah",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What color is the Mexican flag?"
+  },
+  "indonesian-1193356476116184542-4": {
+   "question": "Apa yang dimaksud dengan genin dalam manga naruto ?",
+   "answer": "ninja kelas rendah yang hanya menjalankan misi kelas D",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by genin in the Naruto manga?"
+  },
+  "indonesian-3022421764604269598-2": {
+   "question": "apa manfaat sekam?",
+   "answer": "campuran pakan, alas kandang, dicampur di tanah sebagai pupuk, dibakar, atau arangnya dijadikan media tanam",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "what are the benefits of husks?"
+  },
+  "indonesian--4614484597057912344-1": {
+   "question": "Cabe apa yang digunakan untuk membuat sambal Balado?",
+   "answer": "keriting merah",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What chilies are used to make Balado chili sauce?"
+  },
+  "indonesian-2048796427556239759-4": {
+   "question": "Berapakah berat U-511?",
+   "answer": "1,120 tonnes (1,100 long tons) ketika berada di permukaan air dan 1,232 tonnes (1,213 long tons) ketika menyelam",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How much does U-511 weigh?"
+  },
+  "indonesian-6779780006815852480-0": {
+   "question": "Apa kepanjangan dari KASAD?",
+   "answer": "Kepala Staf TNI Angkatan Darat",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What does KASAD stand for?"
+  },
+  "indonesian--7608394066991882898-3": {
+   "question": "berapakah tinggi Megatron?",
+   "answer": "10 meter",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "how tall is Megatron?"
+  },
+  "indonesian--4113484136405190605-0": {
+   "question": "Kapan Kekaisaran Bulgaria Pertama didirikan?",
+   "answer": "632",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the First Bulgarian Empire founded?"
+  },
+  "indonesian--3103721560839166681-0": {
+   "question": "siapakah yang mencptakan Ide 4 sehat 5 sempurna pertama kali?",
+   "answer": "pemerintah",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who created the idea of 4 healthy 5 perfect first?"
+  },
+  "indonesian-4066856322448059083-2": {
+   "question": "siapakah gubernur pertama Provinsi Sulawesi Tengah?",
+   "answer": "Anwar Datuk Madjo Basa Nan Kuning",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first governor of Central Sulawesi Province?"
+  },
+  "indonesian--7430709527084206480-2": {
+   "question": "Kapan Heinrich Luitpold Himmler diangkat menjadi komandan Schutzstaffel Jerman?",
+   "answer": "Januari 1929",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Heinrich Luitpold Himmler appointed commander of the German Schutzstaffel?"
+  },
+  "indonesian--5337535988835846197-0": {
+   "question": "Apakah definis dari Finansial ?",
+   "answer": "mempelajari bagaimana cara mengetahui berbisnis individu, meningkatkan organisasi, mengalokasi, menggunakan sumber daya moneter dengan sejalannya waktu, dan juga menghitung risiko dalam menjalankan proyeknya",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the definition of Financial?"
+  },
+  "indonesian-322738764677639588-3": {
+   "question": "Berapa berat Mesin kepung?",
+   "answer": "180 ton",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How much does the Siege Machine weigh?"
+  },
+  "indonesian--999053912745033800-2": {
+   "question": "mikroorganisme apa kah yang baik untuk tubuh manusia?",
+   "answer": "bakteri probiotik",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What microorganisms are good for the human body?"
+  },
+  "indonesian-3092601499200266574-1": {
+   "question": "Kapan musik DJ pertama kali muncul di dunia ?",
+   "answer": "abad ke-17",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did DJ music first appear in the world?"
+  },
+  "indonesian--8929956956557486045-1": {
+   "question": "Berapa lama Aleksander Yaneus menjadi raja?",
+   "answer": "103-76 SM",
+   "gold": "how-num",
+   "pred": "when",
+   "english_question": "How long was Alexander Yaneus king?"
+  },
+  "indonesian-8357926256581860641-1": {
+   "question": "Kapan Su Dingfang lahir?",
+   "answer": "591",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Su Dingfang born?"
+  },
+  "indonesian-8333619821443356312-1": {
+   "question": "Mengapa sindikat Yakuza disebut mafia Jepang?",
+   "answer": "ada kesamaan dengan bentuk organisasi yang asalnya dari Italia tersebut",
+   "gold": "why",
+   "pred": "why",
+   "english_question": "Why is the Yakuza syndicate called the Japanese mafia?"
+  },
+  "indonesian--5472523366514461422-7": {
+   "question": "Apakah jenis belatung yang digunakan untuk Terapi belatung?",
+   "answer": "Lucilia sericata",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What type of maggots are used for maggot therapy?"
+  },
+  "indonesian--1521458532316774075-0": {
+   "question": "siapakah ayah dari Aleksander III?",
+   "answer": "Filipus II dari Makedonia",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the father of Alexander III?"
+  },
+  "indonesian--2796378687937673342-0": {
+   "question": "Apa nama kopi yang terkenal dari daerah Aceh ?",
+   "answer": "Kopi gayo",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the famous coffee from the Aceh region?"
+  },
+  "indonesian-21616239987763605-4": {
+   "question": "siapakah orang tua Manuel Luis Quezón y Molina?",
+   "answer": "Lucio Quezón dan María Dolores Molina",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who are Manuel Luis Quezón y Molina's parents?"
+  },
+  "indonesian--2599841744891748089-0": {
+   "question": "Tahun berapa Birmingham Zulus mulai aktif?",
+   "answer": "1970an",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What year did the Birmingham Zulus become active?"
+  },
+  "indonesian--152399052057478631-1": {
+   "question": "Ada berapa serial film Fifty Shades of Grey?",
+   "answer": "tiga",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many Fifty Shades of Gray films are there?"
+  },
+  "indonesian--4037818066785195872-0": {
+   "question": "dimanakah Nabi Muhammad SAW dikuburkan?",
+   "answer": "kompleks Masjid Nabawi, Saudi Arabia",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Prophet Muhammad SAW buried?"
+  },
+  "indonesian--579553853064145416-0": {
+   "question": "Apakah yang dimaksud dengan luar angkasa ?",
+   "answer": "merujuk pada bagian yang relatif kosong dari Jagad Raya, di luar atmosfer dari benda \"celestial\"",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by outer space?"
+  },
+  "indonesian-7024321063732477212-0": {
+   "question": "Dimanakah rumah igloo biasa ditemukan?",
+   "answer": "Kanada yang tinggal di Arktik Tengah dan wilayah Thule di Greenland",
+   "gold": "where",
+   "pred": "who",
+   "english_question": "Where are igloo houses usually found?"
+  },
+  "indonesian--5793327595159422053-1": {
+   "question": "siapakah penemu aljabar?",
+   "answer": "Al-Khwārizmī",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "who invented algebra?"
+  },
+  "indonesian--1569623443329269551-0": {
+   "question": "Apakah definisi dari femininitas?",
+   "answer": "sebuah kata sifat, adjektif yang berarti \"kewanitaan\" atau menunjukkan sifat perempuan",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the definition of femininity?"
+  },
+  "indonesian--7053048788986227961-0": {
+   "question": "dimanakah kantor pusat Djisamsoe?",
+   "answer": "Surabaya, Jawa Timur",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Djisamsoe's head office?"
+  },
+  "indonesian-4976163352828830355-0": {
+   "question": "Bagaiaman sistem pemerintahan di Jepang ?",
+   "answer": "monarki konstitusional yang di dalamnya terdapat kuasa dari seorang Kaisar yang masih dibatasi dan hanya diturunkan terutama ketika melakukan tugas resmi",
+   "gold": "what",
+   "pred": "how-way",
+   "english_question": "What is the government system in Japan?"
+  },
+  "indonesian--2094532387403097508-1": {
+   "question": "Kapan Oskar-Heinz “Pritzl” Bär pertama kali ikut perang ?",
+   "answer": "1939",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Oskar-Heinz “Pritzl” Bär first join the war?"
+  },
+  "indonesian--7341064805053425157-1": {
+   "question": "kapankah May Day pertama kali dilakukan?",
+   "answer": "abad 19",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was May Day first celebrated?"
+  },
+  "indonesian-5471911935667512486-1": {
+   "question": "Dimana Su Dingfang lahir?",
+   "answer": "Hengshui, Hebei",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Su Dingfang born?"
+  },
+  "indonesian-5394424719705820120-0": {
+   "question": "Apa agama mayoritas penduduk korea ?",
+   "answer": "tidak memiliki agama",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the religion of the majority of Koreans?"
+  },
+  "indonesian--108815596121177338-0": {
+   "question": "siapakah istri George Herbert Walker Bush?",
+   "answer": "Barbara Pierce Bush",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is George Herbert Walker Bush's wife?"
+  },
+  "indonesian--6369227831786228642-0": {
+   "question": "Siapakah istri dari George H. W. Bush?",
+   "answer": "Barbara Pierce Bush",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is George HW Bush's wife?"
+  },
+  "indonesian--919928778527990620-1": {
+   "question": "siapakah pencetus  standar ukuran kertas internasional?",
+   "answer": "ISO",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the originator of international paper size standards?"
+  },
+  "indonesian-2422381537249833400-1": {
+   "question": "Kapan sistem Ina-TEWS pertama digunakan?",
+   "answer": "November 2008",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Ina-TEWS system first used?"
+  },
+  "indonesian--2897386062976790947-12": {
+   "question": "Apakah jenis Masakan Kirgizstan yang paling terkenal?",
+   "answer": "Lagman",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the most famous type of Kyrgyz cuisine?"
+  },
+  "indonesian-2517151464593065213-5": {
+   "question": "Siapakah Perdana menteri Israel sebelum Yitzhak Shamir?",
+   "answer": "Shimon Peres",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the prime minister of Israel before Yitzhak Shamir?"
+  },
+  "indonesian-2578142944905084359-0": {
+   "question": "mata uang apakah yang digunakan di jepang?",
+   "answer": "Yen",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What currency is used in Japan?"
+  },
+  "indonesian--8993403028564295974-0": {
+   "question": "Apakah fungsi utama pesawat Hercules?",
+   "answer": "pesawat angkut militer utama untuk pasukan militer di banyak bagian dunia",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main function of the Hercules airplane?"
+  },
+  "indonesian-832161610516737908-1": {
+   "question": "Kapan BlackBerry mulai masuk ke Indonesia ?",
+   "answer": "pertengahan Desember 2004",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will BlackBerry start coming to Indonesia?"
+  },
+  "indonesian--6119979591986347041-0": {
+   "question": "Apakah nama pulau terbesar Kepulauan Hawaii?",
+   "answer": "Pulau Hawaii",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the largest island of the Hawaiian Islands?"
+  },
+  "indonesian-3842186289541684724-12": {
+   "question": "Berapa biaya produksi film Fences ?",
+   "answer": "$24 juta",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How much did it cost to produce the film Fences?"
+  },
+  "indonesian--2544457604068207144-0": {
+   "question": "Apakah pengertian dari entitas?",
+   "answer": "sesuatu yang memiliki keberadaan yang unik dan berbeda, walaupun tidak harus dalam bentuk fisik",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the meaning of entity?"
+  },
+  "indonesian--6650043304414783313-0": {
+   "question": "Apa isi surat deuteropauline?",
+   "answer": "wujud kepastian iman yang menjadi suatu pengharapan dalam kehidupan dan bagaimana sikap orang terhadap parousia serta sikap iman terhadap parousia yang mempunyai arti bagi kehidupan saat ini",
+   "gold": "what",
+   "pred": "how-way",
+   "english_question": "What is in the deuteropauline letter?"
+  },
+  "indonesian-1337711826761923300-0": {
+   "question": "Apa yang dimaksud dengan membran sel ?",
+   "answer": "fitur universal yang dimiliki oleh semua jenis sel berupa lapisan antarmuka yang disebut membran plasma, yang memisahkan sel dengan lingkungan di luar sel,[1] terutama untuk melindungi inti sel dan sistem kelangsungan hidup yang bekerja di dalam sitoplasma",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by cell membrane?"
+  },
+  "indonesian--5920988370846201259-0": {
+   "question": "Dari negara mana Hergé berasal ?",
+   "answer": "Belgia",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What country did Hergé come from?"
+  },
+  "indonesian--7125745183782800028-7": {
+   "question": "berapakah luas Abu Dhabi?",
+   "answer": "67.340 kilometer persegi",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Abu Dhabi?"
+  },
+  "indonesian--7953150035972815586-1": {
+   "question": "Kapan boyband B.A.P dibentuk ?",
+   "answer": "2011",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the boy band BAP formed?"
+  },
+  "indonesian-2661823338185246511-0": {
+   "question": "Apa tujuan utama Asosiasi Televisi Swasta Indonesia didirikan?",
+   "answer": "untuk memajukan industri televisi swasta Indonesia yang berfungsi secara aktif memajukan, menampung, menyalurkan kepentingan dan keinginan bersama dalam mengembangkan etika perilaku, tanggung jawab profesional dan pelayanan bagi anggotanya demi kepentingan masyarakat",
+   "gold": "what",
+   "pred": "why",
+   "english_question": "What is the main objective of the Indonesian Private Television Association being established?"
+  },
+  "indonesian-7848940388465270475-1": {
+   "question": "dimanakah LTE pertama kali diciptakan?",
+   "answer": "Swedia",
+   "gold": "where",
+   "pred": "who",
+   "english_question": "where was LTE first created?"
+  },
+  "indonesian-6890324323072562882-0": {
+   "question": "apakah nama penghargaan tertinggi di bidang jurnalisme?",
+   "answer": "Penghargaan Pulitzer",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "what is the name of the highest award in the field of journalism?"
+  },
+  "indonesian-6472449823954405679-1": {
+   "question": "apa yang dimaksud komunikasi dua arah?",
+   "answer": "pengirim dan penerima informasi dapat menjalin komunikasi yang berkesinambungan melalui media yang sama",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by two-way communication?"
+  },
+  "indonesian--2121616011275588391-0": {
+   "question": "Kapan  Charles Maurras lahir ?",
+   "answer": "20 April 1868",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Charles Maurras born?"
+  },
+  "indonesian-6470436997778400530-1": {
+   "question": "Kapan tayangan pertama acara Hikmah Fajar?",
+   "answer": "12 Februari 1994",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is the first broadcast of the program Hikmah Fajar?"
+  },
+  "indonesian--6135529291506771059-0": {
+   "question": "apa pengertian Filsafat?",
+   "answer": "kajian masalah umum dan mendasar tentang persoalan seperti eksistensi, pengetahuan, nilai, akal, pikiran, dan bahasa",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the meaning of Philosophy?"
+  },
+  "indonesian-4002630970474770028-0": {
+   "question": "berapakah luas  Masjid Tua Palopo?",
+   "answer": "15 m²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is the Palopo Old Mosque?"
+  },
+  "indonesian--3406113191494863592-0": {
+   "question": "Apa itu reaktor nuklir?",
+   "answer": "suatu tempat atau perangkat yang digunakan untuk membuat, mengatur, dan menjaga kesinambungan reaksi nuklir berantai pada laju yang tetap",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is a nuclear reactor?"
+  },
+  "indonesian-274752666432605363-0": {
+   "question": "Darimanakah asal Marc Márquez?",
+   "answer": "Spanyol",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where does Marc Márquez come from?"
+  },
+  "indonesian-8542548889842650123-3": {
+   "question": "Kapan PDRM dibentuk ?",
+   "answer": "1963",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was PDRM formed?"
+  },
+  "indonesian-6246592469157278547-2": {
+   "question": "siapakah presiden russia pada tahun 2012?",
+   "answer": "Dmitry Medvedev",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the President of Russia in 2012?"
+  },
+  "indonesian--3239499673618813114-0": {
+   "question": "Apa itu Penghargaan Nobel?",
+   "answer": "dianugerahkan setiap tahun kepada mereka yang telah melakukan penelitian yang luar biasa, menemukan teknik atau peralatan yang baru, atau telah melakukan kontribusi luar biasa ke masyarakat",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the Nobel Prize?"
+  },
+  "indonesian-7580918540802583761-4": {
+   "question": "Apakah bahan bakar sinyal asap?",
+   "answer": "rumput kering",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "Is fuel a smoke signal?"
+  },
+  "indonesian--2211437124020075341-1": {
+   "question": "di tim apakah Marc Márquez Alenta mendapatkan  gelar juara dunia kelas 125cc pertama kali?",
+   "answer": "KTM",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "With which team did Marc Márquez Alenta win his first 125cc world title?"
+  },
+  "indonesian-1924418854411607060-6": {
+   "question": "siapakah teman baik karakter SpongeBob SquarePants?",
+   "answer": "Patrick Star",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is SpongeBob SquarePants character's best friend?"
+  },
+  "indonesian-5083247408812841472-6": {
+   "question": "Siapakah Bapak Binaraga Modern?",
+   "answer": "Eugen Sandow",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the Father of Modern Bodybuilding?"
+  },
+  "indonesian--4277113322790110224-0": {
+   "question": "Dimana Pelemparan di Praha terjadi?",
+   "answer": "Bohemia",
+   "gold": "where",
+   "pred": "who",
+   "english_question": "Where did the Prague Throwing take place?"
+  },
+  "indonesian--6250942866637729895-0": {
+   "question": "Kapan Pieter Willem Botha lahir ?",
+   "answer": "12 Januari 1916",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Pieter Willem Botha born?"
+  },
+  "indonesian-7736133535029069153-0": {
+   "question": "Dimanakah letak Universitas Tadulako ?",
+   "answer": "Palu, Indonesia",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Tadulako University located?"
+  },
+  "indonesian--7043618830790781982-4": {
+   "question": "Kapan Philip Heinrich Christoph Hofman mulai menjadi misionaris Belanda?",
+   "answer": "1900",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Philip Heinrich Christoph Hofman start as a Dutch missionary?"
+  },
+  "indonesian--9112962720525941507-0": {
+   "question": "Apa nama lembaga pemerintah yang menangani pemberantasan narkotika ?",
+   "answer": "Badan Narkotika Nasional",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the government agency that handles narcotics eradication?"
+  },
+  "indonesian-4609394337632433932-1": {
+   "question": "siapakah yang menemukan Ötzi?",
+   "answer": "Helmut dan Erica Simon",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who discovered Ötzi?"
+  },
+  "indonesian-418386171063217699-0": {
+   "question": "apakah yang di maksud dengan endomembran?",
+   "answer": "himpunan membran yang membentuk unit fungsional dan perkembangan tunggal, baik yang terhubung bersama-sama secara langsung, atau bertukar materi melalui transportasi vesikel",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by endomembrane?"
+  },
+  "indonesian--7017722381316796190-6": {
+   "question": "Dimana Gereja Yesus Kristus?",
+   "answer": "Amerika",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the Church of Jesus Christ?"
+  },
+  "indonesian--8306723762129571797-1": {
+   "question": "Siapa ayah Baudouin I ?",
+   "answer": "Eustace II, Comte Boulogne",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was Baudouin I's father?"
+  },
+  "indonesian--2382197631370541793-1": {
+   "question": "Dimana Philip Heinrich Christoph Hofman lahir?",
+   "answer": "Gorinchem",
+   "gold": "where",
+   "pred": "what",
+   "english_question": "Where was Philip Heinrich Christoph Hofman born?"
+  },
+  "indonesian--8942014549267393361-3": {
+   "question": "apakah pendidikan terakhir Ida Bagus Mantra?",
+   "answer": "doktor",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Ida Bagus Mantra's final education?"
+  },
+  "indonesian--537929925154684060-0": {
+   "question": "Siapa Teruo Nakamura?",
+   "answer": "prajurit dua Angkatan Darat Kekaisaran Jepang kelahiran Taiwan yang bertempur demi Jepang di dalam Perang Dunia II dan baru menyerah pada tahun 1974 di Pulau Morotai, Indonesia",
+   "gold": "who",
+   "pred": "where",
+   "english_question": "Who is Teruo Nakamura?"
+  },
+  "indonesian--7584593302070700915-2": {
+   "question": "Kapan  Rudi Garcia mulai menjadi manajer sepak bola ?",
+   "answer": "1995",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Rudi Garcia start as a football manager?"
+  },
+  "indonesian-4022946997553102342-0": {
+   "question": "Dimanakah letak Danzig ?",
+   "answer": "tersusun dari kota pelabuhan Laut Baltik Danzig (sekarang Gdańsk, Polandia) dan sekitar 200 kota di wilayah sekitarnya",
+   "gold": "where",
+   "pred": "how-num",
+   "english_question": "Where is Danzig?"
+  },
+  "indonesian--6445596838272865652-0": {
+   "question": "Apa yang dimaksud dengan Maharani?",
+   "answer": "gelar istana yang merupakan bentuk wanita dari gelar maharaja dan digunakan untuk merujuk kepada maharaja perempuan",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by Maharani?"
+  },
+  "indonesian-6490642364906876653-0": {
+   "question": "Dimanakah proklamasi dibacakan ?",
+   "answer": "Jalan Pegangsaan Timur 56, Jakarta Pusat",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the proclamation read?"
+  },
+  "indonesian-3103964068418886103-2": {
+   "question": "siapakah yang menciptakan Lampu lalu lintas ?",
+   "answer": "Lester Farnsworth Wire",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who created traffic lights?"
+  },
+  "indonesian-7934824595644568581-30": {
+   "question": "Berapa jumlah fakultas di Institut Teknologi Sepuluh Nopember Surabaya?",
+   "answer": "10",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many faculties are there at Institut Teknologi Sepuluh Nopember Surabaya?"
+  },
+  "indonesian--5210898472753619186-1": {
+   "question": "Kapan Gereja Bethany didirikan?",
+   "answer": "17 Januari 2003",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Bethany Church founded?"
+  },
+  "indonesian--8407526689329081127-2": {
+   "question": "siapakah yang memimpin Kongres Pemuda Indonesia I?",
+   "answer": "Muhammad Tabrani",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who led the First Indonesian Youth Congress?"
+  },
+  "indonesian--8187875428315456042-0": {
+   "question": "Kapan Bon Jovi berdiri ?",
+   "answer": "1983",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Bon Jovi founded?"
+  },
+  "indonesian-6961197999855194785-0": {
+   "question": "Kapan Kumandang Sastra mulai disiarkan ?",
+   "answer": "29 Maret 1967",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will Kumandang Sastra start broadcasting?"
+  },
+  "indonesian--5286120331573997351-0": {
+   "question": "Apa yang dimaksud dengan Jambore pramuka?",
+   "answer": "Pertemuan Pramuka Penggalang dalam bentuk perkemahan besar yang diselenggarakan oleh Kwartir Gerakan Pramuka dari tingkat yang paling ranting sampai tingkat nasional",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is a Scout Jamboree?"
+  },
+  "indonesian-9146197114000753850-12": {
+   "question": "berapakah jumlah episode/seri Go-Tōbun no Hanayome?",
+   "answer": "12",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "berapakah jumlah episode/seri Go-Tōbun no Hanayome?"
+  },
+  "indonesian--9120625991672794411-0": {
+   "question": "berapakah jumlah pulau di kepulauan Krakatau?",
+   "answer": "empat",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many islands are in the Krakatoa archipelago?"
+  },
+  "indonesian--9153445547177112421-0": {
+   "question": "Kapan Pelemparan di Praha terjadi?",
+   "answer": "1419",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Throwing in Prague take place?"
+  },
+  "indonesian--3863031373169120212-3": {
+   "question": "Siapa karakter utama dalam The Castle of Cagliostro?",
+   "answer": "Arsène Lupin III",
+   "gold": "who",
+   "pred": "which",
+   "english_question": "Who are the main characters in The Castle of Cagliostro?"
+  },
+  "indonesian--1063764825769339967-3": {
+   "question": "Dimanakah tumbuhan kaktus sering dijumpai ?",
+   "answer": "daerah beriklim tropis dan subtropis",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where are cactus plants often found?"
+  },
+  "indonesian-6091242792006883612-0": {
+   "question": "Kapan Kubilai Khan lahir?",
+   "answer": "23 September 1215",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Kublai Khan born?"
+  },
+  "indonesian--4029151617022573021-0": {
+   "question": "siapakah yang menciptakan Istilah Genosida?",
+   "answer": "Raphael Lemkin",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who coined the term genocide?"
+  },
+  "indonesian--4550080602485228062-0": {
+   "question": "mata uang apakah yang digunakan di Iran?",
+   "answer": "Rial",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What currency is used in Iran?"
+  },
+  "indonesian-8204961227222900208-7": {
+   "question": "Siapa pendiri Institut Leimena?",
+   "answer": "Jakob Tobing, Mangara Tambunan, Matius Ho, Radja Kami Sembiring Meliala, dan Viveka Nanda Leimena",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the founder of the Leimena Institute?"
+  },
+  "indonesian-4567733324620500130-0": {
+   "question": "Apakah kepercayaan masyarakat Korea?",
+   "answer": "Buddha, 18.3% sebagai penganut Protestan dan 10.9% sebagai penganut Katolik Roma, dengan total 29.2% penganut Kristen",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What do Korean people believe?"
+  },
+  "indonesian--2092640932643381993-1": {
+   "question": "siapapresiden pertama indonesia?",
+   "answer": "Soekarno",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was Indonesia's first president?"
+  },
+  "indonesian--4127041748861290869-1": {
+   "question": "Siapakah perdana menteri pertama Pakistan ?",
+   "answer": "Liaquat Ali Khan",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first prime minister of Pakistan?"
+  },
+  "indonesian-5793338142597756956-2": {
+   "question": "Di umur berapa Michael Trent Reznor mulai belajar musik?",
+   "answer": "lima",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "At what age did Michael Trent Reznor start studying music?"
+  },
+  "indonesian-8891250430770930866-4": {
+   "question": "Kapan Kitab Yesaya ditulis ?",
+   "answer": "125 SM",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Book of Isaiah written?"
+  },
+  "indonesian-8983603985786769998-0": {
+   "question": "Dimanakah aliran Sungai Asahan berakhir ?",
+   "answer": "Teluk Nibung, Selat Malaka, Kabupaten Asahan",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where does the Asahan River end?"
+  },
+  "indonesian-1559477775387348780-17": {
+   "question": "berapakah luas Kota Pasuruan?",
+   "answer": "76,79 Km2",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Pasuruan City?"
+  },
+  "indonesian--5480415698510555485-0": {
+   "question": "Apa itu Teknologi Komunikasi?",
+   "answer": "peralatan perangkat keras (hardware) dalam sebuah struktur organisasi yang mengandung nilai-nilai sosial yang memungkinkan setiap individu mengumpulkan, memproses dan saling tukar menukar informasi dengan individu-individu lain",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Communication Technology?"
+  },
+  "indonesian--7977769598018620690-0": {
+   "question": "Dimanakah letak Timur Dekat Kuno?",
+   "answer": "Terdiri dari Mesopotamia (Iraq dan timurlaut Syria), Mesir Kuno, Iran Kuno (Elam, Media, Parthia dan Persia), Armenia, Anatolia (Turki) dan Levant (Syria, Lebanon, Israel, Palestine, Jordan, Cyprus, dan Kreta)",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the Ancient Near East?"
+  },
+  "indonesian--168656861589545540-0": {
+   "question": "Apakah maksud Shamanisme Korea?",
+   "answer": "kepercayaan asli rakyat Korea yang menggabungkan berbagai kepercayaan dan praktik yang dipengaruhi agama asli Korea, agama Buddha dan Taoisme",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "Apaka maksud Shamanism Korea?"
+  },
+  "indonesian-9100607379487415915-0": {
+   "question": "apakah mamalia yang terbesar didunia ?",
+   "answer": "Paus biru",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "what is the largest mammal in the world?"
+  },
+  "indonesian-9149693414823272100-0": {
+   "question": "Dimanakah fosil Homo floresiensis ditemukan?",
+   "answer": "Liang Bua, Pulau Flores, pada tahun 2001",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where were Homo floresiensis fossils found?"
+  },
+  "indonesian-7175633602522221765-0": {
+   "question": "siapakah sutradara film merantau?",
+   "answer": "Gareth Evans",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "who is the director of the film merantau?"
+  },
+  "indonesian-2283914922324385803-19": {
+   "question": "Kapan Sunan Ampel meninggal?",
+   "answer": "1481",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Sunan Ampel die?"
+  },
+  "indonesian-6462469763752165746-19": {
+   "question": "Apa tugas utama malaikat Mikail menurut Islam ?",
+   "answer": "mengatur air, menurunkan hujan/petir, membagikan rezeki pada manusia, tumbuh-tumbuhan juga hewan-hewan dan lain-lain di muka bumi ini",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main task of Michael the Archangel according to Islam?"
+  },
+  "indonesian-148348127461563099-9": {
+   "question": "siapakah nama karakter antagonis utama di dalam Avatar: The Last Airbender?",
+   "answer": "Amon",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the name of the main antagonist in Avatar: The Last Airbender?"
+  },
+  "indonesian-2808975656270124817-3": {
+   "question": "Apakah bahan utama pembuatan aspartam?",
+   "answer": "asam aspartat dan fenilalanina",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main ingredient in making aspartame?"
+  },
+  "indonesian--3317291637720724143-7": {
+   "question": "Siapa ketua fraksi Partai Aliansi Liberal dan Demokrat untuk Eropa?",
+   "answer": "Guy Verhofstadt",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the chairman of the Liberal and Democratic Alliance Party for Europe faction?"
+  },
+  "indonesian--6122027221867310066-3": {
+   "question": "kapankah kapal pertama diciptakan?",
+   "answer": "masa Neolitikum",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "when was the first ship built?"
+  },
+  "indonesian-1704817596505370447-2": {
+   "question": "apakah nama alat musik yang digemari Squidward Tentacles?",
+   "answer": "klarinet",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of Squidward Tentacles' favorite musical instrument?"
+  },
+  "indonesian--5531346682362769457-0": {
+   "question": "dimanakah kantor pusat Kemenperin RI?",
+   "answer": "Jalan Jenderal Gatot Subroto, Jakarta, Indonesia",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the head office of the Indonesian Ministry of Industry?"
+  },
+  "indonesian--5332666440315033692-0": {
+   "question": "Siapakah Kubilai Khan?",
+   "answer": "kaisar Mongol (1260-1294) dan juga pendiri Dinasti Yuan",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who is Kublai Khan?"
+  },
+  "indonesian--8140003259510941605-0": {
+   "question": "Apakah agama Paul F. Knitter?",
+   "answer": "Katolik",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Paul F. Knitter's religion?"
+  },
+  "indonesian--3944363010379442304-4": {
+   "question": "Berapa luas pulau Belitung ?",
+   "answer": "4.800km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Belitung Island?"
+  },
+  "indonesian-5267540031648080258-19": {
+   "question": "Kapan Hulagu Khan meninggal ?",
+   "answer": "1265",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Hulagu Khan die?"
+  },
+  "indonesian--5667509296827148208-0": {
+   "question": "apakah yang di maksud dengan membran ?",
+   "answer": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by membrane?"
+  },
+  "indonesian--4656602482900487592-1": {
+   "question": "tahun berapakah Kesultanan Aceh didirikan?",
+   "answer": "1496",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year was the Sultanate of Aceh founded?"
+  },
+  "indonesian-5195341581325899190-0": {
+   "question": "Apakah warna bendera Meksiko ?",
+   "answer": "hijau, putih, dan merah",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What are the colors of the Mexican flag?"
+  },
+  "indonesian-6391222571956492845-0": {
+   "question": "Apa yang dimaksud dengan semiconductor?",
+   "answer": "sebuah bahan dengan konduktivitas listrik yang berada di antara insulator (isolator) dan konduktor",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by semiconductor?"
+  },
+  "indonesian--8964459336038520880-0": {
+   "question": "Apa yang dimaksud komunikasi visual?",
+   "answer": "rangkaian proses penyampaian informasi atau pesan kepada pihak lain dengan penggunaan media penggambaran yang hanya terbaca oleh indra penglihatan",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by visual communication?"
+  },
+  "indonesian--3820895318352619584-0": {
+   "question": "Siapa pendiri agama Bahá'í?",
+   "answer": "Bahá'u'lláh",
+   "gold": "NONE",
+   "pred": "who",
+   "english_question": "Siapa penisi agama Bahá'í?"
+  },
+  "indonesian-6472017019495162611-0": {
+   "question": "Dimana letak Kensington ?",
+   "answer": "Inggris",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Kensington located?"
+  },
+  "indonesian--6875782319991396106-1": {
+   "question": "siapakah jenderal pertama TNI ?",
+   "answer": "Jenderal Soedirman",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first general of the TNI?"
+  },
+  "indonesian-2560082631742057889-0": {
+   "question": "Apa kota terbesar di Papua Barat?",
+   "answer": "Sorong",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is the biggest city in West Papua?"
+  },
+  "indonesian-8549766724318606626-0": {
+   "question": "Kapan  Kritik atas Nalar Murni diterbitkan?",
+   "answer": "1781",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Critique of Pure Reason published?"
+  },
+  "indonesian--5129871463312724843-8": {
+   "question": "Kapan Petar Segrt ditunjuk menjadi pelatih kepala PSM Makassar?",
+   "answer": "Oktober 2011",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Petar Segrt appointed head coach of PSM Makassar?"
+  },
+  "indonesian-2713006567297601845-4": {
+   "question": "Siapa juara Grand Prix Amerika Serikat 2005?",
+   "answer": "Michael Schumacher",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who won the 2005 United States Grand Prix?"
+  },
+  "indonesian--763850210488866893-0": {
+   "question": "Berapa luas pulau Jamaika?",
+   "answer": "sebesar Pulau Bangka",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is the island of Jamaica?"
+  },
+  "indonesian--2201213935959564504-2": {
+   "question": "Dimana letak Balai Kota DKI Jakarta?",
+   "answer": "Jl. Medan Merdeka Selatan No. 8-9, Jakarta Pusat",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is DKI Jakarta City Hall located?"
+  },
+  "indonesian--245623164040651213-0": {
+   "question": "Kapan acara realitas Mamamia pertama kali masuk di Indonesia?",
+   "answer": "2007",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the reality show Mamamia first enter Indonesia?"
+  },
+  "indonesian-4924477778898764602-54": {
+   "question": "Apakah bahasa mayoritas suku Bulgar?",
+   "answer": "Bahasa Bulgaria",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the majority language of the Bulgars?"
+  },
+  "indonesian--9057774568653960090-0": {
+   "question": "Dimana letak Montenegro?",
+   "answer": "Eropa Selatan",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Montenegro located?"
+  },
+  "indonesian--3237616541770828361-2": {
+   "question": "Kapan Mayor PNB Djalaludin Tantu bergabung dengan TNI ?",
+   "answer": "1954",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Major PNB Djalaludin Tantu join the TNI?"
+  },
+  "indonesian--50762145873377093-1": {
+   "question": "Apakah penyebab utama Pengeboman pasar Tentena 2005?",
+   "answer": "upaya balas dendam atas kekejaman sebelumnya yang dilakukan terhadap komunitas Muslim di Poso",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the main cause of the 2005 Tentena market bombing?"
+  },
+  "indonesian--4206449404377811842-0": {
+   "question": "Dimana letak Aquitania?",
+   "answer": "Pegunungan Pyrenees",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Aquitaine located?"
+  },
+  "indonesian--3305669930107025096-2": {
+   "question": "Kapankah tiongkok menjadi negara republik ?",
+   "answer": "1 Januari 1912",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did China become a republic?"
+  },
+  "indonesian--6260248578993816005-0": {
+   "question": "Kapan buku Stardust diterbitkan di Inggris?",
+   "answer": "1998",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Stardust book published in the UK?"
+  },
+  "indonesian-3077546830708943240-13": {
+   "question": "Siapakah presiden Turkmenistan pertama ?",
+   "answer": "Saparmurat Niyazov",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first president of Turkmenistan?"
+  },
+  "indonesian-296033395683059378-2": {
+   "question": "Bahasa apa yang digunakan dalam Kitab Yesus bin Sirakh?",
+   "answer": "Ibrani",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What language is used in the Book of Jesus bin Sirakh?"
+  },
+  "indonesian-7428074098910216475-0": {
+   "question": "Dari mana asal kata Bhagawadgita?",
+   "answer": "Sanskerta",
+   "gold": "where",
+   "pred": "what",
+   "english_question": "Where does the word Bhagawadgita come from?"
+  },
+  "indonesian--1715470221812527172-0": {
+   "question": "Berapa jumlah tim sepak bola di Jerman?",
+   "answer": "26.000",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many football teams are there in Germany?"
+  },
+  "indonesian-3580193977955256966-0": {
+   "question": "Siapa artis wanita pemeran utama dalam Eiffel... I'm in Love?",
+   "answer": "Shandy Aulia",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the main female artist in Eiffel... I'm in Love?"
+  },
+  "indonesian--2516321763567853082-0": {
+   "question": "Apakah yang dimaksud dengan Membran vakuola?",
+   "answer": "ruang dalam sel yang berisi cairan (cell sap dalam bahasa Inggris) yang berupa rongga yang diselaputi membran",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by vacuole membrane?"
+  },
+  "indonesian--6709842473368306120-22": {
+   "question": "Abad keberapakah zaman feodal Jepang?",
+   "answer": "ke-12 hingga abad ke-19",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What century was feudal Japan?"
+  },
+  "indonesian-8570608019964569886-0": {
+   "question": "Apa mayoritas agama penduduk Libanon ?",
+   "answer": "Kristen (Gereja Maronit, Gereja Ortodoks Yunani, Gereja Katolik Yunani Melkit, Gereja Protestan, Gereja Apostolik Armenia) dan Islam (Syiah dan Sunni)",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the majority religion of Lebanon's population?"
+  },
+  "indonesian-7336915397153503957-17": {
+   "question": "siapakah penerus Asyurbanipal?",
+   "answer": "Asur-etillu-ili",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is Ashurbanipal's successor?"
+  },
+  "indonesian--5311595217120386488-3": {
+   "question": "Kapan Museum Goedang Ransoem dibangun ?",
+   "answer": "1918",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Goedang Ransoem Museum built?"
+  },
+  "indonesian-8601389648636013237-1": {
+   "question": "siapakah ketua Perum LKBN pertama?",
+   "answer": "Soemanang danAdam Malik",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first chairman of Perum LKBN?"
+  },
+  "indonesian-6167468535934539842-0": {
+   "question": "apakah karya terakhir beethoven?",
+   "answer": "Simfoni No. 9 dalam tangga nada D minor",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Beethoven's last work?"
+  },
+  "indonesian--854994126945051173-5": {
+   "question": "Kapan PT Broadband Multimedia Tbk berubah menjadi First Media ?",
+   "answer": "16 Juni 2007",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did PT Broadband Multimedia Tbk change to First Media?"
+  },
+  "indonesian--5216192131805224523-0": {
+   "question": "Dimana Petrus Lombardus meninggal?",
+   "answer": "Paris, Kerajaan Perancis",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where did Petrus Lombardus die?"
+  },
+  "indonesian--6255468429698570053-0": {
+   "question": "dari manakah istilah genosida berasal?",
+   "answer": "bahasa Yunani",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where does the term genocide come from?"
+  },
+  "indonesian-5633590583948933406-0": {
+   "question": "Tahun berapa orde lama berakhir?",
+   "answer": "1965",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What year did the old order end?"
+  },
+  "indonesian-8007674090028509052-11": {
+   "question": "berapakah jumlah kecamatan Kabupaten Nabire?",
+   "answer": "14",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "how many sub-districts is Nabire Regency?"
+  },
+  "indonesian--5818960042489889710-0": {
+   "question": "Kapan PT bus Damri didirikan?",
+   "answer": "25 November 1946",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was PT bus Damri founded?"
+  },
+  "indonesian--1821852024030788886-9": {
+   "question": "Berapa luas Las Vegas?",
+   "answer": "131.3 mil persegi",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Las Vegas?"
+  },
+  "indonesian--7221289641859821501-21": {
+   "question": "Siapa yang merumuskan naskah proklamasi Indonesia?",
+   "answer": "Tadashi Maeda, Tomegoro Yoshizumi, S. Nishijima, S. Miyoshi, Mohammad Hatta, Soekarno, dan Achmad Soebardjo",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who formulated the text of the Indonesian proclamation?"
+  },
+  "indonesian--1564980202268090715-0": {
+   "question": "Kapan Pieter Willem Botha menjabat sebagai perdana menteri ?",
+   "answer": "1978",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Pieter Willem Botha serve as prime minister?"
+  },
+  "indonesian-6274547934693326697-0": {
+   "question": "Kapan Tarekat Qodiriyah wa Naqsyabandiyah berdiri ?",
+   "answer": "abad ke-13 hijrah",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Qodiriyah wa Naqsyabandiyah Order founded?"
+  },
+  "indonesian-774547064836454790-1": {
+   "question": "tahun berapakah The Greatest Showman dirilis?",
+   "answer": "20 Desember 2017",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What year was The Greatest Showman released?"
+  },
+  "indonesian-8291193216694284299-0": {
+   "question": "Apakah yang dimaksud dengan Transgender?",
+   "answer": "orang yang memiliki identitas gender atau ekspresi gender yang berbeda dengan seksnya yang ditunjuk saat lahir",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by Transgender?"
+  },
+  "indonesian-5167829171566207857-0": {
+   "question": "Kapan Perusahaan Jawatan Kereta Api didirikan?",
+   "answer": "15 September 1971",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Railway Jobs Company established?"
+  },
+  "indonesian--1034645139590815267-0": {
+   "question": "Apakah yang dimaksud dengan Pecinan ?",
+   "answer": "sebuah wilayah kota yang mayoritas penghuninya adalah orang Tionghoa",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by Chinatown?"
+  },
+  "indonesian-6184390320403006131-0": {
+   "question": "Kapan Empire Earth dirilis ?",
+   "answer": "23 November 2001",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will Empire Earth be released?"
+  },
+  "indonesian--3006743593955670549-0": {
+   "question": "apakah Film pertama yang diperankan oleh Putri Marino?",
+   "answer": "Posesif",
+   "gold": "NONE",
+   "pred": "which",
+   "english_question": "Is it the first film where Putri Marino played?"
+  },
+  "indonesian--6612190288057766091-0": {
+   "question": "Dimana letak daerah Malta di Eropa ?",
+   "answer": "80km (50mi) di selatan dari Italia, 284km (176mi) di timur dari Tunisia dan 333km (207mi) di utara dari Libya",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Malta located in Europe?"
+  },
+  "indonesian--3961906363150664313-0": {
+   "question": "Apakah nama universitas terbesar di Hamburg?\\",
+   "answer": "Universitas Hamburg",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the largest university in Hamburg?\\"
+  },
+  "indonesian--3725753858035421074-0": {
+   "question": "Berapa lama Prof. Dr. Gerrit A. Siwabessy menjadi Menteri Kesehatan Republik Indonesia?",
+   "answer": "1966 hingga 1978",
+   "gold": "how-num",
+   "pred": "when",
+   "english_question": "How long did Prof. Dr. Gerrit A. Siwabessy becomes Minister of Health of the Republic of Indonesia?"
+  },
+  "indonesian-9141868818310916091-0": {
+   "question": "Siapakah Dr. H. Shofwan Karim Elha?",
+   "answer": "pengajar, aktivis sosial kemasyarakatan dan profesional Indonesia",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who is Dr. H. Shofwan Karim Elha?"
+  },
+  "indonesian-1658760543628011845-0": {
+   "question": "Kapan Need for Speed: ​​Payback dirilis?",
+   "answer": "10 November 2017",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will Need for Speed: Payback be released?"
+  },
+  "indonesian-995413540390388672-1": {
+   "question": "siapakah PM/President pertama Republik India?",
+   "answer": "Rajendra Prasad",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first PM/President of the Republic of India?"
+  },
+  "indonesian--2238748106405313192-0": {
+   "question": "berapa lamakah zaman Orde Lama berlangsung?",
+   "answer": "1945 hingga 1965",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How long did the Old Order last?"
+  },
+  "indonesian--1360293585984946043-52": {
+   "question": "Kapan R.M.A.A. Koesoemo Oetoyo diangkat menjadi bupati ?",
+   "answer": "1905",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was RMAA Koesoemo Oetoyo appointed as regent?"
+  },
+  "indonesian-6281481865556309443-0": {
+   "question": "Kapan Johnny Hiromu Kitagawa lahir?",
+   "answer": "23 Oktober 1928",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Johnny Hiromu Kitagawa born?"
+  },
+  "indonesian--5219215908958049530-0": {
+   "question": "Kapan Pembantaian Westerling terjadi ?",
+   "answer": "Desember 1946-Februari 1947",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Westerling Massacre occur?"
+  },
+  "indonesian-6042608857904435749-0": {
+   "question": "Kapan ponsel Blackberry pertama kali rilis ?",
+   "answer": "1999",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the first Blackberry cellphone released?"
+  },
+  "indonesian--2518067305561975349-1": {
+   "question": "Apa yang dimaksud dengan Gerakan kepanduan?",
+   "answer": "sebuah gerakan pembinaan pemuda yang memiliki pengaruh mendunia",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by Scouting movement?"
+  },
+  "indonesian-7469372523143198921-5": {
+   "question": "berapakah luas Kepulauan Marshall?",
+   "answer": "luas perairan 750.000 mil persegi (1.900.000 km2) dan dengan luas daratan hanya 70 mil persegi (180 km2)",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is the Marshall Islands?"
+  },
+  "indonesian--5033367544897879262-0": {
+   "question": "Dari manakah adal club CONMEBOL?",
+   "answer": "Amerika Selatan",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where are the CONMEBOL clubs from?"
+  },
+  "indonesian-1413473859391796934-0": {
+   "question": "mata uang apakah yang digunakan di brazil?",
+   "answer": "Real Brasil",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What currency is used in Brazil?"
+  },
+  "indonesian--5183752328283002020-1": {
+   "question": "Siapakah pembawa acara Hikmah Fajar?",
+   "answer": "Arief Rachman",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the host of Hikmah Fajar?"
+  },
+  "indonesian--795393617345875039-0": {
+   "question": "Apakah peran dewa wisnu dalam kepercayaan Hindu ?",
+   "answer": "memelihara dan melindungi segala ciptaan Brahman",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the role of the god Vishnu in Hinduism?"
+  },
+  "indonesian-1393640804298037704-0": {
+   "question": "apakah yang dimaksud dengan polimer ?",
+   "answer": "sejumlah molekul besar yang terdiri dari unit unit yang berulang yang disebut monomer",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by polymer?"
+  },
+  "indonesian-4925139071280996023-3": {
+   "question": "Siapakah pemimpin Khilafah pertama ?",
+   "answer": "Abu Bakar",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the leader of the first Caliphate?"
+  },
+  "indonesian-7559641841622894714-1": {
+   "question": "Dimana Oskar-Heinz “Pritzl” Bär lahir ?",
+   "answer": "Sommerfeld dekat Lipsk",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Oskar-Heinz “Pritzl” Bär born?"
+  },
+  "indonesian--4264664194812160740-0": {
+   "question": "Apa definisi dari wilayah ?",
+   "answer": "daerah yang dikuasai atau menjadi teritorial dari sebuah kedaulatan",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the definition of region?"
+  },
+  "indonesian-3281642559770623309-1": {
+   "question": "Berapakah panjang pantai Pesisir Selatan?",
+   "answer": "218 kilometer",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How long is Pesisir Selatan beach?"
+  },
+  "indonesian-7198753959290179798-0": {
+   "question": "Apa penyebab letusan Gunung St. Helens pada 18 Mei, 1980?",
+   "answer": "keluarnya magma di kedalaman dangkal di bawah gunung berapi yang menciptakan tonjolan besar dan sistem kekar di lereng gunung bagian utara",
+   "gold": "what",
+   "pred": "why",
+   "english_question": "What caused the eruption of Mount St. Helens on May 18, 1980?"
+  },
+  "indonesian--5447015457501002343-1": {
+   "question": "Dimana Johnny Hiromu Kitagawa lahir?",
+   "answer": "Los Angeles, California, Amerika Serikat",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Johnny Hiromu Kitagawa born?"
+  },
+  "indonesian--8460938994222534364-0": {
+   "question": "Berapa frekuensi Radio Pelita Kasih?",
+   "answer": "FM 96,30MHz",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the frequency of Radio Pelita Kasih?"
+  },
+  "indonesian-2036433024400206392-0": {
+   "question": "apakah nama Gereja tertua di Jakarta?",
+   "answer": "Gereja Sion",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "what is the name of the oldest church in Jakarta?"
+  },
+  "indonesian-3301097767504165362-2": {
+   "question": "Apakah perusahaan pertama tempat David Mackenzie Ogilvy bekerja?",
+   "answer": "AGA Cooker",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the first company David Mackenzie Ogilvy worked for?"
+  },
+  "indonesian-8678907847648179078-0": {
+   "question": "Apa yang dimaksud dengan kota Metropolitan?",
+   "answer": "pusat populasi besar yang terdiri atas satu metropolis besar dan daerah sekitarnya, atau beberapa kota sentral yang saling bertetangga dan daerah sekitarnya",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by Metropolitan city?"
+  },
+  "indonesian-37170221270633209-1": {
+   "question": "Apakah kandungan dalam susu kambing ?",
+   "answer": "protein 3,6%, lemak 6,17%, bahan kering 15,49%, dan BKTL 9,32%",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is in goat's milk?"
+  },
+  "indonesian--7361944434281910764-0": {
+   "question": "Kapan BlackBerry diciptakan ?",
+   "answer": "1999",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the BlackBerry created?"
+  },
+  "indonesian-3684660347487425939-0": {
+   "question": "Dimanakah letak Universitas Leiden ?",
+   "answer": "Leiden",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Leiden University located?"
+  },
+  "indonesian-4215156871499706334-0": {
+   "question": "Apa yang dimaksud dengan Depo lokomotif ?",
+   "answer": "tempat menyimpan, menyiapkan, melakukan pemeriksaan, memelihara, dan perbaikan ringan agar lokomotif siap untuk melakukan tugasnya menarik rangkaian kereta api",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by locomotive depot?"
+  },
+  "indonesian-3090441137268449671-1": {
+   "question": "Kapan Masjid Shah  dibangun ?",
+   "answer": "1611",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Shah Mosque built?"
+  },
+  "indonesian-6693972760674484490-1": {
+   "question": "Siapa pendiri Dailymotion ?",
+   "answer": "Benjamin Bejbaum dan Oliver Poitrey",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the founder of Dailymotion?"
+  },
+  "indonesian--2446025494600108316-0": {
+   "question": "dimanakah letak Suaka margasatwa Muara Angke ?",
+   "answer": "wilayah hutan bakau (mangrove) di pesisir utara Jakarta",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the Muara Angke Wildlife Reserve located?"
+  },
+  "indonesian--5865456290481848396-0": {
+   "question": "Siapa penerbit buku Kompas Emas?",
+   "answer": "PT Gramedia Pustaka Utama",
+   "gold": "who",
+   "pred": "which",
+   "english_question": "Who is the publisher of the Golden Compass book?"
+  },
+  "indonesian--1040447011128410758-0": {
+   "question": "Dimanakah letak negara Angola ?",
+   "answer": "Afrika bagian barat daya",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the country of Angola?"
+  },
+  "indonesian--5936491151474760199-0": {
+   "question": "apakah penghargaan tertinggi dalam bidang Jurnalisme?",
+   "answer": "Penghargaan Pulitzer",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the highest award in the field of Journalism?"
+  },
+  "indonesian--8183276742920542384-3": {
+   "question": "Siapa pendiri Institut Teknologi Sepuluh Nopember Surabaya?",
+   "answer": "dr. Angka Nitisastro, Soedjasmono, Kyai Haji Yahya Hasyim, dan didukung oleh Roeslan Abdulgani",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the founder of the Sepuluh Nopember Institute of Technology, Surabaya?"
+  },
+  "indonesian-1013976645607429124-0": {
+   "question": "Kapan Joseph Muscat lahir ?",
+   "answer": "22 Januari 1974",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Joseph Muscat born?"
+  },
+  "indonesian--8624143683957867038-0": {
+   "question": "berapkah jumlah album The Rain?",
+   "answer": "enam",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many albums does The Rain have?"
+  },
+  "indonesian--5002369432895729456-0": {
+   "question": "Apa yang dimaksud dengan Sang Tiga Dewata Murni?",
+   "answer": "tiga Dewata tertinggi dalam jajaran Taoisme",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by the Three Pure Gods?"
+  },
+  "indonesian-761111595895680336-0": {
+   "question": "apakah yang dimaksud dengan simbiosis ?",
+   "answer": "semua jenis interaksi biologis jangka panjang dan dekat antara dua organisme biologis yang berbeda, baik itu mutualisme, komensalisme, atau parasitisme",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by symbiosis?"
+  },
+  "indonesian-1182580358573492181-0": {
+   "question": "Perselisihan apakah yang terjadi pada masa pemerintahan Yelizaveta ?",
+   "answer": "Perang Pewaris Austria (1740 – 1748) dan Perang Tujuh Tahun (1756 – 1763)",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What disputes occurred during Yelizaveta's reign?"
+  },
+  "indonesian-7711005670348178249-1": {
+   "question": "apakah bahan utama untuk menciptakan Reglet?",
+   "answer": "logam atau plastik",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is the main ingredient for making Reglet?"
+  },
+  "indonesian-4425985708682922187-1": {
+   "question": "Apakah baterai yang digunakan dalam Jam tangan ponsel?",
+   "answer": "yang biasa digunakan pada jam tangan",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What are the batteries used in mobile watches?"
+  },
+  "indonesian--1779807053452858551-3": {
+   "question": "Kapan Padre Pio lahir?",
+   "answer": "25 Mei 1887",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Padre Pio born?"
+  },
+  "indonesian-7430899375468092834-3": {
+   "question": "Apa penyebab kematian Islam Abduganiyevich Karimov?",
+   "answer": "menderita stroke",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the cause of Islam Abduganiyevich Karimov's death?"
+  },
+  "indonesian--4091018097786645808-3": {
+   "question": "Apakah fungsi utama tumbuhan jarak ?",
+   "answer": "sumber minyak jarak",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main function of castor oil plants?"
+  },
+  "indonesian--6108744565043912181-0": {
+   "question": "Siapa pendiri PT. Kharisma Starvision Plus?",
+   "answer": "Chand Parwez Servia",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the founder of PT. Charisma Starvision Plus?"
+  },
+  "indonesian-8422154359215375503-3": {
+   "question": "Kapan aksara Lontara digunakan dalam adat masyrakat bugis ?",
+   "answer": "terbatas dalam upacara seperti pernikahan",
+   "gold": "when",
+   "pred": "why",
+   "english_question": "When was the Lontara script used in Bugis customs?"
+  },
+  "indonesian-7350679252404486433-10": {
+   "question": "Dimana Raja  Ataulf meninggal?",
+   "answer": "istana Barcelona",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where did King Ataulf die?"
+  },
+  "indonesian--3836172522354782762-0": {
+   "question": "Apa itu agama samawi?",
+   "answer": "agama yang muncul dari suatu tradisi Semit kuno bersama dan yang ditelusuri oleh para pemeluknya",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is divine religion?"
+  },
+  "indonesian--4092798133881710229-0": {
+   "question": "Kapan Sekte Rinzai di jepang berdiri ?",
+   "answer": "1191",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Rinzai Sect founded in Japan?"
+  },
+  "indonesian--3601594755143893169-0": {
+   "question": "apakah arti dari heraldik ?",
+   "answer": "suatu ilmu atau seni dalam menciptakan dan menghias lambang, beserta kajian tentang makna, asal-usul, sejarah, dan perkembangannya",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the meaning of heraldic?"
+  },
+  "indonesian-6316614521831185416-0": {
+   "question": "Apa ciri khas dari kebudayaan Neolitik?",
+   "answer": "Vinča",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What are the characteristics of the Neolithic culture?"
+  },
+  "indonesian--4738769463096287264-0": {
+   "question": "Apakah novel kedua dari Trilogi Rajawali?",
+   "answer": "Kembalinya Pendekar Pemanah Rajawali",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the second novel in the Rajawali Trilogy?"
+  },
+  "indonesian-8661667714245262977-0": {
+   "question": "Apa yang dimaksud dengan membran ?",
+   "answer": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by membrane?"
+  },
+  "indonesian--8610674351605307456-0": {
+   "question": "kapankah SpongeBob pertama kali dirilis?",
+   "answer": "1999",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was SpongeBob first released?"
+  },
+  "indonesian-3476633804600691248-0": {
+   "question": "Apa yang dimaksud dengan frekuensi ?",
+   "answer": "ukuran jumlah putaran ulang per peristiwa dalam satuan detik dengan satuan Hz",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by frequency?"
+  },
+  "indonesian-361289257775176693-0": {
+   "question": "apakah yang dimaksud dengan Tarekat religius Katolik?",
+   "answer": "salah satu kategori lembaga religius Katolik",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by Catholic religious orders?"
+  },
+  "indonesian--3086469170519508783-2": {
+   "question": "Dimana Arung Palakka lahir?",
+   "answer": "Lamatta, Mario-ri Wawo, Soppeng",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where was Arung Palakka born?"
+  },
+  "indonesian--3404289853198914355-0": {
+   "question": "Pada zaman apakah aksara baji digunakan?",
+   "answer": "tiga ribu tahun sebelum Masehi",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what era was the cuneiform character used?"
+  },
+  "indonesian-2590313234173654828-1": {
+   "question": "berapakah luas Pulau Enggano?",
+   "answer": "400,6km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Enggano Island?"
+  },
+  "indonesian--6264481583534356233-1": {
+   "question": "Apakah nama rumah adat suku Banjar?",
+   "answer": "Rumah Baanjung",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the name of the traditional house of the Banjar tribe?"
+  },
+  "indonesian--4024727646493983158-0": {
+   "question": "siapakah wanita yang di nikahi Barrack Obama?",
+   "answer": "Michelle Obama",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the woman Barack Obama married?"
+  },
+  "indonesian--2323607553629699215-0": {
+   "question": "Kapan Lothar II lahir?",
+   "answer": "9 Juni 1075",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Lothar II born?"
+  },
+  "indonesian--8332045574120277615-0": {
+   "question": "Siapakah presiden wanita pertama di Filipina ?",
+   "answer": "Maria Corazon Sumulong Cojuangco Aquino",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the first female president of the Philippines?"
+  },
+  "indonesian--1741880931208157549-0": {
+   "question": "Kapan tari Breakdance muncul ?",
+   "answer": "1970",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Breakdancing appear?"
+  },
+  "indonesian-2455163565892532884-0": {
+   "question": "Kapan  Francis Fukuyama lahir ?",
+   "answer": "27 Oktober 1952",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Francis Fukuyama born?"
+  },
+  "indonesian--4630333916133079675-0": {
+   "question": "berapakah jumlah kecamatan di Kabupaten Majalengka?",
+   "answer": "26",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many sub-districts are there in Majalengka Regency?"
+  },
+  "indonesian-8253515450193741782-6": {
+   "question": "Kapan organisasi Muhammadiyah berdiri ?",
+   "answer": "18 November 1912",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Muhammadiyah organization founded?"
+  },
+  "indonesian--5905791658824150944-0": {
+   "question": "Siapakah anak dari Margarita dari Navarra?",
+   "answer": "Gugghiermu II",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the son of Margaret of Navarre?"
+  },
+  "indonesian-6549733151275771910-0": {
+   "question": "Apa definisi sederhana dari antibiotika ?",
+   "answer": "segolongan molekul, baik alami maupun sintetik, yang mempunyai efek menekan atau menghentikan suatu proses biokimia pada organisme, khususnya dalam proses infeksi oleh bakteri",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the simple definition of antibiotics?"
+  },
+  "indonesian--3999003506418034446-0": {
+   "question": "dari manakah tari haka berasal?",
+   "answer": "Suku Māori di Selandia Baru",
+   "gold": "where",
+   "pred": "who",
+   "english_question": "where did the haka dance come from?"
+  },
+  "indonesian--3671932825771094738-9": {
+   "question": "Berapakah jumlah korban jiwa tsunami Sulawesi 2018?",
+   "answer": "2.045",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many fatalities did the 2018 Sulawesi tsunami have?"
+  },
+  "indonesian-4995118173658075246-2": {
+   "question": "Apakah ajaran inti agama Bahá'í?",
+   "answer": "asas-asas keesaan Tuhan, kesatuan agama, dan persatuan umat manusia",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "Apaka ajaran inti agama Bahá'í?"
+  },
+  "indonesian--324001288076078137-0": {
+   "question": "siapakah Dewa Wisnu menurut agama Hindu?",
+   "answer": "Dewa yang bergelar sebagai shtiti (pemelihara) yang bertugas memelihara dan melindungi segala ciptaan Brahman (Tuhan Yang Maha Esa)",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who is God Vishnu according to Hinduism?"
+  },
+  "indonesian-2763468883290577923-0": {
+   "question": "Apakah nama pesawat Indonesia pertama ?",
+   "answer": "Dakota RI-001 Seulawah",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the name of the first Indonesian plane?"
+  },
+  "indonesian-6642048640433333226-1": {
+   "question": "dimanakah studio pembuatan  Tom and Jerry?",
+   "answer": "Hollywood",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "where is the studio where Tom and Jerry was made?"
+  },
+  "indonesian-3718620170545566715-0": {
+   "question": "apakah lagu pertama Supercell?",
+   "answer": "Kimi no Shiranai Monogatari",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "what is Supercell's first song?"
+  },
+  "indonesian--3392570594881287639-0": {
+   "question": "apakah nama ibukota Montenegro?",
+   "answer": "Podgorica",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "what is the name of the capital of Montenegro?"
+  },
+  "indonesian-5600673215920626089-0": {
+   "question": "Bagaimana sistem pemerintahan Jepang?",
+   "answer": "monarki konstitusional yang di dalamnya terdapat kuasa dari seorang Kaisar yang masih dibatasi dan hanya diturunkan terutama ketika melakukan tugas resmi",
+   "gold": "what",
+   "pred": "how-way",
+   "english_question": "What is the Japanese government system like?"
+  },
+  "indonesian-5379164046363335611-7": {
+   "question": "Apa yang dimaksud dengan wilayah Tatar Ukur?",
+   "answer": "Kerajaan Timbanganten dengan ibukota Tegalluar",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by the Tatar Ukur region?"
+  },
+  "indonesian--849257520488362003-0": {
+   "question": "Apa itu frekuensi ?",
+   "answer": "ukuran jumlah putaran ulang per peristiwa dalam satuan detik dengan satuan Hz",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is frequency?"
+  },
+  "indonesian--8218211999340840571-0": {
+   "question": "Apa itu kimia kuantum?",
+   "answer": "sebuah cabang kimia teori, yang menerapkan mekanika kuantum (dan belakangan ini teori medan kuantum) untuk menangani masalah dalam kimia",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is quantum chemistry?"
+  },
+  "indonesian-8965382878260264245-2": {
+   "question": "Kapan Eugene Curran \"Gene\" Kelly mulai menjadi penari?",
+   "answer": "Pada usia delapan tahun",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Eugene Curran \"Gene\" Kelly start dancing?"
+  },
+  "indonesian--4000685300325206596-0": {
+   "question": "Dimanakah letak Malawi ?",
+   "answer": "daratan Afrika bagian selatan",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Malawi?"
+  },
+  "indonesian--2976996849894749475-0": {
+   "question": "Dimanakah letak Montenegro?",
+   "answer": "Eropa Selatan",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Montenegro located?"
+  },
+  "indonesian-8366969233968350164-4": {
+   "question": "tahun berapakah Bandar Udara Gibraltar dibangun?",
+   "answer": "Perang Dunia II",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year was Gibraltar Airport built?"
+  },
+  "indonesian--124236569306818936-0": {
+   "question": "Dimanakah letak kerajaan Bohemia ?",
+   "answer": "Bohemia, Eropa Tengah",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the kingdom of Bohemia?"
+  },
+  "indonesian--460394063618561503-1": {
+   "question": "Siapa presiden pertama Nauru?",
+   "answer": "Hammer DeRoburt",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first president of Nauru?"
+  },
+  "indonesian-5857681310548958575-0": {
+   "question": "Dari mana  musik indie pop berasal ?",
+   "answer": "Inggris",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where does indie pop music come from?"
+  },
+  "indonesian--448104403490074230-0": {
+   "question": "Apa itu kalium klorida?",
+   "answer": "senyawa garam alkali tanah dengan halida yang terbentuk dari unsur kalium dan klor",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is potassium chloride?"
+  },
+  "indonesian--5059514755233568912-6": {
+   "question": "Apakah sistem politik Masyarakat Melayu?",
+   "answer": "musyawarah",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the political system of the Malay Society?"
+  },
+  "indonesian--2773956920189509093-3": {
+   "question": "Apa yang dimaksud dengan biologi evolusioner ?",
+   "answer": "Dokumentasi fakta-fakta terjadinya evolusi",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by evolutionary biology?"
+  },
+  "indonesian--6919355777896111783-0": {
+   "question": "Siapakah yang berhak menerima bantuan BLT ?",
+   "answer": "masyarakat miskin",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is entitled to receive BLT assistance?"
+  },
+  "indonesian-5539292200390545085-26": {
+   "question": "berapakah jumlah karakter/huruf dalam Tōyō Kanji?",
+   "answer": "1.850",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many characters/letters are in Tōyō Kanji?"
+  },
+  "indonesian--1460121685335465495-3": {
+   "question": "kapankah Konami didirikan?",
+   "answer": "21 Maret 1969",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Konami founded?"
+  },
+  "indonesian-7676627122149665356-3": {
+   "question": "Kapankah sistem Khilafah pertama kali dibangun ?",
+   "answer": "632",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Khilafah system first established?"
+  },
+  "indonesian--6497634396327170332-0": {
+   "question": "Siapa yang menciptakan alat Megafon?",
+   "answer": "Athanasius Kircher",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who created the Megaphone tool?"
+  },
+  "indonesian-6022562099618470149-3": {
+   "question": "Apakah ciri khas bangsa Saiya?",
+   "answer": "gaya rambut yang secara tegap berdiri ke atas dengan ujung-ujung runcing",
+   "gold": "what",
+   "pred": "how-way",
+   "english_question": "What are the characteristics of the Saiya race?"
+  },
+  "indonesian--6112292758564822284-0": {
+   "question": "Apa itu media komunikasi?",
+   "answer": "suatu alat atau sarana yang digunakan untuk menyampaikan pesan dari komunikator kepada khalayak",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is communication media?"
+  },
+  "indonesian-7880774442179438364-0": {
+   "question": "apakah nama kelas sosial tertinggi?",
+   "answer": "Aristokrasi",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "what is the name of the highest social class?"
+  },
+  "indonesian-3683011720147818415-1": {
+   "question": "Kapan Wuhan Metro mulai beroperasi ?",
+   "answer": "28 Juli 2004",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will the Wuhan Metro start operating?"
+  },
+  "indonesian--7580790750332580922-0": {
+   "question": "Siapakah Nuh dalam agama Abrahamik?",
+   "answer": "rasul yang diceritakan dalam Taurat, Alkitab, dan Al-Qur'an",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who is Noah in the Abrahamic religion?"
+  },
+  "indonesian--4741038949056631693-1": {
+   "question": "Kapan produk pertama Zippo mulai diluncurkan?",
+   "answer": "Januari dan Februari 1933",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Zippo's first product launched?"
+  },
+  "indonesian--3960422824534104514-11": {
+   "question": "Berapa lama Teungku Ilyas Leube menjadi Perdana Menteri Aceh Merdeka ke-2?",
+   "answer": "1980-1982",
+   "gold": "how-num",
+   "pred": "when",
+   "english_question": "How long did it take Teungku Ilyas Leube to be the 2nd Prime Minister of Free Aceh?"
+  },
+  "indonesian--498144750616124833-2": {
+   "question": "Siapa kepala sekolah Kolese Gonzaga pertama?",
+   "answer": "Pater Joseph Ignatius Gerardus Maria Drost",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first principal of Gonzaga College?"
+  },
+  "indonesian--1457143767874272579-0": {
+   "question": "Apa pengertian dari kitab Bhagawadgita?",
+   "answer": "bagian dari Mahabharata yang termasyhur, dalam bentuk dialog yang dituangkan dalam bentuk syair",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the meaning of the book Bhagawadgita?"
+  },
+  "indonesian--4016077588739279731-1": {
+   "question": "Kapan Drs. K.H. Ahmad Syahiduddin lahir?",
+   "answer": "15 Maret 1956",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When Drs. KH Ahmad Syahiduddin was born?"
+  },
+  "indonesian-5178428848582007418-28": {
+   "question": "Kapan Katrina Kaif mulai menjadi model ?",
+   "answer": "usia empat belas",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Katrina Kaif start modeling?"
+  },
+  "indonesian-3683035370203180217-1": {
+   "question": "Tahun berapa Nicole Vaidišová mulai menjadi petenis?",
+   "answer": "2003",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What year did Nicole Vaidišová start playing tennis?"
+  },
+  "indonesian-7822872466899939866-2": {
+   "question": "kapankah Jacques Lacan dilahirkan?",
+   "answer": "1901",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Jacques Lacan born?"
+  },
+  "indonesian-9137129001251428685-2": {
+   "question": "Kapankah tiongkok menjadi negar republik ?",
+   "answer": "1 Januari 1912",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did China become a republic?"
+  },
+  "indonesian-8477265812187361809-0": {
+   "question": "Dimanakah letak kota Malé?",
+   "answer": "Pulau Malé",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the city of Malé?"
+  },
+  "indonesian--1274373834291770658-1": {
+   "question": "Berapakah luas Pulau Sumbawa?",
+   "answer": "14.386 km2",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Sumbawa Island?"
+  },
+  "indonesian--6782780949510484235-0": {
+   "question": "Kapan Insiden Gerbang Xuanwu terjadi ?",
+   "answer": "2 Juli 626",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Xuanwu Gate Incident happen?"
+  },
+  "indonesian--4704317607209302126-0": {
+   "question": "siapakah pendiri Chicago Bulls?",
+   "answer": "Dick Klein",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "who is the founder of the Chicago Bulls?"
+  },
+  "indonesian--6554588741020508016-2": {
+   "question": "siapakah Puteri Indonesia yang ke 18?",
+   "answer": "Sonia Fergina Citra",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the 18th Miss Indonesia?"
+  },
+  "indonesian-5933363285084325155-0": {
+   "question": "Apa itu Nederlandsch Indië Civiele Administratie ?",
+   "answer": "organisasi semi militer yang dibentuk pada 3 April 1944 yang bertugas mengembalikan pemerintahan sipil dan hukum pemerintah kolonial Hindia Belanda selepas kapitulasi pasukan pendudukan Jepang di wilayah Hindia Belanda (sekarang Indonesia) seusai Perang Dunia II",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "Apa itu Nederlandsch Indië Civil Administration ?"
+  },
+  "indonesian--2699675075347177887-0": {
+   "question": "Dimanakah letak Gunung Sukmana?",
+   "answer": "terletak dekat perbatasan Kabupaten Kuningan, Jawa Barat dan Kabupaten Brebes, Jawa Tengah",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Mount Sukmana located?"
+  },
+  "indonesian-2389336197231992416-0": {
+   "question": "berapakah jumlah kecamatan di Nusa Tenggara Timur?",
+   "answer": "309",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many sub-districts are there in East Nusa Tenggara?"
+  },
+  "indonesian--6771812981873623320-7": {
+   "question": "Kapan Soepeno diangkat menjadi menteri  Pembangunan dan Pemuda Indonesia?",
+   "answer": "29 Januari 1948",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Soepeno appointed Minister of Development and Youth for Indonesia?"
+  },
+  "indonesian--8982440789371420949-0": {
+   "question": "Berapakah luas daerah Donggala ?",
+   "answer": "4275,08km²",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How big is the Donggala area?"
+  },
+  "indonesian--4435551489523797256-0": {
+   "question": "Tahun berapa Pertempuran Shiffin terjadi?",
+   "answer": "657 Masehi",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What year did the Battle of Shiffin take place?"
+  },
+  "indonesian-7698677520294466143-1": {
+   "question": "Siapa malaikat yang menjaga neraka?",
+   "answer": "Maalik",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the guardian angel of hell?"
+  },
+  "indonesian-5795679069489340619-0": {
+   "question": "Dimanakah letak Granada ?",
+   "answer": "Spanyol bagian selatan",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Granada located?"
+  },
+  "indonesian--2469611699192306898-0": {
+   "question": "apakah arti dari antifungal?",
+   "answer": "golongan obat yang bersifat fungisida atau fungistatik yang dapat digunakan untuk mengobati dan mencegah mikosis seperti kutu air, kurap, kandidiasis, infeksi sistemik serius seperti meningitis kriptokokus, dan lain-lain",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What does antifungal mean?"
+  },
+  "indonesian-4083933607531793437-8": {
+   "question": "Siapa pemeran utama drama Yowakutemo Katemasu?",
+   "answer": "Kazunari Ninomiya",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the main actor in the drama Yowakutemo Katemasu?"
+  },
+  "indonesian--5099748552236652539-0": {
+   "question": "Dimanakah letak Andechs ?",
+   "answer": "distrik Starnberg, Bayern, Jerman",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Andechs?"
+  },
+  "indonesian--3987543170429113166-3": {
+   "question": "berapakah jumlah senator di Amerika Serikat?",
+   "answer": "100",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many senators are there in the United States?"
+  },
+  "indonesian--4618168200270977541-2": {
+   "question": "Siapa pendiri Gereja Bethany?",
+   "answer": "Prof. DR. Abraham Alex Tanuseputra",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who founded Bethany Church?"
+  },
+  "indonesian--4155647580817239369-8": {
+   "question": "Siapakah tokoh utama dalam serial Naruto ?",
+   "answer": "Naruto Uzumaki",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the main character in the Naruto series?"
+  },
+  "indonesian--5873855555544965086-0": {
+   "question": "apa yang dimaksud nektar pada bunga?",
+   "answer": "cairan manis kaya dengan gula yang diproduksi bunga dari tumbuh-tumbuhan sewaktu mekar untuk menarik kedatangan hewan penyerbuk seperti serangga",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by nectar in flowers?"
+  },
+  "indonesian-3194601474475843893-0": {
+   "question": "Apakah isi Peraturan Presiden Republik Indonesia No. 10 tahun 1959?",
+   "answer": "larangan orang asing berusaha di bidang perdagangan eceran di tingkat kabupaten ke bawah (di luar ibu kota daerah) dan wajib mengalihkan usaha mereka kepada warga negara Indonesia",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the content of Presidential Regulation of the Republic of Indonesia No. 10 in 1959?"
+  },
+  "indonesian--3931340897420195509-1": {
+   "question": "kapankah teknologi LTE muncul pertama kali?",
+   "answer": "2009",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did LTE technology first appear?"
+  },
+  "indonesian-2749046381325530128-0": {
+   "question": "Apakah yang dimaksud dengan kelainan genetik ?",
+   "answer": "sebuah kondisi yang disebabkan oleh kelainan oleh satu atau lebih gen yang menyebabkan sebuah kondisi fenotipe klinis",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by genetic disorder?"
+  },
+  "indonesian-3397396603912097192-0": {
+   "question": "Apa tugas utama seorang konduktor musik?",
+   "answer": "memimpin sebuah pertunjukan musik melalui gerak isyarat",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What are the main duties of a music conductor?"
+  },
+  "indonesian-8614861850679943976-0": {
+   "question": "Siapa Raja Jerman pertama?",
+   "answer": "Wilhelm I",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who was the first King of Germany?"
+  },
+  "indonesian--1662117902694110936-0": {
+   "question": "Apakah defisini dari emosi ?",
+   "answer": "perasaan intens yang ditujukan kepada seseorang atau sesuatu",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the definition of emotion?"
+  },
+  "indonesian-5585776881185602493-7": {
+   "question": "apakah nama  spesies kasuari terbesar?",
+   "answer": "Casuarius casuarius",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "what is the name of the largest cassowary species?"
+  },
+  "indonesian--8730152612747680645-0": {
+   "question": "Kapan film Inferno rilis ?",
+   "answer": "14 Oktober 2016",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will the film Inferno be released?"
+  },
+  "indonesian--773255123207523626-0": {
+   "question": "Siapakah yang membentuk Pro Duta FC ?",
+   "answer": "Dr. Sihar Pangihutan Hamonangan Sitorus Pane, BSBA MBA",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who formed Pro Duta FC?"
+  },
+  "indonesian--3673409571683576178-1": {
+   "question": "Berkebangsaan apa Johann Friedrich Blumenbach?",
+   "answer": "Jerman",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What nationality was Johann Friedrich Blumenbach?"
+  },
+  "indonesian--3180814706279624928-0": {
+   "question": "Bagaimana sistem pemerintahan Pakistan ?",
+   "answer": "republik demokrasi parlementer",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Pakistan's government system?"
+  },
+  "indonesian--7426499060566713538-0": {
+   "question": "Apa itu pramuka penggalang?",
+   "answer": "tingkatan dalam pramuka setelah siaga",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is a scout raiser?"
+  },
+  "indonesian--1578349631942339801-3": {
+   "question": "apakah pendidikan terakhir Sihar Sitorus?",
+   "answer": "Doctor of Businees Administration",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Sihar Sitorus' last education?"
+  },
+  "indonesian--7374851288472482650-20": {
+   "question": "Kapan situs Multiply tutup layanan ?",
+   "answer": "Maret 2013",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When will the Multiply site close for service?"
+  },
+  "indonesian--6220027318417539371-0": {
+   "question": "Kapan Paul F. Knitter lahir?",
+   "answer": "1939",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Paul F. Knitter born?"
+  },
+  "indonesian--3842338295099462501-7": {
+   "question": "kapankah L’Étranger diciptakan?",
+   "answer": "21 Juni 1977",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was L'Étranger created?"
+  },
+  "indonesian-3871573355333373777-0": {
+   "question": "Apakah pengertian dari frasa ?",
+   "answer": "rupakan satuan linguistik yang lebih besar dari kata dan lebih kecil dari klausa dan",
+   "gold": "what",
+   "pred": "how-way",
+   "english_question": "What is the meaning of the phrase?"
+  },
+  "indonesian-8058841889801487032-17": {
+   "question": "Siapa raja pertama Kerajaan Nabatea?",
+   "answer": "Aretas I",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the first king of the Nabatean Kingdom?"
+  },
+  "indonesian-4663139031108966163-1": {
+   "question": "Kapan GBI Bethany didirikan?",
+   "answer": "17 Januari 2003",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was GBI Bethany founded?"
+  },
+  "indonesian-961003808126565984-0": {
+   "question": "siapakah yang mendirikan organisasi palang merah?",
+   "answer": "Henry Dunant",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who founded the Red Cross organization?"
+  },
+  "indonesian--2667991963230128795-0": {
+   "question": "berapakah luas Kabupaten Takalar?",
+   "answer": "566,51km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Takalar Regency?"
+  },
+  "indonesian-8777446908574254009-22": {
+   "question": "tahun berapakah Mary Celeste ditemukan di Samudra Atlantik pertama kali?",
+   "answer": "1872",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year was the Mary Celeste first discovered in the Atlantic Ocean?"
+  },
+  "indonesian-8378159242016582431-4": {
+   "question": "berapakah suhu tertinggi Pulau Enggano?",
+   "answer": "34°C",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the highest temperature on Enggano Island?"
+  },
+  "indonesian--6560402346281396944-1": {
+   "question": "Kapan tawanan kamp Bergen-Belsen dibebaskan?",
+   "answer": "15 April 1945",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When were the Bergen-Belsen camp prisoners released?"
+  },
+  "indonesian--3314297712098410478-3": {
+   "question": "Kapan Dr. George Habash terlibat dalam politik Palestina?",
+   "answer": "1948",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When Dr. George Habash involved in Palestinian politics?"
+  },
+  "indonesian-1416120300557460823-9": {
+   "question": "Berapa ukuran layar Tablet Android Vizio?",
+   "answer": "10 inci",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the screen size of a Vizio Android Tablet?"
+  },
+  "indonesian--8978418369937453284-0": {
+   "question": "Siapa nama personil Bon Jovi?",
+   "answer": "Vokalis Jon Bon Jovi, Keyboardist David Bryan, Drummer Tico Torres, Gitaris Phil X, dan Bassist Hugh McDonald",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What are the names of Bon Jovi members?"
+  },
+  "indonesian--8951375175713777884-0": {
+   "question": "apakah yang dimaksud dengan birokrasi?",
+   "answer": "suatu organisasi yang memiliki rantai komando dengan bentuk piramida, di mana lebih banyak orang berada ditingkat bawah daripada tingkat atas",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by bureaucracy?"
+  },
+  "indonesian-7678715017199235945-6": {
+   "question": "Sejak kapan Barthélemy Boganda menjadi politikus ?",
+   "answer": "10 November 1946",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "Since when did Barthélemy Boganda become a politician?"
+  },
+  "indonesian-79621253345156454-0": {
+   "question": "Kapan  Prof. dr. Lim Joey Thay menyelesaikan pendidikannya di luar negeri?",
+   "answer": "1960",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When Prof. Dr. Lim Joey Thay completed his education abroad?"
+  },
+  "indonesian--4239467582537544720-0": {
+   "question": "Apa nama album pertama Bon Jovi?",
+   "answer": "Bon Jovi",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What was the name of Bon Jovi's first album?"
+  },
+  "indonesian-4614794703112151404-0": {
+   "question": "dimanakah kantor pusat Airbus S.A.S?",
+   "answer": "Toulouse, Perancis",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "where is Airbus SAS head office?"
+  },
+  "indonesian--5823808413496628722-1": {
+   "question": "Kapan Thomas Arkidiakonus lahir ?",
+   "answer": "awal abad ke-13",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Thomas Arkidiakonus born?"
+  },
+  "indonesian--1641487371310266225-0": {
+   "question": "Apa definisi dari endokrinolog?",
+   "answer": "cabang ilmu kedokteran yang menangani penyakit pada sistem endokrin serta sekresi spesifiknya yang disebut hormon",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the definition of an endocrinologist?"
+  },
+  "indonesian--9008769043131219120-31": {
+   "question": "berapakah luas Provinsi Nusa Tenggara Barat?",
+   "answer": "20.153,15 km2",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is West Nusa Tenggara Province?"
+  },
+  "indonesian--6479666435094592411-0": {
+   "question": "Apa penyebab utama lahirnya sistem Bretton Woods?",
+   "answer": "menyelesaikan pertarungan yang terjadi antara otonomi yang dimiliki oleh domestik dan stabilitas internasional",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the main cause of the birth of the Bretton Woods system?"
+  },
+  "indonesian-966675022711495410-36": {
+   "question": "Berapa luas kota Nepal?",
+   "answer": "147.181 km²",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How big is the city of Nepal?"
+  },
+  "indonesian-5671653013944330984-0": {
+   "question": "Apakah yang dimaksud dengan radang ?",
+   "answer": "respon dari suatu organisme terhadap patogen dan alterasi mekanis dalam jaringan, berupa rangkaian reaksi yang terjadi pada tempat jaringan yang mengalami cedera, seperti karena terbakar, atau terinfeksi",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is meant by inflammation?"
+  },
+  "indonesian--6375454949911523427-1": {
+   "question": "Kapan musik DJ pertama kali muncul ?",
+   "answer": "abad ke-17an",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did DJ music first appear?"
+  },
+  "indonesian--6530200007257489881-0": {
+   "question": "Dimana kantor pusat PT Scooter Victory Inter Part?",
+   "answer": "Bekasi, Indonesia",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the head office of PT Scooter Victory Inter Part?"
+  },
+  "indonesian--6963301965092945536-3": {
+   "question": "Kapan Teori hubungan internasional diciptakan?",
+   "answer": "1939",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was international relations theory created?"
+  },
+  "indonesian--1442664571146567437-0": {
+   "question": "kapan musik hip hop pertama kali muncul ?",
+   "answer": "1970",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did hip hop music first appear?"
+  },
+  "indonesian--1593888310505772029-7": {
+   "question": "Berapa luas SMK Negeri 1 Cikampek?",
+   "answer": "29095m²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is SMK Negeri 1 Cikampek?"
+  },
+  "indonesian--1478204277050479116-0": {
+   "question": "Berapakah berat Ikan pari manta yag terbesar?",
+   "answer": "3 ton",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How much does the largest manta ray weigh?"
+  }
+ }
+}

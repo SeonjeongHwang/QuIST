@@ -11,13 +11,10 @@ from rouge import Rouge
 
 import torch
 from torch.utils.data import Dataset, DataLoader, default_collate
-from datasets import load_dataset
-from transformers import MT5Tokenizer, Seq2SeqTrainingArguments, Seq2SeqTrainer, default_data_collator, EarlyStoppingCallback
-from transformers import AutoModelForSeq2SeqLM
+from transformers import MT5Tokenizer, AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer, default_data_collator, EarlyStoppingCallback
 FeatInst = collections.namedtuple('FeatInst', 'unique_id input_ids attention_mask')
 
 args = None
-LANGCODE = {"en": "english", "bn": "bengali", "id": "indonesian", "sw": "swahili", "te": "telugu", "ko": "korean", "fi": "finnish"}
 
 def parse_argument():
     global args, lang_dict, task_dict
@@ -30,34 +27,17 @@ def parse_argument():
     parser.add_argument("--warmup_steps", type=int, default=0)
     parser.add_argument("--early_stop", type=int, default=3)
     parser.add_argument("--seed", type=int, default=2023)
-    parser.add_argument("--prompt_seed", type=int, default=None)
-    parser.add_argument("--prompt_length", type=int, default=None)
 
     parser.add_argument("--do_train", action="store_true")
-    parser.add_argument("--do_test", action="store_true")
+    parser.add_argument("--do_eval", action="store_true")
     parser.add_argument("--do_inference", action="store_true")
-    parser.add_argument("--inference_dataset", type=str, choices=["tydiqa", "xquad", "squad", "None"], default="None")
-    parser.add_argument("--inference_lang", type=str, default="")
+    parser.add_argument("--inference_lang", choices=["bn", "de", "fi", "hi", "id", "ko", "te", "sw", "zh"])
 
-    parser.add_argument("--do_generate", action="store_true")
-    parser.add_argument("--ae_file", type=str, default=None)
-    parser.add_argument("--cls_result_file", type=str, default=None)
-    parser.add_argument("--generated_file", type=str, default=None)
-    parser.add_argument("--generation_lang", type=str, default=None)
-
-    parser.add_argument("--output_dir", type=str, default="output")
-    parser.add_argument("--exp_tag", type=str, default="test")
-    parser.add_argument("--use_checkpoint", action="store_true")
-    parser.add_argument("--checkpoint", type=str)
-
+    parser.add_argument("--exp_dir", type=str, default=None)
     parser.add_argument("--model_name", type=str, default="google/mt5-large")
     parser.add_argument("--max_seq_length", type=int, default=512)
     parser.add_argument("--max_question_length", type=int, default=64)
     parser.add_argument("--frozen_list", type=str, default="", help="emb,dec_attn,dec_crossattn,dec_ffn,dec_final,lm_head")
-    parser.add_argument("--example_origin", choices=["translated", "human"], default="human")
-    parser.add_argument("--human_prompt_config", type=str, default=None)
-    parser.add_argument("--example_type", type=str, default="specific", help="specific|all")
-    parser.add_argument("--cls_result_dir", type=str, default=None)
 
     args = parser.parse_args()
 
@@ -70,73 +50,15 @@ def seed_everything(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-def get_samples(name, split):
-    samples = []
-    if args.inference_dataset == "tydiqa":
-        assert lang in ["bn", "id", "sw", "te", "ko", "fi"]
-        s = load_dataset("tydiqa", "secondary_task", split="validation")
-        lang_name = LANGCODE[lang]
-        for sample in s:
-            if sample["id"].startswith(lang_name):
-                context = f"[{sample['title']}] {sample['context']}"
-                question = sample["question"]
-                answer = sample["answers"]["text"][0]
-                samples.append({"id": sample["id"], "context": context, "question": question, "answer": answer})
-    elif args.inference_dataset == "xquad":
-        assert lang in ["de", "zh", "hi"]
-        s = load_dataset("xquad", f"xquad.{lang}", split="validation")
-        for sample in s:
-            context = sample["context"]
-            question = sample["question"]
-            answer = sample["answers"]["text"][0]
-            samples.append({"id": sample["id"], "context": context, "question": question, "answer": answer})
-
-    elif args.inference_dataset == "squad":
-        assert lang in ["en"]
-        with open(f"data/SQuADv1.1_newsplits/test.json", "r") as fin:
-            data_list = json.load(fin)["data"]
-        for data in data_list:
-            title = data["title"]
-            paras = data["paragraphs"]
-            for para in paras:
-                context = f"[{title}] {para['context']}"
-                for qa in para["qas"]:
-                    question = qa["question"]
-                    answer = qa["answers"][0]["text"]
-                    samples.append({"id": qa["id"], "context": context, "question": question, "answer": answer})
-
-    elif name == "squad":
-        with open(f"data/SQuADv1.1_QT/{split}.json", "r") as fin:
-            data_list = json.load(fin)["data"]
-        for data in data_list:
-            title = data["title"]
-            paras = data["paragraphs"]
-            for para in paras:
-                context = f"[{title}] {para['context']}"
-                for qa in para["qas"]:
-                    question = qa["question"]
-                    answer = qa["answers"][0]["text"]
-                    answer_type = qa["answers"][0]["label"]
-                    samples.append({"id": qa["id"], "context": context, "question": question, "answer": answer, "answer_type": answer_type})
-    return samples
-
 class Dataset(Dataset):
-    def __init__(self, lang_samples, tokenizer, mode):
+    def __init__(self, tokenizer, lang, split):
         super().__init__()
         self.tokenizer = tokenizer
-        self.mode = mode
-        is_inference = mode == "inference"
+        self.lang = lang
+        self.split = split
 
         print(f"Generate features...")
-        self.features = []
-        self.unique_id_to_gold = {}
-        for lang, samples in lang_samples:
-            if args.do_generate:
-                self.partial_features, self.unique_id_to_gold = self.get_qg_syn_features(lang, self.unique_id_to_gold)
-            else:
-                self.partial_features, self.unique_id_to_gold = self.get_qg_features(lang, samples, self.unique_id_to_gold, is_inference)
-            self.features += self.partial_features
-        print("total feature num:", len(self.features))
+        self.features, self.unique_id_to_gold = self.get_features()
 
     def __len__(self):
         return len(self.features)
@@ -152,58 +74,59 @@ class Dataset(Dataset):
         results = FeatInst(*(default_collate(samples) for samples in zip(*batch)))
         return results
     
-    def get_qg_features(self, lang, samples, unique_id_to_gold, is_inference=False):
-        label_to_examples = dict()
-        if args.example_origin == "translated":
-            if args.example_type == "specific":
-                with open(f"data/interrogative_QT/seed{args.prompt_seed}.num{args.prompt_length}/{lang}.seed{args.prompt_seed}.num{args.prompt_length}.json", "r") as fin:
-                    label_to_examples = json.load(fin)
-            elif args.example_type == "all":
-                with open(f"data/interrogative_QT/alltypes.seed{args.prompt_seed}/alltypes.{lang}.json", "r") as fin:
-                    alltype_examples = json.load(fin)
-        else: ### exemplars from human annotations (QA training datasets)
-            if args.example_type == "specific":
-                with open(f"data/prompts/{args.human_prompt_config}/{lang}.{args.human_prompt_config}.json", "r") as fin:
-                    label_to_examples = json.load(fin)
-            elif args.example_type == "all":
-                with open(f"data/prompts_alltype/{lang}.seed{args.human_prompt_config}.json", "r") as fin:
-                    alltype_examples = json.load(fin)
+    def get_data_list(self):
+        data_list = []
+        if self.lang == "en":
+            with open(f"data/SQuADv1.1_QT/{self.split}.json", "r") as fin:
+                samples = json.load(fin)["data"]
+            for sample in samples:
+                title = sample["title"]
+                paras = sample["paragraphs"]
+                for para in paras:
+                    context = f"[{title}] {para['context']}"
+                    for qa in para["qas"]:
+                        question = qa["question"]
+                        answer = qa["answers"][0]["text"]
+                        question_type = qa["answers"][0]["label"]
+                        if question_type == "NONE":
+                            continue
+                        data_list.append({"id": qa["id"], "context": context, "question": question, "answer": answer, "question_type": question_type})
+        else:
+            assert self.split == "inference"
+            data_list = json.load(open(f"data/target/{self.lang}.test.json"))
+
+        return data_list
+    
+    def get_features(self):
+        data_list = self.get_data_list()
+        label2exemplars = json.load(open(f"data/exemplars/{self.lang}.json"))
 
         id2predInterro = None
-        if is_inference:
+        if self.split == "inference":
             id2predInterro = dict()
-            cls_result_file = os.path.join(args.cls_result_dir, f"inference-{args.inference_dataset}.{lang}.json")
-            with open(cls_result_file, "r") as fin:
+            with open(f"evaluation_results/qtc.evaluation_{self.lang}.json", "r") as fin:
                 results = json.load(fin)["results"]
 
             for _id, values in results.items():
                 id2predInterro[_id] = values["pred"]
 
-        unique_id = len(unique_id_to_gold.keys())
+        unique_id = 0
+        unique_id_to_gold = dict()
         features = []
-        passed = 0
-        for sample in tqdm.tqdm(samples):
-            _id = sample["id"]
-            context = sample["context"]
-            question = sample["question"]
-            answer = sample["answer"]
+        for data in tqdm.tqdm(data_list):
+            _id = data["id"]
+            context = data["context"]
+            question = data["question"]
+            answer = data["answer"]
 
-            if is_inference:
-                if args.example_type == "specific":
-                    examples = label_to_examples[id2predInterro[_id]]
-                else:
-                    examples = alltype_examples
+            if self.split == "inference":
+                question_type = id2predInterro[_id]
             else:
-                if args.example_type == "specific":
-                    answer_type = sample["answer_type"]
-                    if answer_type == "NONE":
-                        passed += 1
-                        continue
-                    examples = label_to_examples[answer_type]
-                elif args.example_type == "all":
-                    examples = alltype_examples
+                question_type = data["question_type"]
+            
+            exemplars = label2exemplars[question_type]
 
-            example_sequence = f"Examples: {' '.join(examples)} "
+            example_sequence = f"Examples: {' '.join(exemplars)} "
             input_sequence = example_sequence + f"Answer: {answer}. Context: {context}"
             input_ids = self.tokenizer.encode(input_sequence)
 
@@ -231,7 +154,6 @@ class Dataset(Dataset):
             features.append(feature)
             unique_id += 1
 
-        print(f"Passed: {passed}/{len(samples)}")
         return features, unique_id_to_gold
     
 def get_scores(predictions, references):
@@ -267,7 +189,7 @@ def inference(model, tokenizer, dataset, result_file):
     references = []
     
     dataloader = DataLoader(dataset, batch_size=args.valid_batch_size, shuffle=False, collate_fn=dataset.collate_fn)
-    pbar = tqdm.tqdm(dataloader, total=len(dataloader), desc=f"Inference")
+    pbar = tqdm.tqdm(dataloader, total=len(dataloader), desc=f"Evaluation")
 
     for batch in pbar:
         outputs = model.generate(input_ids=batch.input_ids.to(device),
@@ -277,14 +199,14 @@ def inference(model, tokenizer, dataset, result_file):
                                  early_stopping=True)
         pred_sents = tokenizer.batch_decode(outputs, skip_special_tokens=True)
         for pred in pred_sents:
-            predictions.append(pred)
+            predictions.append(pred.replace("▁<extra_id_0>", ""))
 
         for unique_id in batch.unique_id:
             unique_id = unique_id.item()
             id_list.append(dataset.unique_id_to_gold[unique_id]["id"])
             references.append(dataset.unique_id_to_gold[unique_id]["question"])
 
-    if args.do_generate:
+    if args.do_inference:
         results = dict()
         for _id, pred in zip(id_list, predictions):
             results[_id] = pred
@@ -340,105 +262,71 @@ def compute_metrics(EvalPred):
 if __name__ == "__main__":
     parse_argument()
 
-    if not args.do_generate:
-        os.makedirs(args.output_dir, exist_ok=True)
-        model_dir = os.path.join(args.output_dir, args.exp_tag)
-        os.makedirs(model_dir, exist_ok=True)
+    if args.exp_dir:
+        os.makedirs(args.exp_dir, exist_ok=True)
+        config = os.path.join(args.exp_dir, "config.json")
 
-    if args.do_generate and args.checkpoint is None:
-        print("Use median in best")
-        with open("outputs/results/median_in_best.json", "r") as fin:
-            length_seed = json.load(fin)[args.generation_lang]
-        prompt_length = length_seed[0]
-        prompt_seed = length_seed[1]
-        print(f"PROMPT| length: {prompt_length} / seed: {prompt_seed}")
-
-        model_dir = f"outputs/QG/pSeed.{prompt_seed}.pLength{prompt_length}-10.48.5e-5.1000"
-
-    config = os.path.join(model_dir, "config.json")
-    if not args.do_train:
-        with open(config, "r") as fin:
-            arg_dict = json.load(fin)
-            args.seed = arg_dict["seed"]
-            args.model_name = arg_dict["model_name"]
-            args.max_seq_length = arg_dict["max_seq_length"]
-            args.max_question_length = arg_dict["max_question_length"]
-            args.frozen_list = arg_dict["frozen_list"]
-            args.example_type = arg_dict["example_type"]
-            args.prompt_seed = arg_dict["prompt_seed"]
-            args.prompt_length = arg_dict["prompt_length"]
-            args.example_type = arg_dict["example_type"]
-    print(args)
-
-    if args.do_train and not args.use_checkpoint:
-        config = os.path.join(model_dir, "config.json")
+    if args.do_train:
         with open(config, "w") as fout:
             json.dump(vars(args), fout, indent=1)
+    elif args.exp_dir:
+        config_dict = json.load(open(config))
+        args.max_seq_length = config_dict["max_seq_length"]
+        args.max_question_length = config_dict["max_question_length"]
 
     seed_everything(args.seed)
     device = torch.device("cuda")
-
     tokenizer = MT5Tokenizer.from_pretrained(args.model_name)
-    model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name)
-
-    # Freeze components
-    for name, param in model.named_parameters():
-        if "emb" in args.frozen_list:
-            if "shared" in name or "embed_tokens" in name:
-                param.requires_grad = False
-                
-        if "enc_attn" in args.frozen_list:
-            if "encoder" in name and "layer.0" in name:
-                param.requires_grad = False
-        
-        if "enc_ffn" in args.frozen_list:
-            if "encoder" in name and "layer.1" in name:
-                param.requires_grad = False
-
-        if "enc_final" in args.frozen_list:
-            if "encoder" in name and "final_layer" in name:
-                param.requires_grad = False
-
-        if "dec_attn" in args.frozen_list:
-            if "decoder" in name and "layer.0" in name:
-                param.requires_grad = False
-        
-        if "dec_crossattn" in args.frozen_list:
-            if "decoder" in name and "layer.1" in name:
-                param.requires_grad = False
-
-        if "dec_ffn" in args.frozen_list:
-            if "decoder" in name and "layer.2" in name:
-                param.requires_grad = False
-
-        if "dec_final" in args.frozen_list:
-            if "decoder" in name and "final_layer" in name:
-                param.requires_grad = False
-
-        if "lm_head" in args.frozen_list:
-            if "lm_head" in name:
-                param.requires_grad = False
 
     if args.do_train:
+        model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name)
+
+        # Freeze components
+        for name, param in model.named_parameters():
+            if "emb" in args.frozen_list:
+                if "shared" in name or "embed_tokens" in name:
+                    param.requires_grad = False
+                    
+            if "enc_attn" in args.frozen_list:
+                if "encoder" in name and "layer.0" in name:
+                    param.requires_grad = False
+            
+            if "enc_ffn" in args.frozen_list:
+                if "encoder" in name and "layer.1" in name:
+                    param.requires_grad = False
+
+            if "enc_final" in args.frozen_list:
+                if "encoder" in name and "final_layer" in name:
+                    param.requires_grad = False
+
+            if "dec_attn" in args.frozen_list:
+                if "decoder" in name and "layer.0" in name:
+                    param.requires_grad = False
+            
+            if "dec_crossattn" in args.frozen_list:
+                if "decoder" in name and "layer.1" in name:
+                    param.requires_grad = False
+
+            if "dec_ffn" in args.frozen_list:
+                if "decoder" in name and "layer.2" in name:
+                    param.requires_grad = False
+
+            if "dec_final" in args.frozen_list:
+                if "decoder" in name and "final_layer" in name:
+                    param.requires_grad = False
+
+            if "lm_head" in args.frozen_list:
+                if "lm_head" in name:
+                    param.requires_grad = False
+
         ### Load Dataset
-        task_samples = {"train": [], "valid": []}
-        train_samples = get_samples("squad", "train")
-        valid_samples = get_samples("squad", "dev")
-        task_samples["train"].append(("en", train_samples))
-        task_samples["valid"].append(("en", valid_samples))
-
-        print(f"#train samples:{len(train_samples)}")
-        print(f"#valid samples:{len(valid_samples)}")
-
         print("Generate train features...")
-        train_dataset = Dataset(task_samples["train"], tokenizer, "train")
-
+        train_dataset = Dataset(tokenizer, "en", "train")
         print("Generate valid features...")
-        valid_dataset = Dataset(task_samples["valid"], tokenizer, "valid")
-
+        valid_dataset = Dataset(tokenizer, "en", "dev")
 
         training_args = Seq2SeqTrainingArguments(
-            output_dir=model_dir,
+            output_dir=args.exp_dir,
             num_train_epochs=args.epochs,
             per_device_train_batch_size=args.batch_size,
             per_device_eval_batch_size=args.valid_batch_size,
@@ -468,65 +356,37 @@ if __name__ == "__main__":
             callbacks = [EarlyStoppingCallback(early_stopping_patience=3)]
         )
 
-        trainer.train(resume_from_checkpoint=args.use_checkpoint)
+        trainer.train()
+        trainer.save_model(f"{args.exp_dir}/best")
 
-    if args.do_test:
-        checkpoint_dir = os.path.join(model_dir, f"checkpoint-{args.checkpoint}")        
-        model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint_dir)
+    os.makedirs("evaluation_results", exist_ok=True)
+
+    if args.do_eval:
+        if args.exp_dir:
+            checkpoint_dir = f"{args.exp_dir}/best"     
+            model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint_dir)
+        else:
+            model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name)
         model = model.to(device)
 
         ### Load Dataset
-        task_samples = []
-        task_samples.append(("en", get_samples("squad", "test")))
-
         print("Generate test features...")
-        test_dataset = Dataset(task_samples, tokenizer, "test")
+        test_dataset = Dataset(tokenizer, "en", "dev")
 
-        result_file = os.path.join(checkpoint_dir, f"test_en.json")
+        result_file = os.path.join("evaluation_results", f"qg.evaluation_en.json")
         inference(model, tokenizer, test_dataset, result_file)
 
     if args.do_inference:
-        assert args.cls_result_dir is not None
-        assert args.inference_lang != ""
-
-        if args.checkpoint is None:
-            checkpoint = [x for x in os.listdir(model_dir) if x.startswith("checkpoint")][0]
-            checkpoint_dir = os.path.join(model_dir, checkpoint)
+        if args.exp_dir:
+            checkpoint_dir = f"{args.exp_dir}/best"     
+            model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint_dir)
         else:
-            checkpoint_dir = os.path.join(model_dir, f"checkpoint-{args.checkpoint}")      
-        model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint_dir)
+            model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name)
         model = model.to(device)
-
-        ### Load Dataset
-        for lang in args.inference_lang.split(","):
-            task_samples = []
-            print(lang)
-            task_samples.append((lang, get_samples(lang, "test")))
-
-            print("Generate test features...")
-            test_dataset = Dataset(task_samples, tokenizer, "inference")
-
-            result_file = os.path.join(checkpoint_dir, f"inference_human_{args.inference_dataset}.{lang}.{args.human_prompt_config}.json")
-            inference(model, tokenizer, test_dataset, result_file)
-
-    if args.do_generate:
-        assert args.cls_result_file
-        assert args.ae_file
-        assert args.generated_file
-
-        if args.checkpoint is None:
-            checkpoint = [x for x in os.listdir(model_dir) if x.startswith("checkpoint")][0]
-            checkpoint_dir = os.path.join(model_dir, checkpoint)
-        else:
-            checkpoint_dir = os.path.join(model_dir, f"checkpoint-{args.checkpoint}")        
-        model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint_dir)
-        model = model.to(device)
-
-        task_samples = []
-        task_samples.append((args.generation_lang, None))
 
         print("Generate test features...")
-        test_dataset = Dataset(task_samples, tokenizer, "inference")
+        test_dataset = Dataset(tokenizer, args.inference_lang, "inference")
 
-        inference(model, tokenizer, test_dataset, args.generated_file)
+        result_file = os.path.join("evaluation_results", f"qg.evaluation_{args.inference_lang}.json")
+        inference(model, tokenizer, test_dataset, result_file)
 

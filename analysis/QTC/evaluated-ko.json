@@ -1,0 +1,1940 @@
+{
+ "score": {
+  "Hard macro F1": 0.581433674250375,
+  "Relaxed macro F1": 0.822869518320019
+ },
+ "results": {
+  "korean-3543942044825767374-0": {
+   "question": "한니발 바르카의 최종 계급은 무엇인가요?",
+   "answer": "군사령관",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Hannibal Barca's final rank?"
+  },
+  "korean-5963968536497550442-11": {
+   "question": "항공 교통 관제에서 활성 활주로 표면에 대한 책임을 총괄하고 있는 곳은 어디인가요?",
+   "answer": "지역 조정",
+   "gold": "which",
+   "pred": "what",
+   "english_question": "Which part of air traffic control has overall responsibility for active runway surfaces?"
+  },
+  "korean--5065028353572035010-0": {
+   "question": "메이저 리그 베이스볼 설립 연도는 언제인가요?",
+   "answer": "1901년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Major League Baseball founded?"
+  },
+  "korean-857879081519360331-0": {
+   "question": "유비 출생일은 언제인가요?",
+   "answer": "161년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Yubi’s date of birth?"
+  },
+  "korean--5128220529454934618-5": {
+   "question": "미리오케팔론 전투는 언제 끝나나요?",
+   "answer": "1176",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When does the Battle of Myriocephalon end?"
+  },
+  "korean--5206906769056834183-0": {
+   "question": "아브라함 링컨은 몇 대 대통령인가?",
+   "answer": "16",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many presidents was Abraham Lincoln?"
+  },
+  "korean--4226136776882832742-16": {
+   "question": "상자 속 소년의 매장지는 어디인가요?",
+   "answer": "포터스 필드",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the boy in the box buried?"
+  },
+  "korean--3024638602052601462-0": {
+   "question": "한나라 건국일은 언제인가요?",
+   "answer": "206년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is the founding day of the Han Dynasty?"
+  },
+  "korean-4618159409303601900-1": {
+   "question": "여왕의 교실의 내용은 무엇인가?",
+   "answer": "학급을 여왕같이 지배하는 여교사 아쿠츠 마야(아마미 유키)와 한자이 초등학교 6학년 3반 아이들의 1년에 걸친 '투쟁'을 그린 드라마",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the content of The Queen's Classroom?"
+  },
+  "korean-89746993815023291-0": {
+   "question": "성모 마리아 축일은 언제인가요?",
+   "answer": "1월 1일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is the Feast of the Virgin Mary?"
+  },
+  "korean-6040868211495593039-17": {
+   "question": "이마가와 요시모토의 묘소는 어디인가요?",
+   "answer": "아이치현 도요아케 시 오케하자마코센조덴세쓰치",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Imagawa Yoshimoto's grave?"
+  },
+  "korean-5316920903343673977-1": {
+   "question": "한국이 독립을 한 날짜는 언제인가?",
+   "answer": "1945년 8월 15일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Korea become independent?"
+  },
+  "korean-6207278114369131846-0": {
+   "question": "보헤미안 렙소디를 작곡한 사람은 누구인가?",
+   "answer": "프레디 머큐리",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who composed Bohemian Rhapsody?"
+  },
+  "korean--1678372289337528124-1": {
+   "question": "한국이 일본으로부터 독립한 때는 몇년도인가?",
+   "answer": "1945년 8월 15일",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year did Korea become independent from Japan?"
+  },
+  "korean-3854704352840109683-1": {
+   "question": "중국어 어순은 어떻게 되나요?",
+   "answer": "주어 - 동사 - 목적어",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the Chinese word order?"
+  },
+  "korean--5358372969358799329-0": {
+   "question": "얼스터 대계 영문명은 무엇인가요?",
+   "answer": "Red Branch Cycle",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the English name of the Great Ulster clan?"
+  },
+  "korean-8482678302106529214-1": {
+   "question": "월드컵이 처음 시작된 해는 언제인가?",
+   "answer": "1930년",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year did the World Cup first start?"
+  },
+  "korean-2179523690172277399-2": {
+   "question": "예멘의 수도는 어디인가?",
+   "answer": "사나",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the capital of Yemen?"
+  },
+  "korean-3572873775371383184-38": {
+   "question": "한국의 쇄국정책은 언제 무너졌나?",
+   "answer": "1876년 음력 2월 3일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Korea’s policy of national isolation collapse?"
+  },
+  "korean-7378121522326532668-1": {
+   "question": "언제 처음 월드컵이 열렸나요?",
+   "answer": "1930",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the first World Cup held?"
+  },
+  "korean--5899388504163557582-0": {
+   "question": "보스턴은 어느 나라의 도시인가?",
+   "answer": "미국",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "Boston is a city in which country?"
+  },
+  "korean-3793485798872525395-0": {
+   "question": "메릴랜드 주의 주도는 어디인가요?",
+   "answer": "아나폴리스",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is the capital of Maryland?"
+  },
+  "korean-1212398960724322326-0": {
+   "question": "대학원생노조의 주된 업무는 무엇인가?",
+   "answer": "대학원생 인권침해와 노동권 착취에 대응",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the main task of the graduate student union?"
+  },
+  "korean-3862451817164408576-0": {
+   "question": "한국의 여성가족부는 몇 년도에 설립되었는가?",
+   "answer": "2010년 3월 19일",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year was Korea's Ministry of Gender Equality and Family established?"
+  },
+  "korean--4058542690935142399-6": {
+   "question": "포커에 사용되는 카드는 몇 장인가?",
+   "answer": "52",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many cards are used in poker?"
+  },
+  "korean-4897858387989798048-4": {
+   "question": "비슈누파의 산스크리트어 명칭은 무엇인가요?",
+   "answer": "바이슈나바 다르마",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the Sanskrit name for Vishnupa?"
+  },
+  "korean--7383297472944192032-0": {
+   "question": "아메리칸사모아의 수도는 어디인가요?",
+   "answer": "아피아",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the capital of American Samoa?"
+  },
+  "korean--2020702315157332629-2": {
+   "question": "가장 많은 월드컵 우승을 한 나라는 어디인가?",
+   "answer": "브라질",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which country has won the most World Cups?"
+  },
+  "korean-4530026937908523673-47": {
+   "question": "유타주의 최대도시는 어디인가요?",
+   "answer": "솔트레이크시티",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is Utah's largest city?"
+  },
+  "korean-6655383536040814351-0": {
+   "question": "고려 태조는 몇 대 왕인가요?",
+   "answer": "초대",
+   "gold": "how-num",
+   "pred": "where",
+   "english_question": "How many generations was King Taejo of Goryeo?"
+  },
+  "korean-5892585898670559118-1": {
+   "question": "비틀즈의 멤버 중 가장 먼저  사망한 사람은 누구인가?",
+   "answer": "레논",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which member of the Beatles was the first to die?"
+  },
+  "korean-6781892695351295037-0": {
+   "question": "티베트에서 가장 높은 곳은 어디인가요?",
+   "answer": "에베레스트 산",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the highest point in Tibet?"
+  },
+  "korean-7347705553610091415-0": {
+   "question": "다이너마이트를 처음 발명한 사람은 누구인가?",
+   "answer": "알프레드 노벨",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who first invented dynamite?"
+  },
+  "korean-6449945618705090520-0": {
+   "question": "세르비아 공화국 수도는 어디인가요?",
+   "answer": "베오그라드",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the capital of the Republic of Serbia?"
+  },
+  "korean--3478520046868148420-20": {
+   "question": "티베트의 수도는 어디인가?",
+   "answer": "라싸",
+   "gold": "where",
+   "pred": "what",
+   "english_question": "Where is the capital of Tibet?"
+  },
+  "korean-2807245034690443837-5": {
+   "question": "한반도의 첫 시멘트 공장은 무엇인가요?",
+   "answer": "오노다",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the first cement plant on the Korean Peninsula?"
+  },
+  "korean-8123352165806628131-15": {
+   "question": "태백산맥이란 영화의 감독은 누구인가요?",
+   "answer": "임권택",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the director of the movie Taebaek Mountains?"
+  },
+  "korean-8914917745838389553-0": {
+   "question": "라브렌티 파블로비치 베리야의 최종계급은 무엇인가요?",
+   "answer": "제1부주석",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Lavrenty Pavlovich Beria's final rank?"
+  },
+  "korean--1346754875574800904-1": {
+   "question": "미국 선거인단의 수는 왜 538명인가?",
+   "answer": "미국 하원(435명)과 미국 상원(100명)의 숫자를 합친 535명에 워싱턴 DC의 선거인단 3명을 합친 것",
+   "gold": "why",
+   "pred": "how-num",
+   "english_question": "Why are there 538 electoral votes in the United States?"
+  },
+  "korean-5705838287595614732-33": {
+   "question": "주원장의 후임자는 누구인가요?",
+   "answer": "주윤문",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who will be Joo Won-jang’s successor?"
+  },
+  "korean--2869472392602314906-0": {
+   "question": "아나톨리아의 현재 지리적 위치는 어디인가?",
+   "answer": "서남아시아",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is the current geographical location of Anatolia?"
+  },
+  "korean--9132698033746381260-0": {
+   "question": "레이테 섬은 어떤 제도에 위치한 섬인가요?",
+   "answer": "필리핀",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What island is Leyte located on?"
+  },
+  "korean--7378777649405544721-0": {
+   "question": "안동은 어느 도에 있는 도시인가?",
+   "answer": "경상북도",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "In which province is Andong located?"
+  },
+  "korean--3009932259509460506-0": {
+   "question": "조선 제 5대 왕은 누구인가요?",
+   "answer": "문종",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who was the 5th king of Joseon?"
+  },
+  "korean--5147746532442805163-1": {
+   "question": "광복절은 언제인가?",
+   "answer": "1945년 8월 15일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Liberation Day?"
+  },
+  "korean--1267048293508882265-0": {
+   "question": "첫 메이저 리그가 열린때는 언제인가?",
+   "answer": "1901",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the first major league season held?"
+  },
+  "korean-7576244933678341731-0": {
+   "question": "고종은 언제 태어났나요?",
+   "answer": "1852년 9월 8일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was King Gojong born?"
+  },
+  "korean-9169093656402050192-0": {
+   "question": "바니시의 일본 명칭은 무엇인가요?",
+   "answer": "와니스",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the Japanese name for varnish?"
+  },
+  "korean--112875615611071623-7": {
+   "question": "콜럼버스가 처음 탐험을 떠난 때는 언제인가?",
+   "answer": "1492년 8월 3일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Columbus first set out on exploration?"
+  },
+  "korean--1469093818965592083-1": {
+   "question": "일본에서 월드컵은 언제 열렸나요?",
+   "answer": "2002",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the World Cup held in Japan?"
+  },
+  "korean--3519785520722427209-11": {
+   "question": "한국에서 쌀 생산량이 가장 높은 지역은 어디인가?",
+   "answer": "호남",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which region has the highest rice production in Korea?"
+  },
+  "korean-3268522368206106332-0": {
+   "question": "드라마 도깨비를 방영한 방송사는 어디인가?",
+   "answer": "tvN",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which broadcaster aired the drama Goblin?"
+  },
+  "korean-982099949742863205-4": {
+   "question": "독일에서 제일 큰 주는 어디인가요?",
+   "answer": "바이에른주",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the largest state in Germany?"
+  },
+  "korean-5746350760857546445-2": {
+   "question": "매질이 파동 방향과 수직인 방향으로 움직이는 파동은 무엇인가요?",
+   "answer": "횡파",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is a wave in which the medium moves in a direction perpendicular to the direction of the wave?"
+  },
+  "korean-6038811738201603841-2": {
+   "question": "경상대학교 설립연도는 언제인가요?",
+   "answer": "1948년 10월",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Gyeongsang National University founded?"
+  },
+  "korean--2362216650565587286-0": {
+   "question": "한글 중에 가장 긴 단어는 무엇인가?",
+   "answer": "니코틴아마이드 아데닌 다이뉴클레오타이드",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the longest word in Hangul?"
+  },
+  "korean-1994783604239912162-0": {
+   "question": "캐나다는 어느 대륙에 있는가?",
+   "answer": "북아메리카",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What continent is Canada on?"
+  },
+  "korean--7058155902352216900-0": {
+   "question": "남서아프리카 수도는 어디인가요?",
+   "answer": "빈트후크",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is the capital of South West Africa?"
+  },
+  "korean--2400725747170214204-30": {
+   "question": "2007 UEFA 챔피언스리그 결승전의 승리팀은 어디인가?",
+   "answer": "밀란",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which team won the 2007 UEFA Champions League final?"
+  },
+  "korean-2886520392440705238-0": {
+   "question": "미국의 추수 감사절은 언제인가요?",
+   "answer": "11월 넷째 목요일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Thanksgiving in America?"
+  },
+  "korean-880605454200131594-3": {
+   "question": "홍준표의 고향은 어디인가?",
+   "answer": "경상남도 창녕군",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Hong Jun-pyo’s hometown?"
+  },
+  "korean--5165267663594188667-3": {
+   "question": "신후담의 아버지는 누구인가요?",
+   "answer": "신구중",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is Shin Hudam’s father?"
+  },
+  "korean--3260326547999704194-1": {
+   "question": "마이클 조던의 고향은 어디인가?",
+   "answer": "뉴욕",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Michael Jordan's hometown?"
+  },
+  "korean--5185921566892783712-5": {
+   "question": "팔레스타인의 수도는 어디인가?",
+   "answer": "예루살렘",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the capital of Palestine?"
+  },
+  "korean-8075993198233544707-0": {
+   "question": "귄터 기욤의 부인은 누구인가요?",
+   "answer": "크리스텔",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is Günter Guillaume’s wife?"
+  },
+  "korean--284331396745198853-2": {
+   "question": "얼스터 대계 제일의 영웅은 누구인가요?",
+   "answer": "쿠 훌린",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the greatest hero of Ulster?"
+  },
+  "korean--8863608766741287775-3": {
+   "question": "레오니트 일리치 브레주네프는 언제 공산당 청년조직인 콤소몰에 참가하였나요?",
+   "answer": "1923",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Leonid Ilyich Brezhnev join the Komsomol, the communist youth organization?"
+  },
+  "korean-2742448072786763122-3": {
+   "question": "단백질 화학식은 무엇인가요?",
+   "answer": "(NH2CHRnCOOH)n",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the protein chemical formula?"
+  },
+  "korean-4300749692568363704-0": {
+   "question": "개 파보바이러스는 인간에 끼치는 영향은 무엇인가?",
+   "answer": "사람으로는 전파되지 않는다",
+   "gold": "what",
+   "pred": "how-way",
+   "english_question": "What effects does canine parvovirus have on humans?"
+  },
+  "korean--2213139222291565129-20": {
+   "question": "존 F. 케네디를 암살한 사람은 누구인가?",
+   "answer": "리 하비 오스월드",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who assassinated John F. Kennedy?"
+  },
+  "korean-8226698174900109311-0": {
+   "question": "진나라가 멸망한 때는 언제인가?",
+   "answer": "206년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Qin Dynasty fall?"
+  },
+  "korean--3599643599532685681-24": {
+   "question": "산 조반니 인 라테라노 대성당의 봉헌일은 언제인가요?",
+   "answer": "11월 9일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is the consecration date of the Basilica of San Giovanni in Laterano?"
+  },
+  "korean-2951713240348747501-23": {
+   "question": "한국에서 가장 많은 성은 무엇인가?",
+   "answer": "김해 김씨",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the most common surname in Korea?"
+  },
+  "korean--2342745781848489854-6": {
+   "question": "대한민국의 국회의원 임기 기간은 얼마나 되나요?",
+   "answer": "4년",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How long is the term of office of a member of the National Assembly in Korea?"
+  },
+  "korean-7997987110252407490-3": {
+   "question": "한니발 바르카의 별명은 무엇인가요?",
+   "answer": "전략의 아버지",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Hannibal Barca's nickname?"
+  },
+  "korean--8991363909516343096-1": {
+   "question": "대한민국이 일본으로부터 독립한 날은 언제인가?",
+   "answer": "1945년 8월 15일",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "On what day did South Korea become independent from Japan?"
+  },
+  "korean-5023724711704164163-0": {
+   "question": "조선 태조 사망일은 언젠가요?",
+   "answer": "943년 7월 4일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is the death date of King Taejo of the Joseon Dynasty?"
+  },
+  "korean-7851782156370538132-1": {
+   "question": "북두칠성은 몇 개의 별로 이루어져있는가?",
+   "answer": "일곱",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many stars does the Big Dipper consist of?"
+  },
+  "korean--217769287950553227-0": {
+   "question": "한국의 근대 교육은 조선 말기에 언제 출발하였나요?",
+   "answer": "조선",
+   "gold": "when",
+   "pred": "who",
+   "english_question": "When did modern education in Korea begin in the late Joseon Dynasty?"
+  },
+  "korean--1453523061743187650-0": {
+   "question": "디아블로 1의 출시일은 언제인가요?",
+   "answer": "1996년 12월 31",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is the release date of Diablo 1?"
+  },
+  "korean--7414021228674984711-0": {
+   "question": "유비 사망일은 언제인가요?",
+   "answer": "223년 6월 10일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Yubi’s date of death?"
+  },
+  "korean-8384343899893667022-0": {
+   "question": "세상에서 가장 오래된 언어는 무엇인가?",
+   "answer": "수메르어",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the oldest language in the world?"
+  },
+  "korean--4868463566160247380-2": {
+   "question": "대상포진의 원인은 무엇인가?",
+   "answer": "수두·대상포진 바이러스는 아무런 증상 없이[1] 신경 세포 안에, 혹은 드문 확률로 척추신경절이나 뇌신경, 자율 신경계 신경절의 위성 세포 안에 숨어있게 될 수 있다.[2] 수두에 감염된 지 수년, 혹은 수십년 뒤에 이 바이러스는 세포막을 깨고 나와 신경 섬유를 따라 이동해 해당 신경에 근접한 피부에 바이러스성 감염을 일으킨다",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What causes shingles?"
+  },
+  "korean--2204178634196261834-3": {
+   "question": "측우기를 처음 발명한 사람은 누구인가?",
+   "answer": "문종",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who first invented the rain gauge?"
+  },
+  "korean--6625149608979575747-0": {
+   "question": "마르크스는 언제 사망하였는가?",
+   "answer": "1883년 3월 14일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Marx die?"
+  },
+  "korean--4611414566433162639-0": {
+   "question": "갑신정변이 일어난 이유는 무엇인가?",
+   "answer": "개화당이 청나라에 의존하려는 척족 중심의 수구당을 몰아내고 개화정권을 수립하려 한 무력 정변",
+   "gold": "why",
+   "pred": "what",
+   "english_question": "Why did the Gapsin Coup occur?"
+  },
+  "korean--6265360019633946649-0": {
+   "question": "고종은 몇 번째 왕인가?",
+   "answer": "초대",
+   "gold": "how-num",
+   "pred": "where",
+   "english_question": "How many kings was Gojong?"
+  },
+  "korean--8513222560312471789-8": {
+   "question": "운동하는 물체가 가진 에너지는 어떤 에너지를 말하나요?",
+   "answer": "운동 에너지",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What kind of energy does a moving object have?"
+  },
+  "korean-4818495860007013407-7": {
+   "question": "어떤 사건에 대한 원인을 판단하는데 영향을 끼치는 심리학의 인지적 편견 중 하나는 무엇인가요?",
+   "answer": "귀인 편견",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is one of the cognitive biases in psychology that affects judging the cause of an event?"
+  },
+  "korean-9116945572580513460-2": {
+   "question": "미국 선거인단의 자격 요건은 무엇인가?",
+   "answer": "특정 정, 부통령 후보를 지지하기로 서약한 선거인단에 투표하는 것",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What are the qualifications for the U.S. Electoral College?"
+  },
+  "korean-6236197621873994530-59": {
+   "question": "미국의 애플 본사는 어느 주에 있나요?",
+   "answer": "캘리포니아",
+   "gold": "NONE",
+   "pred": "which",
+   "english_question": "In which state is Apple's headquarters in the United States located?"
+  },
+  "korean--6777526244104476356-0": {
+   "question": "구미는 어느 도에 있는 도시인가?",
+   "answer": "경상북도",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "In which province is Gumi located?"
+  },
+  "korean--3921802682082202566-0": {
+   "question": "다이묘는 무엇인가?",
+   "answer": "일본 각 지방의 영토를 다스리며 권력을 누렸던 영주",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is a daimyō?"
+  },
+  "korean--8395166355744069555-0": {
+   "question": "2019년 현재 영국의 왕은 누구인가?",
+   "answer": "엘리자베스 2세",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the King of England as of 2019?"
+  },
+  "korean--8332856802066581996-0": {
+   "question": "아우구스토 호세 라몬 피노체트 우가르테의 생일은 언제인가요?",
+   "answer": "1915년 11월 25일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Augusto Jose Ramon Pinochet Ugarte's birthday?"
+  },
+  "korean--1136646878440919366-44": {
+   "question": "모리 모토나리 묘소는 어디인가요?",
+   "answer": "고리야마 산성",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Mori Motonari's grave?"
+  },
+  "korean-7050775279170156810-4": {
+   "question": "디오클레티아누스 욕장의 공동재위자는 누구인가요?",
+   "answer": "막시미아누스",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the co-ruler of the Baths of Diocletian?"
+  },
+  "korean--3770903224034960234-1": {
+   "question": "다이어 스트레이츠의 첫번째 히트곡은 무엇인가요?",
+   "answer": "Sultans of Swing",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was Dire Straits' first hit song?"
+  },
+  "korean--8028977936696142934-9": {
+   "question": "전주시는 몇 ㎢인가?",
+   "answer": "206km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many ㎢ is Jeonju?"
+  },
+  "korean--1684965979786232392-0": {
+   "question": "베토벤은 언제 태어났나요?",
+   "answer": "1770년 12월 17일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Beethoven born?"
+  },
+  "korean--3856733476349201301-0": {
+   "question": "쓰루오카 가즈토 사망일은 언제인가요?",
+   "answer": "2000년 3월 7일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Kazuto Tsuruoka's date of death?"
+  },
+  "korean-4731978889478766166-4": {
+   "question": "애플의 '시리'가 도입된 때는 언제인가?",
+   "answer": "2011년 10월 4일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Apple's 'Siri' introduced?"
+  },
+  "korean--5663151183308818883-0": {
+   "question": "성모 마리아의 축일은 언제인가요?",
+   "answer": "1월 1일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is the Feast of the Virgin Mary?"
+  },
+  "korean-1788659171682415216-4": {
+   "question": "오토 레하겔은 언제 키커스 오펜바흐의 감독을 맡았나요?",
+   "answer": "1974",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Otto Rehhagel become manager of Kickers Offenbach?"
+  },
+  "korean-142060587843037399-5": {
+   "question": "이토 히로부미의 고향은 어디인가?",
+   "answer": "조슈 번 스오 국 구마게 군(지금의 야마구치현 히카리 시) 야마구치의 스오구니 촌",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Ito Hirobumi's hometown?"
+  },
+  "korean--6848703454312552577-0": {
+   "question": "레오니트 일리치 브레주네프의 사망일은 언제인가요?",
+   "answer": "1982년 11월 10일",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What is the date of Leonid Ilyich Brezhnev's death?"
+  },
+  "korean-6907552634327521176-0": {
+   "question": "한국에서 가장 큰 섬은 무엇인가?",
+   "answer": "제주도",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the largest island in Korea?"
+  },
+  "korean-6002961128116336768-0": {
+   "question": "G단백질의 기능은 무엇인가?",
+   "answer": "생체내의 거의 모든 생리적 반응을 촉매",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the function of G protein?"
+  },
+  "korean--4402428875221960553-0": {
+   "question": "진나라는 언제 무너졌는가?",
+   "answer": "기원전 206년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Qin Dynasty fall?"
+  },
+  "korean-5913288499354069830-83": {
+   "question": "가장 높은 녹는 점을 가진 중금속은 무엇인가?",
+   "answer": "이산화토륨",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What heavy metal has the highest melting point?"
+  },
+  "korean-7883824034888425455-0": {
+   "question": "조선 마지막 왕은 누군가요?",
+   "answer": "고종",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the last king of Joseon?"
+  },
+  "korean--8804976178355746278-2": {
+   "question": "김대중의 아버지의 성함은 무엇인가요?",
+   "answer": "김운식",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is Kim Dae-jung's father's name?"
+  },
+  "korean-7171798854116779682-19": {
+   "question": "한복의 유래는 어디인가?",
+   "answer": "스키타이-시베리아 문화",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where does Hanbok originate?"
+  },
+  "korean-3464997241375262429-0": {
+   "question": "귀인이론은 누구에 의해 만들어진 사회심리학 이론인가요?",
+   "answer": "프리츠 하이더, 해롤드 켈리, 에드워드 E. 존스, 리 로스",
+   "gold": "NONE",
+   "pred": "who",
+   "english_question": "Attribution theory is a social psychological theory created by who?"
+  },
+  "korean--7184303737290892450-0": {
+   "question": "토론토의 인구는 얼마인가?",
+   "answer": "2,731,571명",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the population of Toronto?"
+  },
+  "korean--6542203627057157840-57": {
+   "question": "블라디미르 일리치 레닌의 배우자는 누구인가요?",
+   "answer": "나데즈다 크룹스카야",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is Vladimir Ilyich Lenin's spouse?"
+  },
+  "korean-148115504649351135-0": {
+   "question": "로저 페더러의 국적은 어디인가요?",
+   "answer": "스위스",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is Roger Federer's nationality?"
+  },
+  "korean--4032830168060105741-2": {
+   "question": "예맨의 수도는 어디인가?",
+   "answer": "사나",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the capital of Yemen?"
+  },
+  "korean--1390161183847139085-0": {
+   "question": "샤한샤의 의미는 무엇인가?",
+   "answer": "왕중왕",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the meaning of Shahansha?"
+  },
+  "korean--1743220297777040002-22": {
+   "question": "구이도 3세의 후임 황제는 누구인가요?",
+   "answer": "람베르토 2세",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who will be Guido III's successor as emperor?"
+  },
+  "korean--4120992741585066341-0": {
+   "question": "유비가 사망하게 된 날은 언제인가요?",
+   "answer": "223년 6월 10일",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "On what day did Liu Bei die?"
+  },
+  "korean-151928329904100104-0": {
+   "question": "조선의 제 5대 왕은 누구인가요?",
+   "answer": "문종",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who was the 5th king of Joseon?"
+  },
+  "korean-5508264089824269005-0": {
+   "question": "메이저 리그 베이스볼 설립연도는 언제인가요?",
+   "answer": "1901년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Major League Baseball founded?"
+  },
+  "korean--6330379755554082410-9": {
+   "question": "나치의 본거지는 어느 도시인가?",
+   "answer": "뮌헨",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which city was the Nazi stronghold?"
+  },
+  "korean--7708566901954484073-0": {
+   "question": "메탈클래드 코포레이션의 현재 이름은 무엇인가요?",
+   "answer": "Entrx 코포레이션",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Metalclad Corporation’s current name?"
+  },
+  "korean-2898167319456617799-0": {
+   "question": "주나라는 언제 멸망했는가?",
+   "answer": "256",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Zhou Dynasty fall?"
+  },
+  "korean-2700631348474362356-11": {
+   "question": "화가자리 베타의 질량은 무엇인가요?",
+   "answer": "태양의 1.7 ~ 1.8 배",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the mass of Beta Pictoris?"
+  },
+  "korean-6105525331488659033-17": {
+   "question": "한국에서 가장 가까운 일본의 섬은 어디인가?",
+   "answer": "대마도",
+   "gold": "which",
+   "pred": "which",
+   "english_question": "Which Japanese island is closest to Korea?"
+  },
+  "korean--239884639284418581-3": {
+   "question": "금융 재화를 거래의 대상으로 하는 시장은 무엇인가요?",
+   "answer": "금융 시장",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What are the markets for trading financial goods?"
+  },
+  "korean-8543067054762320058-29": {
+   "question": "플라잉 타이거스 지휘관은 누구인가요?",
+   "answer": "첸노트",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the Flying Tigers commander?"
+  },
+  "korean--4959622135906614458-0": {
+   "question": "고종은 언제 사망했나요?",
+   "answer": "1919년 1월 21일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Gojong die?"
+  },
+  "korean-4495678962495950078-3": {
+   "question": "토르의 아버지는 누구인가?",
+   "answer": "오딘",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is Thor's father?"
+  },
+  "korean--7609567520429565914-0": {
+   "question": "캐나다의 현재 수도는 어디인가요?",
+   "answer": "오타와",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is Canada's current capital?"
+  },
+  "korean--9102709668322083288-0": {
+   "question": "미국 드라마 House의 제작자는 누구인가요?",
+   "answer": "쇼어와 브라이언 싱어",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the producer of the American drama House?"
+  },
+  "korean--6466921484966449195-50": {
+   "question": "미주리주에서 제일 큰 도시는 어디인가요?",
+   "answer": "캔자스시티",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the largest city in Missouri?"
+  },
+  "korean-6182453079436977459-0": {
+   "question": "NBA의 약자는 무엇인가요?",
+   "answer": "N</b>ational B</b>asketball A</",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What does NBA stand for?"
+  },
+  "korean--1902360293926028535-0": {
+   "question": "보스턴은 어떤 주에 속해 있나요?",
+   "answer": "매사추세츠",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What state is Boston in?"
+  },
+  "korean-2402789324847734601-26": {
+   "question": "에밀리오 아기날도 사망지는 어디인가요?",
+   "answer": "마닐라",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where does Emilio Aguinaldo die?"
+  },
+  "korean-412131752465539202-0": {
+   "question": "디아블로 III의 출시일은 언제인가요?",
+   "answer": "2012년 5월 15일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is the release date of Diablo III?"
+  },
+  "korean--335842522282349791-0": {
+   "question": "한국에서 가장 큰 섬은 어디인가?",
+   "answer": "제주도",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the largest island in Korea?"
+  },
+  "korean-7311205581717539295-2": {
+   "question": "대한민국 제6공화국 세번째 정부는 무엇인가요?",
+   "answer": "김대중",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What is the third government of the 6th Republic of Korea?"
+  },
+  "korean-8697039020776786397-1": {
+   "question": "팔봉면의 명칭의 유래는 무엇인가?",
+   "answer": "1914년, 일제강점기 때 행정구역정비로 주변지역을 통폐합하면서 팔봉산(八峰山)의 '팔봉(八峰)'에서 명칭을 따",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is the origin of the name Palbong-myeon?"
+  },
+  "korean--4002648088004737980-3": {
+   "question": "태평양에서 가장 큰 섬은 무엇인가?",
+   "answer": "뉴기니",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the largest island in the Pacific Ocean?"
+  },
+  "korean--3988319551669333546-0": {
+   "question": "초월주의는 무엇인가?",
+   "answer": "직관적 지식과 인간과 자연에 내재하는 신성 및 인간이 양도할 수 없는 가치에 대한 믿음을 망라하는 관념주의",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is transcendentalism?"
+  },
+  "korean--6019649851372620506-0": {
+   "question": "고려 태조는 언제 죽었나요?",
+   "answer": "943년 7월 4일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did King Taejo of Goryeo die?"
+  },
+  "korean-8720835630317860570-0": {
+   "question": "현대 자동차는 몇 년도에 창립되었는가?",
+   "answer": "1967년 12월 29일",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year was Hyundai Motor Company founded?"
+  },
+  "korean-760220877415678100-10": {
+   "question": "첫 번째 월드컵이 열린 나라는 어디인가?",
+   "answer": "우루과이",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "In which country was the first World Cup held?"
+  },
+  "korean--6946502881214832118-0": {
+   "question": "혀에서 맛을 느끼는 기관은 무엇인가?",
+   "answer": "미뢰",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the taste-sensing organ on the tongue?"
+  },
+  "korean--2885837157239647036-2": {
+   "question": "람보르기니가 설립된 때는 언제인가?",
+   "answer": "1963년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Lamborghini founded?"
+  },
+  "korean-1670759954326237735-0": {
+   "question": "옴진리교란?",
+   "answer": "일본의 사이비 종교 집단이자 테러리스트 범죄 집단",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Aum Shinrikyo?"
+  },
+  "korean-4375199563921600155-0": {
+   "question": "스파르타는 어느 나라의 역사인가?",
+   "answer": "고대 그리스",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What country is Sparta from?"
+  },
+  "korean-4223415776635299156-0": {
+   "question": "봄바디어의 본사는 캐나다 어디에 있나요?",
+   "answer": "몬트리올",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Bombardier headquartered in Canada?"
+  },
+  "korean--3535883886604881793-0": {
+   "question": "다비드 아메리코 오르티스 아리아스의 국적은 무엇인가요?",
+   "answer": "도미니카 공화국",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is the nationality of David Americano Ortiz Arias?"
+  },
+  "korean--67461272185529608-2": {
+   "question": "김옥균의 고향은 어디인가?",
+   "answer": "조선 충청도 회덕군",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Kim Ok-gyun’s hometown?"
+  },
+  "korean--4560262016161765874-0": {
+   "question": "한국에 기독교가 들어온 때는 언제인가?",
+   "answer": "18세기",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Christianity come to Korea?"
+  },
+  "korean-5301138560781580344-0": {
+   "question": "에이브러햄 링컨 언제 사망했나요?",
+   "answer": "1865년 4월 15일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Abraham Lincoln die?"
+  },
+  "korean--6920978880089260024-5": {
+   "question": "2018년 한국의 청년 실업률은 몇 퍼센트 인가?",
+   "answer": "4.0%",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the youth unemployment rate in Korea in 2018?"
+  },
+  "korean--4980016186499363888-1": {
+   "question": "휘발유와 경유의 차이는 무엇인가?",
+   "answer": "휘발유, 등유에 비해서는 밀도가 높으며 석유 정제 제품 중에서도 밀도가 높은 축에 속한다",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the difference between gasoline and diesel?"
+  },
+  "korean--5617412321555762908-33": {
+   "question": "제주도의 올렛길은 몇 km 인가?",
+   "answer": "420km",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many km is Jeju Island’s Ollet Trail?"
+  },
+  "korean-7754957588988072895-0": {
+   "question": "일본의 디즈니랜드는 어디에 있나요?",
+   "answer": "지바현 우라야스 시",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Disneyland in Japan?"
+  },
+  "korean--1107195167618821679-43": {
+   "question": "베토벤이 사망한 원인은 무엇인가요?",
+   "answer": "독살",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What caused Beethoven's death?"
+  },
+  "korean--9144117727818536546-0": {
+   "question": "조선 태조 생일은 언젠가요?",
+   "answer": "877년 1월 31일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Taejo of Joseon's birthday?"
+  },
+  "korean-6708542525477973965-15": {
+   "question": "브라질에서 처음 열린 월드컵은 몇 년도인가?",
+   "answer": "1949",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year was the first World Cup held in Brazil?"
+  },
+  "korean-3728243161410717256-5": {
+   "question": "울진의 면적은 얼마나 되나요?",
+   "answer": "989.05km2",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How big is Uljin?"
+  },
+  "korean--8436078740376696014-0": {
+   "question": "고종은 언제 황제에 즉위하나요?",
+   "answer": "1897",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When does Gojong become emperor?"
+  },
+  "korean-2215558459299250288-84": {
+   "question": "일본의 강제 침략 당시, 일본의 천황은 누구였는가?",
+   "answer": "메이지",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the Emperor of Japan at the time of Japan's forced invasion?"
+  },
+  "korean-1203178537587965336-2": {
+   "question": "고종 전에 왕위에 있던 인물은 누구인가?",
+   "answer": "익종",
+   "gold": "who",
+   "pred": "which",
+   "english_question": "Who was on the throne before King Gojong?"
+  },
+  "korean--9171197232058411981-0": {
+   "question": "콜럼버스는 몇 년도에 사망했는가?",
+   "answer": "1506년 5월 20일",
+   "gold": "what",
+   "pred": "when",
+   "english_question": "What year did Columbus die?"
+  },
+  "korean-496249965274472946-1": {
+   "question": "캐나다 개국일은 언제인가?",
+   "answer": "1867",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Canada's National Day?"
+  },
+  "korean-1570629687071559003-1": {
+   "question": "백제는 언제 무너졌는가?",
+   "answer": "660년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Baekje fall?"
+  },
+  "korean-6776678990538873406-2": {
+   "question": "나이아가라 폭포의 크기는 얼마인가?",
+   "answer": "높이가 176피트(53.6미터)이고 폭포의 절벽면이 깊이 파인 커브를 이루고 있어 그 길이가 2,600피트",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Niagara Falls?"
+  },
+  "korean--2565066672635807268-0": {
+   "question": "도널드 존 트럼프는 미국의 몇 대 통령인가요?",
+   "answer": "45",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many presidents of the United States is Donald John Trump?"
+  },
+  "korean-2232210786633913602-5": {
+   "question": "뱀은 몇 개의 뼈를 가지고 있는가?",
+   "answer": "200-400",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many bones does a snake have?"
+  },
+  "korean--5521515076868228079-10": {
+   "question": "경제학이 체계적인 학문으로 자리매김한 것은 누가 국부론을 출판하였기 때문인가요?",
+   "answer": "애덤 스미스",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who published The Wealth of Nations that established economics as a systematic discipline?"
+  },
+  "korean--5222905973325614672-68": {
+   "question": "한국에서 가장 큰 무덤은 무엇인가?",
+   "answer": "동구릉",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the largest tomb in Korea?"
+  },
+  "korean-1971424087614810068-3": {
+   "question": "오나라의 왕은 누구였는가?",
+   "answer": "합려",
+   "gold": "who",
+   "pred": "which",
+   "english_question": "Who was the king of Wu?"
+  },
+  "korean--7760910570513362753-7": {
+   "question": "광역시가 될 수 있는 기준은 무엇인가?",
+   "answer": "일반적으로 자치시의 인구가 100만명 이상이거나, 인접 시, 군과 통합하는 행정구역 조정으로 기초자치단체 단위의 인구가 100만명이 넘게 되면 광역시로의 승격이 거론된다.[9] 단, 인구 100만 명 이상이 광역시 승격 조건이라는 법적 근거는 존재하지 않지만[10] 지금의 광역시들이 보통 인구 100만을 즈음하여[11] 광역시로 (당시는 직할시) 승격되었기에 그런 거론이 되는 것이다",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What are the criteria for becoming a metropolitan city?"
+  },
+  "korean--3501656389656719737-0": {
+   "question": "광게토대왕은 어느 나라의 왕인가?",
+   "answer": "고구려",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What country is King Gwangghetto the king of?"
+  },
+  "korean-4645639769534412636-50": {
+   "question": "미주리주 최대도시는 어디인가요?",
+   "answer": "캔자스시티",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the largest city in Missouri?"
+  },
+  "korean-143463125877409453-1": {
+   "question": "조지아주의 최고 높이는 몇인가요?",
+   "answer": "1,458미터",
+   "gold": "what",
+   "pred": "how-num",
+   "english_question": "What is the highest height in Georgia?"
+  },
+  "korean--8642003262837395296-0": {
+   "question": "SSC 나폴리 현재 감독은 누구인가요?",
+   "answer": "카를로 안첼로티",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the current coach of SSC Napoli?"
+  },
+  "korean--3296662367262611569-1": {
+   "question": "기안84의 전공은 무엇인가요?",
+   "answer": "조형예술학",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Kian84’s major?"
+  },
+  "korean-174195385953021320-1": {
+   "question": "인류 역사상 처음 성공한 인공위성은 무엇인가?",
+   "answer": "스푸트니크 1호",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the first successful artificial satellite in human history?"
+  },
+  "korean-5340856725918751440-1": {
+   "question": "이마가와 요시모토의 별명은 무엇인가요?",
+   "answer": "도카이도 제일의 무사",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Imagawa Yoshimoto’s nickname?"
+  },
+  "korean-3246725997520007457-0": {
+   "question": "에이브러햄 링컨은 언제 태어났나요?",
+   "answer": "1809년 2월 12일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Abraham Lincoln born?"
+  },
+  "korean--1715118423211755607-13": {
+   "question": "대한민국 청주 면적은 얼마나 되나요?",
+   "answer": "153.45km2",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Cheongju, South Korea?"
+  },
+  "korean--61534829771644367-0": {
+   "question": "스타크래프트: 브루드 워 장르는 무엇인가요?",
+   "answer": "실시간 전략 게임",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the StarCraft: Brood War genre?"
+  },
+  "korean-2592944429232650733-8": {
+   "question": "경제 전체의 움직임을 다루는 경제학은 무어신가요?",
+   "answer": "거시경제학",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is economics, which deals with the movement of the entire economy?"
+  },
+  "korean--1766421865552304742-14": {
+   "question": "단백질의 구조를 직접적으로 연구하는 방법은 무엇인가요?",
+   "answer": "X선 회절법",
+   "gold": "NONE",
+   "pred": "what",
+   "english_question": "How to directly study the structure of proteins?"
+  },
+  "korean-723470721415217559-1": {
+   "question": "러시아 축구 국가대표팀 현재 감독은 누구인가요?",
+   "answer": "스타니슬라프 체르체소프",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the current coach of the Russian national football team?"
+  },
+  "korean-7536079313936020901-0": {
+   "question": "인간은 언제부터 불을 사용했는가?",
+   "answer": "살았던 142",
+   "gold": "when",
+   "pred": "how-num",
+   "english_question": "When did humans start using fire?"
+  },
+  "korean--7258791408036515182-1": {
+   "question": "중국에는 몇 개의 성이 있는가?",
+   "answer": "23",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many provinces are there in China?"
+  },
+  "korean--39389105816196814-2": {
+   "question": "아쟁쿠르 전투의 승자는 누구인가?",
+   "answer": "잉글랜드",
+   "gold": "who",
+   "pred": "which",
+   "english_question": "Who was the winner of the Battle of Agincourt?"
+  },
+  "korean--9006190917787243066-3": {
+   "question": "태평양에는 몇 개의 섬이 있는가?",
+   "answer": "2만 5천",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many islands are there in the Pacific Ocean?"
+  },
+  "korean-1466778202786897515-49": {
+   "question": "조지아주 주도는 어디인가요?",
+   "answer": "애틀랜타",
+   "gold": "where",
+   "pred": "which",
+   "english_question": "Where is the capital of Georgia?"
+  },
+  "korean-7707227817329017798-5": {
+   "question": "도널드 존 트럼프는 몇세에 학교 교사를 폭행하였나요?",
+   "answer": "13",
+   "gold": "NONE",
+   "pred": "how-num",
+   "english_question": "At what age did Donald John Trump assault a school teacher?"
+  },
+  "korean-6938806052699928431-0": {
+   "question": "워크래프트는 어떤 회사가 제작한 게임인가요?",
+   "answer": "블리자드 엔터테인먼트",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What company produced Warcraft?"
+  },
+  "korean-334115475171783031-0": {
+   "question": "알제리의 수도는 어디인가요?",
+   "answer": "알제",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the capital of Algeria?"
+  },
+  "korean-6061203515906092949-2": {
+   "question": "2019년 기준, 역사상 가장 많은 횟수의 월드컵 우승을 한 팀은 어디인가?",
+   "answer": "브라질",
+   "gold": "NONE",
+   "pred": "which",
+   "english_question": "As of 2019, which team has won the most World Cups in history?"
+  },
+  "korean--4725814782604374275-0": {
+   "question": "이마가와 요시모토의 사망일은 언제인가요?",
+   "answer": "1560년 6월 12일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is Imagawa Yoshimoto's death date?"
+  },
+  "korean-3158521125408361535-0": {
+   "question": "김대중 대통령의 사망일은 언제인가요?",
+   "answer": "2009년 8월 18일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When is President Kim Dae-jung's death date?"
+  },
+  "korean--1276965640274521009-1": {
+   "question": "양승태의 학력은?",
+   "answer": "대학교",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is Yang Seung-tae’s educational background?"
+  },
+  "korean-3260931427613006504-2": {
+   "question": "두러스의 설립일은 언제인가요?",
+   "answer": "627",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Durrus founded?"
+  },
+  "korean--4174503174782032239-0": {
+   "question": "몇명의 선수가 축구에서 뛸 수 있나요?",
+   "answer": "1명",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many players can play in soccer?"
+  },
+  "korean-4366615047335403822-0": {
+   "question": "UEFA 챔피언스리그 설립연도는 언제인가요?",
+   "answer": "1955",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the UEFA Champions League founded?"
+  },
+  "korean--5287878521134439539-23": {
+   "question": "캘리포니아 첫 주지사는 누구인가요?",
+   "answer": "피터 H. 버넷",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was California's first governor?"
+  },
+  "korean-4884819928154798502-0": {
+   "question": "로마에서 가장 오래된 교회는 무엇인가?",
+   "answer": "산 조반니 인 라테라노 대성당",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the oldest church in Rome?"
+  },
+  "korean-8651967079865960208-6": {
+   "question": "17세기에 심신 문제를 본격적으로 논의한 대표적 인물은 누구인가요?",
+   "answer": "데카르트",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was the representative figure who discussed the mind-body issue in earnest in the 17th century?"
+  },
+  "korean--2924797161313583977-0": {
+   "question": "에밀리오 아기날도 사망일은 언제인가요?",
+   "answer": "1964년 2월 6일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Emilio Aguinaldo die?"
+  },
+  "korean--4330357432931173631-3": {
+   "question": "대성단 고즈마의 은하계 방면군 사령관은 누구인가요?",
+   "answer": "길루크 사령관",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who is the commander of the galactic forces of Grand Cluster Gozma?"
+  },
+  "korean--7011673502828671656-0": {
+   "question": "진나라는 언제 멸망했는가?",
+   "answer": "기원전 206년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did the Qin Dynasty fall?"
+  },
+  "korean--6992829942627426043-1": {
+   "question": "현대 자동차가 처음 출시한 자동차는 무엇인가?",
+   "answer": "포드 코티나",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the first car launched by Hyundai Motor Company?"
+  },
+  "korean-7417165087124309296-0": {
+   "question": "개 파보바이러스는 어떤 방식으로 전염되는가?",
+   "answer": "분변, 타액 등을 통해 개에서 개로 전파",
+   "gold": "how-way",
+   "pred": "how-way",
+   "english_question": "How is canine parvovirus transmitted?"
+  },
+  "korean--5547909401779516182-0": {
+   "question": "링컨은 미국의 몇 번째 대통령인가?",
+   "answer": "16",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many presidents of the United States was Lincoln?"
+  },
+  "korean--2848620815399002832-39": {
+   "question": "축구 골 포스트의 높이는 몇 미터인가?",
+   "answer": "2.44미터",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How high are the soccer goal posts in meters?"
+  },
+  "korean--8018923788711200376-1": {
+   "question": "인류가 처음 쏘아올린 인공위성은 무엇인가?",
+   "answer": "스푸트니크 1호",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the first artificial satellite launched by mankind?"
+  },
+  "korean--7056359644353706112-0": {
+   "question": "콜로라도 주의 위치는 어디인가?",
+   "answer": "미국 서부",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Colorado located?"
+  },
+  "korean-4406545879617960665-3": {
+   "question": "특수상대성이론은 누가 처음 발표하였는가?",
+   "answer": "인슈타인은",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who first published the special theory of relativity?"
+  },
+  "korean--8341386357701639067-2": {
+   "question": "미국의 현재 대통령은 언제 당선되었나요?",
+   "answer": "2016년 11월 8일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the current president of the United States elected?"
+  },
+  "korean--2025350690056048064-7": {
+   "question": "콜롬버스가 항해를 시작했던 때는 몇년도인가?",
+   "answer": "1492년 8월 3일",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year did Columbus set sail?"
+  },
+  "korean-780777151128993638-1": {
+   "question": "중국에는 몇 개의 성이 있나요?",
+   "answer": "23",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many castles are there in China?"
+  },
+  "korean--9020032657789962665-0": {
+   "question": "제주시 면적은 얼마나 되나요?",
+   "answer": "1833.2 km²",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How big is Jeju City?"
+  },
+  "korean--7865499861721202183-3": {
+   "question": "분자에서 입자를 분리시켜 전리시킬수 있는 방사선은 무엇인가요?",
+   "answer": "전리방사선",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What radiation can separate particles from molecules and ionize them?"
+  },
+  "korean--5192385508179378959-1": {
+   "question": "디트로이트 타이거스 창단일은 언제인가요?",
+   "answer": "1894년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was the Detroit Tigers founded?"
+  },
+  "korean--9051718118272308933-6": {
+   "question": "티벳의 수도는 어디인가?",
+   "answer": "라싸",
+   "gold": "what",
+   "pred": "where",
+   "english_question": "What is the capital of Tibet?"
+  },
+  "korean-5397918743852897349-2": {
+   "question": "겐메이 천황은 언제 태어났나요?",
+   "answer": "661",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was Emperor Genmei born?"
+  },
+  "korean-5567706562725244034-24": {
+   "question": "베트남은 언제 프랑스에서 독립 했나요?",
+   "answer": "1945년 3월",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Vietnam become independent from France?"
+  },
+  "korean-4776752529176163647-79": {
+   "question": "나사는 언제 조직되었는가?",
+   "answer": "1958년 7월 29일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When was NASA organized?"
+  },
+  "korean-1819701135763930544-1": {
+   "question": "신경전달물질은 신경세포의 어떤 곳에 들어있나요?",
+   "answer": "시냅스 소포체",
+   "gold": "where",
+   "pred": "what",
+   "english_question": "Where are neurotransmitters located in nerve cells?"
+  },
+  "korean--748414475480546525-0": {
+   "question": "스위스의 수도는 어디인가요?",
+   "answer": "베른",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the capital of Switzerland?"
+  },
+  "korean-1352039666619631148-1": {
+   "question": "베니치아의 인구는?",
+   "answer": "268,934명",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the population of Venice?"
+  },
+  "korean--5503493724941752601-2": {
+   "question": "뱀파이어 백작이 살던 나라는  어디인가?",
+   "answer": "루마니아",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "In which country did the Vampire Count live?"
+  },
+  "korean--437495997697322866-7": {
+   "question": "프랑스어를 국어로 사용하는 국가는 몇 개국인가?",
+   "answer": "29",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many countries have French as their national language?"
+  },
+  "korean--5119414517752028974-3": {
+   "question": "최초의 전기 자동차는 무엇인가?",
+   "answer": "원유전기마차",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the first electric car?"
+  },
+  "korean-959573971131310621-0": {
+   "question": "스위스 수도는 어디인가요?",
+   "answer": "베른",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the capital of Switzerland?"
+  },
+  "korean-8624740146837608401-2": {
+   "question": "트럼프가 미국의 지도자가 된 년도는 언제인가?",
+   "answer": "2016",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year did Trump become leader of the United States?"
+  },
+  "korean--2852412086335303485-0": {
+   "question": "상대성 이론을 주장한 사람은 누구인가?",
+   "answer": "알베르트 아인슈타인",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who proposed the theory of relativity?"
+  },
+  "korean--2300050574347091174-21": {
+   "question": "앤디 워홀의 첫 영화 작품은 무엇인가?",
+   "answer": "첼시 걸즈",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What was Andy Warhol's first film work?"
+  },
+  "korean-755441657777978154-2": {
+   "question": "트럼프는 몇 년도에 당선되었는가?",
+   "answer": "2016년 11월 8일",
+   "gold": "NONE",
+   "pred": "when",
+   "english_question": "In what year was Trump elected?"
+  },
+  "korean-7274910267216840990-0": {
+   "question": "세상에서 가장 오래 된 언어는 무엇인가?",
+   "answer": "수메르어는 이집트어",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the oldest language in the world?"
+  },
+  "korean--3676054662241140337-2": {
+   "question": "파동 진행 방향으로 매질을 압축하고 팽창시키는 파동은 무엇인가요?",
+   "answer": "종파",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What waves compress and expand a medium in the direction of wave travel?"
+  },
+  "korean-2668019159445931078-15": {
+   "question": "삼고초려는 누가 누구를 찾아간 내용인가?",
+   "answer": "제갈량을 추천하였는데, 이에 유비가 그를 세번 찾아간",
+   "gold": "who",
+   "pred": "how-way",
+   "english_question": "Is it about who visited whom?"
+  },
+  "korean-3784687899730708767-0": {
+   "question": "백년전쟁의 기간을 얼마인가?",
+   "answer": "1337년에서 1453년 사이",
+   "gold": "how-num",
+   "pred": "when",
+   "english_question": "How long was the Hundred Years' War?"
+  },
+  "korean-9215616678475134363-0": {
+   "question": "혈소판의 역할은 무엇인가?",
+   "answer": "피가 나오지 못하도록 섬유소를 묶어서 그물 같은 응혈을 만들어서 혈액 응고에 중요한 역할을 하는 고형 성분",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the role of platelets?"
+  },
+  "korean--9127958756032709687-0": {
+   "question": "노벨상을 만든 나라는 어디인가?",
+   "answer": "스웨덴",
+   "gold": "which",
+   "pred": "where",
+   "english_question": "Which country created the Nobel Prize?"
+  },
+  "korean--9131256866802419842-7": {
+   "question": "한국의 살인에 대한 공소시효는 몇년인가요?",
+   "answer": "살인죄는 공소시효가 폐지",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the statute of limitations for murder in Korea?"
+  },
+  "korean--3875848982175501566-0": {
+   "question": "미국에서 가장 높은 도시는 어디인가?",
+   "answer": "덴버",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the highest city in America?"
+  },
+  "korean-3781209105157144883-0": {
+   "question": "조선의 제13대 임금은 누구인가요?",
+   "answer": "명종",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who was the 13th king of Joseon?"
+  },
+  "korean--5203595246396947169-1": {
+   "question": "마케마케의 원래 이름은 무엇인가요?",
+   "answer": "2005 FY9",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Makemake’s original name?"
+  },
+  "korean-5931672408420447068-4": {
+   "question": "에픽하이 소속회사는 어디인가요?",
+   "answer": "YG 엔터테인먼트",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What company does Epik High belong to?"
+  },
+  "korean--8436508197627611231-1": {
+   "question": "마케마케는 언제 명왕성형 천체의 지위를 얻었나요?",
+   "answer": "2008년 7월 11일",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Makemake attain the status of a Pluto-type object?"
+  },
+  "korean--7060923562516760400-0": {
+   "question": "레지스탕스는 무엇인가?",
+   "answer": "저항",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Resistance?"
+  },
+  "korean-1230056255312512505-0": {
+   "question": "인간은 언제 불을 사용했는가?",
+   "answer": "살았던 14",
+   "gold": "when",
+   "pred": "how-num",
+   "english_question": "When did humans use fire?"
+  },
+  "korean-6748652756271148749-0": {
+   "question": "일본의 통화는 무엇인가요?",
+   "answer": "엔",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is Japan's currency?"
+  },
+  "korean--6032446052077460159-0": {
+   "question": "미주리주는 어느 나라의 주인가?",
+   "answer": "미국",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "Missouri is a state in which country?"
+  },
+  "korean-5959541036968977290-0": {
+   "question": "불광산불타기념관의 위치는?",
+   "answer": "관이고 대만",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is the Fo Guang Mountain Burning Memorial Hall?"
+  },
+  "korean-3342511458420634335-4": {
+   "question": "왕건의 고향은 어디인가?",
+   "answer": "송악",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Wang Geon’s hometown?"
+  },
+  "korean--7247775687166141371-0": {
+   "question": "루터와 칼뱅은 어떤 관계인가?",
+   "answer": "한다. 장 칼뱅의 신학은 마르틴 루터의 신학을 계승하고 말씀의 철저한 신학으",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is the relationship between Luther and Calvin?"
+  },
+  "korean--7766157635581715307-8": {
+   "question": "1704년 프랑스 대통령은 누구인가요?",
+   "answer": "루이 14세",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who was President of France in 1704?"
+  },
+  "korean-5856467966002682049-0": {
+   "question": "링컨 대통령은 언제 미국 대통령이 되었나요?",
+   "answer": "1861년 3월",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Lincoln become President of the United States?"
+  },
+  "korean--3432964570917190236-0": {
+   "question": "캐나다의 수도는 어디인가?",
+   "answer": "오타와",
+   "gold": "where",
+   "pred": "which",
+   "english_question": "Where is the capital of Canada?"
+  },
+  "korean-4063193831424475764-15": {
+   "question": "손권은 언제 황제로 즉위했나요?",
+   "answer": "229",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Sun Quan ascend to the throne as emperor?"
+  },
+  "korean-4101276838996007998-0": {
+   "question": "대한민국은 언제 일본으로부터 독립했나요?",
+   "answer": "1945년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did South Korea become independent from Japan?"
+  },
+  "korean--7611052840688982023-3": {
+   "question": "최초의 신칸센은 무엇인가?",
+   "answer": "도카이도 신칸센",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the first Shinkansen?"
+  },
+  "korean--267884210828905501-0": {
+   "question": "캐나다에서 가장 큰 도시는 무엇인가?",
+   "answer": "토론토",
+   "gold": "what",
+   "pred": "which",
+   "english_question": "What is the biggest city in Canada?"
+  },
+  "korean--6294990928881262176-0": {
+   "question": "독일에는 몇개의 주가 있나요?",
+   "answer": "16",
+   "gold": "how-num",
+   "pred": "how-num",
+   "english_question": "How many states are there in Germany?"
+  },
+  "korean-6681009607241179777-1": {
+   "question": "유럽 연합의 현재 의장은 누구인가요?",
+   "answer": "도날트 투스크",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the current President of the European Union?"
+  },
+  "korean-898676319063778010-0": {
+   "question": "조선 제 3대 왕은 누구인가요?",
+   "answer": "태종",
+   "gold": "who",
+   "pred": "what",
+   "english_question": "Who was the 3rd king of Joseon?"
+  },
+  "korean--2217261047736772119-0": {
+   "question": "초신성은 무엇인가?",
+   "answer": "신성(nova)보다 에너지가 큰 별의 폭발",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What is a supernova?"
+  },
+  "korean--231826598109178411-35": {
+   "question": "안산시의 현재 시장은 누구인가요?",
+   "answer": "윤화섭",
+   "gold": "who",
+   "pred": "who",
+   "english_question": "Who is the current mayor of Ansan City?"
+  },
+  "korean-5973126709656156927-0": {
+   "question": "스타크래프트는 어떤 회사에서 만들었나요?",
+   "answer": "블리자드 엔터테인먼트",
+   "gold": "what",
+   "pred": "who",
+   "english_question": "What company made StarCraft?"
+  },
+  "korean-2511281982026054095-0": {
+   "question": "말라위의 위치는 어디인가?",
+   "answer": "동남부 아프리카",
+   "gold": "where",
+   "pred": "where",
+   "english_question": "Where is Malawi located?"
+  },
+  "korean--4859316249060640645-1": {
+   "question": "김대중은 언제 노벨 평화상을 받았나요?",
+   "answer": "2000년",
+   "gold": "when",
+   "pred": "when",
+   "english_question": "When did Kim Dae-jung receive the Nobel Peace Prize?"
+  },
+  "korean--6893783109433949310-30": {
+   "question": "최초로 우주에 간 인간 이외의 생물은 무엇인가?",
+   "answer": "과실 파리",
+   "gold": "what",
+   "pred": "what",
+   "english_question": "What was the first non-human creature to go into space?"
+  },
+  "korean--367209102711083853-0": {
+   "question": "광주 비엔날레는 몇년마다 열리나요?",
+   "answer": "격년",
+   "gold": "how-num",
+   "pred": "what",
+   "english_question": "How many years is the Gwangju Biennale held?"
+  },
+  "korean-174505113913934366-10": {
+   "question": "월드컵이 처음 개최된 나라는 어디인가?",
+   "answer": "우루과이",
+   "gold": "NONE",
+   "pred": "where",
+   "english_question": "In which country was the first World Cup held?"
+  }
+ }
+}
