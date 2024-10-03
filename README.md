@@ -1,4 +1,1 @@
-# QuIST
-
-+ The question exemplars used in our experiments are located in the `data` folder.
-+ Training model and execution script will be uploaded soon.
+Official repository for Cross-lingual Transfer for Automatic Question Generation by Learning Interrogative Structures in Target Languages (EMNLP 2024, MAIN)
